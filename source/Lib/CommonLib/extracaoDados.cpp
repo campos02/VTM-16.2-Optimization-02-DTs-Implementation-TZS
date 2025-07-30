@@ -3,18 +3,7 @@
 #include "extracaoDados.h"
 #include <stdio.h>
 #include <iostream>
-#include "DT_TZS_64x64.h"
-#include "DT_TZS_64x32.h"
-#include "DT_TZS_64x16.h"
-#include "DT_TZS_64x128.h"
-#include "DT_TZS_32x32.h"
-#include "DT_TZS_32x16.h"
-#include "DT_TZS_32x64.h"
-#include "DT_TZS_16x16.h"
-#include "DT_TZS_16x32.h"
-#include "DT_TZS_16x64.h"
-#include "DT_TZS_128x64.h"
-#include "DT_TZS_128x128.h"
+#include "DtModel2.h"
 
 using namespace std;
 
@@ -37,133 +26,17 @@ int extracaoDados::heightVideo;
               
         int realizaTZS = 0;
         double pontoCorte = 0.5;
-        
-        if(_cu_width==128 && _cu_height==128){
+        double vetRetorno[2];
 
-            double vetRetorno[2];
-            DT_TZS_128x128 dt;
-            dt.score(features_TZS, vetRetorno);
-            //cout<<"128x128 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;
-            if(vetRetorno[1] >= pontoCorte){
-                realizaTZS = 1;
-            }
-            //cout<<"realizaTZS --> "<<realizaTZS<<endl;             
-            
-        }else{
-                       
-            if(_cu_width==64 && _cu_height==64){                
-                double vetRetorno[2];
-                DT_TZS_64x64 dt;
-                dt.score(features_TZS,vetRetorno);   
-                //cout<<"64x64 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;
-                if(vetRetorno[1] >= pontoCorte){
-                    realizaTZS = 1;
-                }
-                //cout<<"realizaTZS --> "<<realizaTZS<<endl;
-                
-            }else if(_cu_width==64 && _cu_height==32){
-                double vetRetorno[2];
-                DT_TZS_64x32 dt;
-                dt.score(features_TZS,vetRetorno);
-                //cout<<"64x32 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;
-                if(vetRetorno[1] >= pontoCorte){
-                    realizaTZS = 1;
-                }
-                //cout<<"realizaTZS --> "<<realizaTZS<<endl;
-                                
-            }else if(_cu_width==64 && _cu_height==16){
-                double vetRetorno[2];
-                DT_TZS_64x16 dt;
-                dt.score(features_TZS, vetRetorno);
-                //cout<<"64x16 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;
-                if(vetRetorno[1] >= pontoCorte){
-                    realizaTZS = 1;
-                }
-                //cout<<"realizaTZS --> "<<realizaTZS<<endl;                
-                
-            }else if(_cu_width==64 && _cu_height==128){
-                double vetRetorno[2];
-                DT_TZS_64x128 dt;
-                dt.score(features_TZS, vetRetorno);
-                //cout<<"64x128 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;
-                if(vetRetorno[1] >= pontoCorte){
-                    realizaTZS = 1;
-                }
-                //cout<<"realizaTZS --> "<<realizaTZS<<endl; 
-                
-            }else if(_cu_width==32 && _cu_height==32){
-                double vetRetorno[2];
-                DT_TZS_32x32 dt;
-                dt.score(features_TZS, vetRetorno);
-                //cout<<"32x32 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;
-                if(vetRetorno[1] >= pontoCorte){
-                    realizaTZS = 1;
-                }
-                //cout<<"realizaTZS --> "<<realizaTZS<<endl;                 
-                      
-            }else if(_cu_width==32 && _cu_height==16){
-                double vetRetorno[2];
-                DT_TZS_32x16 dt;
-                dt.score(features_TZS, vetRetorno);
-                //cout<<"32x16 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;         
-                if(vetRetorno[1] >= pontoCorte){
-                    realizaTZS = 1;
-                }
-                //cout<<"realizaTZS --> "<<realizaTZS<<endl;                
-                               
-            }else if(_cu_width==32 && _cu_height==64){
-                double vetRetorno[2];
-                DT_TZS_32x64 dt;
-                dt.score(features_TZS, vetRetorno);
-                //cout<<"32x64 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;
-                if(vetRetorno[1] >= pontoCorte){
-                    realizaTZS = 1;
-                }
-                //cout<<"realizaTZS --> "<<realizaTZS<<endl;                 
-                
-            }else if(_cu_width==16 && _cu_height==16){
-                double vetRetorno[2];
-                DT_TZS_16x16 dt;
-                dt.score(features_TZS, vetRetorno);
-                //cout<<"16x16 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;
-                if(vetRetorno[1] >= pontoCorte){
-                    realizaTZS = 1;
-                }
-                //cout<<"realizaTZS --> "<<realizaTZS<<endl; 
-                              
-            }else if(_cu_width==16 && _cu_height==32){
-                double vetRetorno[2];
-                DT_TZS_16x32 dt;       
-                dt.score(features_TZS, vetRetorno);
-                //cout<<"16x32 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;
-                if(vetRetorno[1] >= pontoCorte){
-                    realizaTZS = 1;
-                }
-                //cout<<"realizaTZS --> "<<realizaTZS<<endl;                 
-                
-            }else if(_cu_width==16 && _cu_height==64){
-                double vetRetorno[2];
-                DT_TZS_16x64 dt;       
-                dt.score(features_TZS, vetRetorno);
-                //cout<<"16x64 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;
-                if(vetRetorno[1] >= pontoCorte){
-                    realizaTZS = 1;
-                }
-                //cout<<"realizaTZS --> "<<realizaTZS<<endl; 
-                
-            }else if(_cu_width==128 && _cu_height==64){
-                double vetRetorno[2];
-                DT_TZS_128x64 dt;       
-                dt.score(features_TZS, vetRetorno);
-                //cout<<"128x64 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;
-                if(vetRetorno[1] >= pontoCorte){
-                    realizaTZS = 1;
-                }
-                //cout<<"realizaTZS --> "<<realizaTZS<<endl; 
-                
-            }
- 
+        DtModel2 dt;
+        dt.score(features_TZS, vetRetorno);
+        //cout<<"128x128 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;
+
+        if(vetRetorno[1] >= pontoCorte){
+            realizaTZS = 1;
         }
+        //cout<<"realizaTZS --> "<<realizaTZS<<endl;  
+        
         return realizaTZS;
     }
    //fim funções DT   
