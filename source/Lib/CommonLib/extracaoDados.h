@@ -144,6 +144,10 @@ public:
     static int cStruct_iBestY;  
     static int modoSplit;
     static int modoSplit_temp;
+    static uint64_t cStruct_uiBestSad;
+    static uint32_t cStruct_uiBestDistance;
+    static int cStruct_iRefStride;
+    static int tzs_iSearchRange;
     //fim variáveis features
 
     //funções fetures
@@ -248,7 +252,11 @@ public:
     static void setcStruct_iBestX(int _cStruct_iBestX);   
     static void setcStruct_iBestY(int _cStruct_iBestY);   
     static void setModoSplit(int _modoSplit);
-    static void setModoSplit_temp();  
+    static void setModoSplit_temp();
+    static void setcStruct_uiBestSad(uint64_t _uiBestSad);
+    static void setcStruct_uiBestDistance(uint32_t _uiBestDistance);
+    static void setcStruct_iRefStride(int _iRefStride);
+    static void setTzs_iSearchRange(int _iSearchRange);
     static void registraFeatures();
     static void inicializaFeatures();
     //fim funções features    

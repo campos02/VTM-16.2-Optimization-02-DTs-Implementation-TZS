@@ -152,6 +152,10 @@ int extracaoDados::flagBDOFmerge;
     int extracaoDados::cStruct_iBestY;
     int extracaoDados::modoSplit;
     int extracaoDados::modoSplit_temp;
+    uint64_t extracaoDados::cStruct_uiBestSad;
+    uint32_t extracaoDados::cStruct_uiBestDistance;
+    int extracaoDados::cStruct_iRefStride;
+    int extracaoDados::tzs_iSearchRange;
     //fim variáveis features
 
     //funções features
@@ -257,6 +261,10 @@ int extracaoDados::flagBDOFmerge;
     void extracaoDados::setcStruct_iBestY(int _cStruct_iBestY){ cStruct_iBestY = _cStruct_iBestY; }
     void extracaoDados::setModoSplit(int _modoSplit){ modoSplit = _modoSplit; }
     void extracaoDados::setModoSplit_temp(){ modoSplit_temp = modoSplit; }
+    void extracaoDados::setcStruct_uiBestSad(uint64_t _uiBestSad){ cStruct_uiBestSad = _uiBestSad; }
+    void extracaoDados::setcStruct_uiBestDistance(uint32_t _uiBestDistance){ cStruct_uiBestDistance = _uiBestDistance; }
+    void extracaoDados::setcStruct_iRefStride(int _iRefStride){ cStruct_iRefStride = _iRefStride; }
+    void extracaoDados::setTzs_iSearchRange(int _iSearchRange){ tzs_iSearchRange = _iSearchRange; }
     //fim funções features
     
     void extracaoDados::registraFeatures(){
@@ -364,8 +372,12 @@ int extracaoDados::flagBDOFmerge;
             */
             << rui_SAD              <<";"        
             << cStruct_iBestX       <<";"        
-            << cStruct_iBestY
-            <<endl;
+            << cStruct_iBestY       <<";"
+            << cStruct_uiBestSad        <<";"
+            << cStruct_uiBestDistance   <<";"
+            << cStruct_iRefStride       <<";"
+            << tzs_iSearchRange
+            << endl;
            // inicializaFeatures();
     } 
     
@@ -477,6 +489,10 @@ int extracaoDados::flagBDOFmerge;
         rui_SAD = 111111;
         cStruct_iBestX = 111111;
         cStruct_iBestY = 111111;
+        cStruct_uiBestSad = 111111;
+        cStruct_uiBestDistance = 111111;
+        cStruct_iRefStride = 111111;
+        tzs_iSearchRange = 111111;
     }
 #endif
 
@@ -595,8 +611,12 @@ void extracaoDados::criarArquivo(){
                     */
                     "rui_SAD;"
                     "cStruct_iBestX;"
-                    "cStruct_iBestY"
-                    <<endl;
+                    "cStruct_iBestY;"
+                    "cStruct_uiBestSad;"
+                    "cStruct_uiBestDistance;"
+                    "cStruct_iRefStride;"
+                    "tzs_iSearchRange;"
+                    << endl;
 #endif
     
 }    

@@ -180,7 +180,13 @@
     static int cStruct_iBestY;
     //static int executaTZS;
 
-    double features_TZS[25];
+    // VINICIUS: mais dados do TZS para extração
+    static uint64_t cStruct_uiBestSad;
+    static uint32_t cStruct_uiBestDistance;
+    static int cStruct_iRefStride;
+    static int tzs_iSearchRange;
+
+    double features_TZS[28];
 
 #endif
 
@@ -4727,70 +4733,40 @@ void InterSearch::predInterSearch(CodingUnit& cu, Partitioner& partitioner)
 CUW = cu.Y().width;
 CUH = cu.Y().height;
 
-//RAMIRO: define o vetor features
-if(cu.Y().width == 128 && cu.Y().height == 128){
-    //features_TZS[0] = QP;
-    features_TZS[1] = ((int) cu.depth);
-    features_TZS[2] = ((int) cu.qtDepth);
-    features_TZS[3] = ((int) cu.mtDepth);
-    //features_TZS[4] = (cu.cs->picture->Y().width);
-    //features_TZS[5] = (cu.cs->picture->Y().height);
-    features_TZS[4] = cu.Y().x;//cuPosX;
-    features_TZS[5] = cu.Y().y;//cuPosY;
-    //features_TZS[8] = (int)bcwIdx;//bcwIndex;
-    features_TZS[6] = int(cu.imv);
-    features_TZS[7] = cMv[0].getHor();//mvUniL0HorX;
-    features_TZS[8] = cMv[0].getVer();//mvUniL0VerY;
-    features_TZS[9] = cMv[1].getHor();//mvUniL1HorX;
-    features_TZS[10] = cMv[1].getVer();//mvUniL1VerY;
-    //features_TZS[14] = uiCost[0];//custoMvUniL0;
-    //features_TZS[15] = uiCost[1];//custoMvUniL1;
-    features_TZS[11] = bits[0];//bitsMvUniL0;
-    features_TZS[12] = bits[1];//bitsMvUniL1;
-    features_TZS[13] = cMvBi[0].getHor();//mvBiL0HorX;
-    features_TZS[14] = cMvBi[0].getVer();//mvBiL0VerY;
-    features_TZS[15] = cMvBi[1].getHor();//mvBiL1HorX;
-    features_TZS[16] = cMvBi[1].getVer();//mvBiL1VerY;
-    //features_TZS[22] = (uiCostBi);//custoBi;
-    features_TZS[17] = bits[2];//bitsMvBi;
-    features_TZS[18] = pu.cu->smvdMode;//SMVD;
-    features_TZS[19] = pu.interDir;//interDir;       
-    features_TZS[21] = cu.slice->getSliceQp();//atualQP;
-    features_TZS[22] = rui_SAD;
-    features_TZS[23] = cStruct_iBestX;
-    features_TZS[24] = cStruct_iBestY;
-}else{
-    //features_TZS[0] = QP;
-    features_TZS[1] = ((int) cu.depth);
-    features_TZS[2] = ((int) cu.qtDepth);
-    features_TZS[3] = ((int) cu.mtDepth);
-    //features_TZS[4] = (cu.cs->picture->Y().width);
-    //features_TZS[5] = (cu.cs->picture->Y().height);
-    features_TZS[4] = cu.Y().x;//cuPosX;
-    features_TZS[5] = cu.Y().y;//cuPosY;
-    //features_TZS[8] = (int)bcwIdx;//bcwIndex;
-    features_TZS[6] = int(cu.imv);
-    features_TZS[7] = cMv[0].getHor();//mvUniL0HorX;
-    features_TZS[8] = cMv[0].getVer();//mvUniL0VerY;
-    features_TZS[9] = cMv[1].getHor();//mvUniL1HorX;
-    features_TZS[10] = cMv[1].getVer();//mvUniL1VerY;
-    //features_TZS[14] = uiCost[0];//custoMvUniL0;
-    //features_TZS[15] = uiCost[1];//custoMvUniL1;
-    features_TZS[11] = bits[0];//bitsMvUniL0;
-    features_TZS[12] = bits[1];//bitsMvUniL1;
-    features_TZS[13] = cMvBi[0].getHor();//mvBiL0HorX;
-    features_TZS[14] = cMvBi[0].getVer();//mvBiL0VerY;
-    features_TZS[15] = cMvBi[1].getHor();//mvBiL1HorX;
-    features_TZS[16] = cMvBi[1].getVer();//mvBiL1VerY;
-    //features_TZS[22] = (uiCostBi);//custoBi;
-    features_TZS[17] = bits[2];//bitsMvBi;
-    features_TZS[18] = pu.cu->smvdMode;//SMVD;
-    features_TZS[19] = pu.interDir;//interDir;       
-    features_TZS[21] = cu.slice->getSliceQp();//atualQP;
-    features_TZS[22] = rui_SAD;
-    features_TZS[23] = cStruct_iBestX;
-    features_TZS[24] = cStruct_iBestY;            
-}
+//features_TZS[0] = QP;
+features_TZS[1] = ((int) cu.depth);
+features_TZS[2] = ((int) cu.qtDepth);
+features_TZS[3] = ((int) cu.mtDepth);
+features_TZS[4] = cu.Y().x;//cuPosX;
+features_TZS[5] = cu.Y().y;//cuPosY;
+features_TZS[6] = (cu.cs->picture->Y().width);
+features_TZS[7] = (cu.cs->picture->Y().height);
+//features_TZS[8] = (int)bcwIdx;//bcwIndex;
+//features_TZS[6] = int(cu.imv);
+features_TZS[8] = cMv[0].getHor();//mvUniL0HorX;
+features_TZS[9] = cMv[0].getVer();//mvUniL0VerY;
+features_TZS[10] = cMv[1].getHor();//mvUniL1HorX;
+features_TZS[11] = cMv[1].getVer();//mvUniL1VerY;
+//features_TZS[14] = uiCost[0];//custoMvUniL0;
+//features_TZS[15] = uiCost[1];//custoMvUniL1;
+features_TZS[12] = bits[0];//bitsMvUniL0;
+features_TZS[13] = bits[1];//bitsMvUniL1;
+features_TZS[14] = cMvBi[0].getHor();//mvBiL0HorX;
+features_TZS[15] = cMvBi[0].getVer();//mvBiL0VerY;
+features_TZS[16] = cMvBi[1].getHor();//mvBiL1HorX;
+features_TZS[17] = cMvBi[1].getVer();//mvBiL1VerY;
+//features_TZS[22] = (uiCostBi);//custoBi;
+features_TZS[18] = bits[2];//bitsMvBi;
+features_TZS[19] = pu.cu->smvdMode;//SMVD;
+//features_TZS[1] = pu.interDir;//interDir;       
+features_TZS[20] = cu.slice->getSliceQp();//atualQP;
+features_TZS[21] = rui_SAD;
+features_TZS[22] = cStruct_iBestX;
+features_TZS[23] = cStruct_iBestY;
+features_TZS[24] = cStruct_uiBestSad;
+features_TZS[25] = cStruct_uiBestDistance;
+features_TZS[26] = cStruct_iRefStride;
+features_TZS[27] = tzs_iSearchRange;
 
 //RAMIRO: Ferramenta Affine
     if (cu.Y().width > 8 && cu.Y().height > 8 && cu.slice->getSPS()->getUseAffine()
@@ -5632,8 +5608,12 @@ totalClockAffine += (fimClock_Affine - iniClock_Affine);
         extracaoDados::setCuAtualAffineType(cuAtualAffineType);   
         extracaoDados::setrui_SAD(rui_SAD);  
         extracaoDados::setcStruct_iBestX(cStruct_iBestX);  
-        extracaoDados::setcStruct_iBestY(cStruct_iBestY); 
-        //extracaoDados::setexecutaTZS(executaTZS); 
+        extracaoDados::setcStruct_iBestY(cStruct_iBestY);
+        //extracaoDados::setexecutaTZS(executaTZS);
+        extracaoDados::setcStruct_uiBestSad(cStruct_uiBestSad);
+        extracaoDados::setcStruct_uiBestDistance(cStruct_uiBestDistance);
+        extracaoDados::setcStruct_iRefStride(cStruct_iRefStride);
+        extracaoDados::setTzs_iSearchRange(tzs_iSearchRange);
 
         extracaoDados::registraFeatures();
 
@@ -6676,9 +6656,14 @@ n_MVPrediction++;
 
   //RAMIRO: extrair ruiSAD, cStruct.iBestX, cStruct.iBestY e se o TZS é executado
   #if EXTRA_FEATURES
-        rui_SAD = ruiSAD;
-        cStruct_iBestX = cStruct.iBestX;
-        cStruct_iBestY = cStruct.iBestY;
+    rui_SAD = ruiSAD;
+    cStruct_iBestX = cStruct.iBestX;
+    cStruct_iBestY = cStruct.iBestY;
+
+    // VINICIUS: extrair uiBestSad, iRefStride, iSearchRange
+    cStruct_uiBestSad = cStruct.uiBestSad;
+    cStruct_iRefStride = cStruct.iRefStride;
+    tzs_iSearchRange = m_iSearchRange;
   #endif
 
   const bool bBestCandidateZero = (cStruct.iBestX == 0) && (cStruct.iBestY == 0);
@@ -6848,6 +6833,11 @@ n_MVPrediction++;
     totalClockRasterSearch2 += (fimClockRasterSearch2 - iniClockRasterSearch2);
 
   }
+
+  // VINICIUS: uiBestDistance
+  #if EXTRA_FEATURES
+    cStruct_uiBestDistance = cStruct.uiBestDistance;
+  #endif
     
   //RAMIRO: etapa Refinement
 
