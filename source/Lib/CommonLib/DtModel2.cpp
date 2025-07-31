@@ -115,7 +115,7 @@ void DtModel2::score(double * input, double * output) {
                                 if (input[9] <= -14.0) {
                                     if (input[15] <= -18.0) {
                                         if (input[9] <= -30.0) {
-                                            if (input[22] <= -159.5) {
+                                            if (input[8] <= -2544.0) {
                                                 memcpy(var0, (const double[]){0.9532163742690059, 0.04678362573099415}, 2 * sizeof(double));
                                             } else {
                                                 if (input[14] <= -82.0) {
@@ -1185,7 +1185,7 @@ void DtModel2::score(double * input, double * output) {
                                 if (input[19] <= 0.5) {
                                     if (input[18] <= 17.5) {
                                         if (input[14] <= -14.0) {
-                                            if (input[8] <= -144.0) {
+                                            if (input[14] <= -144.0) {
                                                 memcpy(var0, (const double[]){0.9528508771929824, 0.047149122807017545}, 2 * sizeof(double));
                                             } else {
                                                 memcpy(var0, (const double[]){0.4515289525048796, 0.5484710474951203}, 2 * sizeof(double));
@@ -1263,7 +1263,7 @@ void DtModel2::score(double * input, double * output) {
                                 if (input[17] <= 2.0) {
                                     if (input[17] <= -2.0) {
                                         if (input[18] <= 17.5) {
-                                            if (input[15] <= -96.0) {
+                                            if (input[9] <= -96.0) {
                                                 memcpy(var0, (const double[]){0.9383697813121272, 0.061630218687872766}, 2 * sizeof(double));
                                             } else {
                                                 if (input[19] <= 0.5) {
