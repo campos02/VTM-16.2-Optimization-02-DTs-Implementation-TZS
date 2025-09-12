@@ -78,7 +78,6 @@ public:
     static int mvPredBiL1HorX;
     static int mvPredBiL1VerY;   
     static uint64_t custoBi;
-    static int bitsMvBi;
     static int SMVD;
     static int interDir;
     static int atualQP;   
@@ -187,7 +186,6 @@ public:
     static void setMvPredBiL1HorX(int _mvPredBiL1HorX);
     static void setMvPredBiL1VerY(int _mvPredBiL1VerY);    
     static void setCustoBi(uint64_t _custoBi);
-    static void setBitsMvBi(int _bitsMvBi);
     static void setSMVD(int _SMVD);
     static void setInterDir(int _interDir);
     static void setAtualQP(int _atualQP);
