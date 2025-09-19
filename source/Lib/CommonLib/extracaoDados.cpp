@@ -86,6 +86,7 @@ int extracaoDados::flagBDOFmerge;
     int extracaoDados::mvPredBiL1HorX;
     int extracaoDados::mvPredBiL1VerY;
     uint64_t extracaoDados::custoBi;
+    int extracaoDados::bitsMvBi;
     int extracaoDados::SMVD;
     int extracaoDados::interDir;
     int extracaoDados::atualQP;
@@ -194,6 +195,7 @@ int extracaoDados::flagBDOFmerge;
     void extracaoDados::setMvPredBiL1HorX(int _mvPredBiL1HorX){ mvPredBiL1HorX = _mvPredBiL1HorX; }
     void extracaoDados::setMvPredBiL1VerY(int _mvPredBiL1VerY){ mvPredBiL1VerY = _mvPredBiL1VerY; }
     void extracaoDados::setCustoBi(uint64_t _custoBi){ custoBi = _custoBi; }
+    void extracaoDados::setBitsMvBi(int _bitsMvBi){bitsMvBi = _bitsMvBi; }
     void extracaoDados::setSMVD(int _SMVD){ SMVD = _SMVD; }
     void extracaoDados::setInterDir(int _interDir){ interDir = _interDir; }
     void extracaoDados::setAtualQP(int _atualQP){ atualQP = _atualQP; }
@@ -305,6 +307,7 @@ int extracaoDados::flagBDOFmerge;
             //<< mvPredBiL1HorX       <<";"
             //<< mvPredBiL1VerY       <<";"           
             << custoBi              <<";"           
+            << bitsMvBi             <<";"
             << SMVD                 <<";"
             << interDir             <<";"
             << atualQP              <<";"   
@@ -420,6 +423,7 @@ int extracaoDados::flagBDOFmerge;
         //mvPredBiL1HorX  = 111111;
         //mvPredBiL1VerY  = 111111;
         custoBi       = 111111;
+        bitsMvBi      = 111111;
         SMVD          = 111111;
         interDir      = 111111;
         atualQP       = 111111; 

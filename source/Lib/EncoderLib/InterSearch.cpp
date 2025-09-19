@@ -110,9 +110,10 @@
     static int mvPredBiL1HorX;
     static int mvPredBiL1VerY;    
     static uint64_t custoBi;
+    static int bitsMvBi;    
     static int SMVD;
     static int interDir;
-    static int atualQP;
+    static int atualQP;    
     
     //RAMIRO: dados da Affine para extração
     static int affinePai;
@@ -185,7 +186,7 @@
     static int cStruct_iRefStride;
     static int tzs_iSearchRange;
 
-    double features_TZS[27];
+    double features_TZS[28];
 
 #endif
 
@@ -4537,6 +4538,7 @@ void InterSearch::predInterSearch(CodingUnit& cu, Partitioner& partitioner)
 
         custoBi = (uiCostBi);   //VTM 16.2
         //custoBi = (costBi);   //VTM 22.0
+        bitsMvBi = (bits[2]);
 
         SMVD = (pu.cu->smvdMode);
         interDir = (pu.interDir);
@@ -4754,16 +4756,17 @@ features_TZS[15] = cMvBi[0].getVer();//mvBiL0VerY;
 features_TZS[16] = cMvBi[1].getHor();//mvBiL1HorX;
 features_TZS[17] = cMvBi[1].getVer();//mvBiL1VerY;
 //features_TZS[22] = (uiCostBi);//custoBi;
-features_TZS[18] = pu.cu->smvdMode;//SMVD;
+features_TZS[18] = bits[2];//bitsMvBi;
+features_TZS[19] = pu.cu->smvdMode;//SMVD;
 //features_TZS[1] = pu.interDir;//interDir;       
-features_TZS[19] = cu.slice->getSliceQp();//atualQP;
-features_TZS[20] = rui_SAD;
-features_TZS[21] = cStruct_iBestX;
-features_TZS[22] = cStruct_iBestY;
-features_TZS[23] = cStruct_uiBestSad;
-features_TZS[24] = cStruct_uiBestDistance;
-features_TZS[25] = cStruct_iRefStride;
-features_TZS[26] = tzs_iSearchRange;
+features_TZS[20] = cu.slice->getSliceQp();//atualQP;
+features_TZS[21] = rui_SAD;
+features_TZS[22] = cStruct_iBestX;
+features_TZS[23] = cStruct_iBestY;
+features_TZS[24] = cStruct_uiBestSad;
+features_TZS[25] = cStruct_uiBestDistance;
+features_TZS[26] = cStruct_iRefStride;
+features_TZS[27] = tzs_iSearchRange;
 
 //RAMIRO: Ferramenta Affine
     if (cu.Y().width > 8 && cu.Y().height > 8 && cu.slice->getSPS()->getUseAffine()
@@ -5247,6 +5250,7 @@ totalClockAffine += (fimClock_Affine - iniClock_Affine);
                 extracaoDados::setMvPredBiL1HorX(mvPredBiL1HorX);
                 extracaoDados::setMvPredBiL1VerY(mvPredBiL1VerY);
                 extracaoDados::setCustoBi(custoBi);
+                extracaoDados::setBitsMvBi(bitsMvBi);
                 extracaoDados::setSMVD(SMVD);
                 extracaoDados::setInterDir(interDir);
                 extracaoDados::setAtualQP(atualQP);
@@ -5361,6 +5365,7 @@ totalClockAffine += (fimClock_Affine - iniClock_Affine);
             extracaoDados::setMvPredBiL1HorX(mvPredBiL1HorX);
             extracaoDados::setMvPredBiL1VerY(mvPredBiL1VerY);
             extracaoDados::setCustoBi(custoBi);
+            extracaoDados::setBitsMvBi(bitsMvBi);
             extracaoDados::setSMVD(SMVD);
             extracaoDados::setInterDir(interDir);
             extracaoDados::setAtualQP(atualQP);
@@ -5540,6 +5545,7 @@ totalClockAffine += (fimClock_Affine - iniClock_Affine);
         extracaoDados::setMvPredBiL1HorX(mvPredBiL1HorX);
         extracaoDados::setMvPredBiL1VerY(mvPredBiL1VerY);            
         extracaoDados::setCustoBi(custoBi);
+        extracaoDados::setBitsMvBi(bitsMvBi);
         extracaoDados::setSMVD(SMVD);
         extracaoDados::setInterDir(interDir);
         extracaoDados::setAtualQP(atualQP);
