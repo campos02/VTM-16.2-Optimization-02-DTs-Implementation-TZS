@@ -3,865 +3,1103 @@
 
 void DtModel2::score(double * input, double * output) {
     double var0[2];
-    if (input[12] <= 7.5) {
-        if (input[18] <= 13.5) {
+    if (input[18] <= 15.5) {
+        if (input[18] <= 14.5) {
             if (input[18] <= 12.5) {
                 memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
             } else {
-                if (input[21] <= 55108608.0) {
-                    if (input[21] <= 1170.5) {
-                        memcpy(var0, (const double[]){0.002482048651817116, 0.9975179513481829}, 2 * sizeof(double));
+                if (input[18] <= 13.5) {
+                    if (input[27] <= 180.0) {
+                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                     } else {
-                        memcpy(var0, (const double[]){0.000026469031233456854, 0.9999735309687665}, 2 * sizeof(double));
+                        memcpy(var0, (const double[]){0.017711695097587212, 0.9822883049024128}, 2 * sizeof(double));
                     }
                 } else {
-                    if (input[8] <= -8.0) {
-                        memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
-                    } else {
-                        if (input[0] <= 34.5) {
-                            if (input[26] <= 2176.0) {
-                                memcpy(var0, (const double[]){0.030586190036399195, 0.9694138099636008}, 2 * sizeof(double));
-                            } else {
-                                if (input[8] <= 8.0) {
-                                    if (input[22] <= 0.5) {
-                                        if (input[24] <= 3737.0) {
-                                            memcpy(var0, (const double[]){0.08746635909265667, 0.9125336409073433}, 2 * sizeof(double));
-                                        } else {
-                                            memcpy(var0, (const double[]){0.1993731563421829, 0.8006268436578171}, 2 * sizeof(double));
-                                        }
-                                    } else {
-                                        memcpy(var0, (const double[]){0.7539267015706806, 0.24607329842931938}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
-                                }
-                            }
-                        } else {
-                            memcpy(var0, (const double[]){0.013889587841578179, 0.9861104121584218}, 2 * sizeof(double));
-                        }
-                    }
+                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                 }
             }
         } else {
             if (input[12] <= 6.5) {
-                if (input[14] <= -2.0) {
-                    if (input[8] <= -14.0) {
-                        if (input[18] <= 14.5) {
-                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                        } else {
-                            if (input[18] <= 15.5) {
-                                if (input[26] <= 2176.0) {
-                                    if (input[20] <= 26.0) {
-                                        memcpy(var0, (const double[]){0.23134328358208955, 0.7686567164179104}, 2 * sizeof(double));
-                                    } else {
-                                        if (input[14] <= -120.0) {
-                                            memcpy(var0, (const double[]){0.999727965179543, 0.0002720348204570185}, 2 * sizeof(double));
-                                        } else {
-                                            memcpy(var0, (const double[]){0.2777777777777778, 0.7222222222222222}, 2 * sizeof(double));
-                                        }
-                                    }
-                                } else {
-                                    if (input[16] <= -1588.0) {
-                                        if (input[17] <= -222.0) {
-                                            if (input[21] <= 1375969.0) {
-                                                if (input[15] <= -322.0) {
-                                                    if (input[9] <= -334.0) {
-                                                        memcpy(var0, (const double[]){0.4124172481660404, 0.5875827518339596}, 2 * sizeof(double));
-                                                    } else {
-                                                        memcpy(var0, (const double[]){0.031160518780528886, 0.9688394812194712}, 2 * sizeof(double));
-                                                    }
-                                                } else {
-                                                    if (input[9] <= -322.0) {
-                                                        memcpy(var0, (const double[]){0.05857519788918206, 0.9414248021108179}, 2 * sizeof(double));
-                                                    } else {
-                                                        if (input[15] <= -318.0) {
-                                                            if (input[14] <= -4322.0) {
-                                                                if (input[8] <= -4334.0) {
-                                                                    if (input[14] <= -4354.0) {
-                                                                        memcpy(var0, (const double[]){0.09180918091809182, 0.9081908190819082}, 2 * sizeof(double));
-                                                                    } else {
-                                                                        memcpy(var0, (const double[]){0.960680989055533, 0.039319010944466964}, 2 * sizeof(double));
-                                                                    }
-                                                                } else {
-                                                                    memcpy(var0, (const double[]){0.05442176870748299, 0.9455782312925171}, 2 * sizeof(double));
-                                                                }
-                                                            } else {
-                                                                if (input[16] <= -4322.0) {
-                                                                    memcpy(var0, (const double[]){0.3569725864123957, 0.6430274135876043}, 2 * sizeof(double));
-                                                                } else {
-                                                                    if (input[14] <= -4286.0) {
-                                                                        memcpy(var0, (const double[]){0.964036312849162, 0.03596368715083799}, 2 * sizeof(double));
-                                                                    } else {
-                                                                        memcpy(var0, (const double[]){0.4669187145557656, 0.5330812854442344}, 2 * sizeof(double));
-                                                                    }
-                                                                }
-                                                            }
-                                                        } else {
-                                                            if (input[14] <= -1602.0) {
-                                                                memcpy(var0, (const double[]){0.16738973246565436, 0.8326102675343456}, 2 * sizeof(double));
-                                                            } else {
-                                                                memcpy(var0, (const double[]){0.6482965931863728, 0.3517034068136273}, 2 * sizeof(double));
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            } else {
-                                                memcpy(var0, (const double[]){0.7008904234054152, 0.29910957659458476}, 2 * sizeof(double));
-                                            }
-                                        } else {
-                                            if (input[15] <= -210.0) {
-                                                memcpy(var0, (const double[]){0.025543478260869567, 0.9744565217391304}, 2 * sizeof(double));
-                                            } else {
-                                                if (input[14] <= -1662.0) {
-                                                    if (input[8] <= -1662.0) {
-                                                        if (input[14] <= -1666.0) {
-                                                            memcpy(var0, (const double[]){0.15051740357478832, 0.8494825964252116}, 2 * sizeof(double));
-                                                        } else {
-                                                            if (input[15] <= -190.0) {
-                                                                memcpy(var0, (const double[]){0.9336543606206528, 0.06634563937934725}, 2 * sizeof(double));
-                                                            } else {
-                                                                memcpy(var0, (const double[]){0.03993055555555555, 0.9600694444444444}, 2 * sizeof(double));
-                                                            }
-                                                        }
-                                                    } else {
-                                                        memcpy(var0, (const double[]){0.03503918856615952, 0.9649608114338405}, 2 * sizeof(double));
-                                                    }
-                                                } else {
-                                                    if (input[15] <= -146.0) {
-                                                        if (input[17] <= -158.0) {
-                                                            if (input[16] <= -1602.0) {
-                                                                memcpy(var0, (const double[]){0.14491999479640952, 0.8550800052035905}, 2 * sizeof(double));
-                                                            } else {
-                                                                memcpy(var0, (const double[]){0.7208121827411168, 0.27918781725888325}, 2 * sizeof(double));
-                                                            }
-                                                        } else {
-                                                            memcpy(var0, (const double[]){0.007242757242757243, 0.9927572427572428}, 2 * sizeof(double));
-                                                        }
-                                                    } else {
-                                                        if (input[17] <= -132.0) {
-                                                            memcpy(var0, (const double[]){0.20795660036166366, 0.7920433996383364}, 2 * sizeof(double));
-                                                        } else {
-                                                            memcpy(var0, (const double[]){0.7793814432989691, 0.22061855670103092}, 2 * sizeof(double));
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    } else {
-                                        if (input[15] <= -958.0) {
-                                            memcpy(var0, (const double[]){0.9291010194624653, 0.07089898053753475}, 2 * sizeof(double));
-                                        } else {
-                                            if (input[14] <= -18.0) {
-                                                if (input[4] <= 3036.0) {
-                                                    if (input[24] <= 1505.0) {
-                                                        memcpy(var0, (const double[]){0.7731778425655976, 0.22682215743440234}, 2 * sizeof(double));
-                                                    } else {
-                                                        memcpy(var0, (const double[]){0.407475997855646, 0.592524002144354}, 2 * sizeof(double));
-                                                    }
-                                                } else {
-                                                    if (input[20] <= 37.5) {
-                                                        memcpy(var0, (const double[]){0.5151781786185657, 0.4848218213814342}, 2 * sizeof(double));
-                                                    } else {
-                                                        memcpy(var0, (const double[]){0.9764453961456103, 0.023554603854389723}, 2 * sizeof(double));
-                                                    }
-                                                }
-                                            } else {
-                                                if (input[15] <= 18.0) {
-                                                    memcpy(var0, (const double[]){0.9026581804567577, 0.09734181954324223}, 2 * sizeof(double));
-                                                } else {
-                                                    memcpy(var0, (const double[]){0.16901408450704225, 0.8309859154929577}, 2 * sizeof(double));
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
+                if (input[14] <= 2.0) {
+                    if (input[14] <= -2.0) {
+                        if (input[8] <= -2.0) {
+                            if (input[26] <= 2176.0) {
+                                memcpy(var0, (const double[]){0.9527186761229315, 0.04728132387706856}, 2 * sizeof(double));
                             } else {
-                                if (input[18] <= 16.5) {
-                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                } else {
-                                    if (input[18] <= 17.5) {
-                                        memcpy(var0, (const double[]){0.20740975300823306, 0.792590246991767}, 2 * sizeof(double));
-                                    } else {
-                                        if (input[18] <= 18.5) {
-                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                        } else {
-                                            if (input[18] <= 19.5) {
-                                                memcpy(var0, (const double[]){0.20087082728592162, 0.7991291727140784}, 2 * sizeof(double));
-                                            } else {
-                                                if (input[18] <= 20.5) {
-                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                } else {
-                                                    if (input[18] <= 21.5) {
-                                                        memcpy(var0, (const double[]){0.10099750623441396, 0.899002493765586}, 2 * sizeof(double));
-                                                    } else {
-                                                        if (input[18] <= 22.5) {
-                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                        } else {
-                                                            if (input[18] <= 23.5) {
-                                                                memcpy(var0, (const double[]){0.09671179883945841, 0.9032882011605415}, 2 * sizeof(double));
-                                                            } else {
-                                                                if (input[21] <= 45150.5) {
-                                                                    if (input[18] <= 24.5) {
-                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                    } else {
-                                                                        if (input[21] <= -0.5) {
-                                                                            memcpy(var0, (const double[]){0.713170731707317, 0.2868292682926829}, 2 * sizeof(double));
-                                                                        } else {
-                                                                            memcpy(var0, (const double[]){0.22177121771217712, 0.7782287822878229}, 2 * sizeof(double));
-                                                                        }
-                                                                    }
-                                                                } else {
-                                                                    memcpy(var0, (const double[]){0.8304904051172708, 0.1695095948827292}, 2 * sizeof(double));
-                                                                }
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
+                                memcpy(var0, (const double[]){0.39977220956719817, 0.6002277904328018}, 2 * sizeof(double));
                             }
+                        } else {
+                            memcpy(var0, (const double[]){0.050445103857566766, 0.9495548961424333}, 2 * sizeof(double));
                         }
                     } else {
-                        if (input[18] <= 15.5) {
-                            if (input[18] <= 14.5) {
-                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                        if (input[15] <= 2.0) {
+                            if (input[15] <= -2.0) {
+                                memcpy(var0, (const double[]){0.10775047258979206, 0.8922495274102079}, 2 * sizeof(double));
                             } else {
-                                if (input[15] <= 14.0) {
-                                    memcpy(var0, (const double[]){0.01365689673285009, 0.9863431032671499}, 2 * sizeof(double));
-                                } else {
-                                    memcpy(var0, (const double[]){0.2144157262468147, 0.7855842737531853}, 2 * sizeof(double));
-                                }
+                                memcpy(var0, (const double[]){0.9908363749320493, 0.00916362506795061}, 2 * sizeof(double));
                             }
                         } else {
-                            if (input[18] <= 16.5) {
-                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                            } else {
-                                if (input[18] <= 17.5) {
-                                    if (input[15] <= 2.0) {
-                                        if (input[14] <= -56.0) {
-                                            if (input[14] <= -72.0) {
-                                                memcpy(var0, (const double[]){0.025974025974025976, 0.974025974025974}, 2 * sizeof(double));
-                                            } else {
-                                                if (input[15] <= -8.0) {
-                                                    memcpy(var0, (const double[]){0.042105263157894736, 0.9578947368421052}, 2 * sizeof(double));
-                                                } else {
-                                                    memcpy(var0, (const double[]){0.980722891566265, 0.01927710843373494}, 2 * sizeof(double));
-                                                }
-                                            }
-                                        } else {
-                                            if (input[14] <= -18.0) {
-                                                memcpy(var0, (const double[]){0.011221122112211221, 0.9887788778877887}, 2 * sizeof(double));
-                                            } else {
-                                                if (input[21] <= 28710667.0) {
-                                                    if (input[21] <= -0.5) {
-                                                        memcpy(var0, (const double[]){0.7628032345013477, 0.2371967654986523}, 2 * sizeof(double));
-                                                    } else {
-                                                        memcpy(var0, (const double[]){0.09939556749496306, 0.900604432505037}, 2 * sizeof(double));
-                                                    }
-                                                } else {
-                                                    memcpy(var0, (const double[]){0.8352059925093633, 0.1647940074906367}, 2 * sizeof(double));
-                                                }
-                                            }
-                                        }
-                                    } else {
-                                        memcpy(var0, (const double[]){0.03411420204978038, 0.9658857979502197}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[18] <= 18.5) {
-                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        if (input[18] <= 19.5) {
-                                            memcpy(var0, (const double[]){0.19752827817343946, 0.8024717218265606}, 2 * sizeof(double));
-                                        } else {
-                                            if (input[18] <= 20.5) {
-                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                            } else {
-                                                if (input[8] <= -2.0) {
-                                                    memcpy(var0, (const double[]){0.02610759493670886, 0.9738924050632911}, 2 * sizeof(double));
-                                                } else {
-                                                    if (input[18] <= 21.5) {
-                                                        memcpy(var0, (const double[]){0.2101534828807556, 0.7898465171192444}, 2 * sizeof(double));
-                                                    } else {
-                                                        if (input[18] <= 22.5) {
-                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                        } else {
-                                                            if (input[18] <= 23.5) {
-                                                                memcpy(var0, (const double[]){0.12178387650085763, 0.8782161234991424}, 2 * sizeof(double));
-                                                            } else {
-                                                                if (input[18] <= 24.5) {
-                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                } else {
-                                                                    memcpy(var0, (const double[]){0.46311140193031247, 0.5368885980696876}, 2 * sizeof(double));
-                                                                }
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
+                            memcpy(var0, (const double[]){0.13478260869565217, 0.8652173913043478}, 2 * sizeof(double));
                         }
                     }
                 } else {
-                    if (input[14] <= 2.0) {
-                        if (input[15] <= 2.0) {
-                            if (input[15] <= -2.0) {
-                                if (input[18] <= 15.5) {
-                                    if (input[9] <= -28.0) {
-                                        memcpy(var0, (const double[]){0.8386908240794857, 0.16130917592051433}, 2 * sizeof(double));
-                                    } else {
-                                        if (input[18] <= 14.5) {
-                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                        } else {
-                                            memcpy(var0, (const double[]){0.030220165474687984, 0.969779834525312}, 2 * sizeof(double));
-                                        }
-                                    }
-                                } else {
-                                    if (input[18] <= 16.5) {
-                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        if (input[18] <= 17.5) {
-                                            if (input[15] <= -58.0) {
-                                                if (input[15] <= -72.0) {
-                                                    memcpy(var0, (const double[]){0.09090909090909091, 0.9090909090909091}, 2 * sizeof(double));
-                                                } else {
-                                                    memcpy(var0, (const double[]){0.975177304964539, 0.024822695035460994}, 2 * sizeof(double));
-                                                }
-                                            } else {
-                                                if (input[15] <= -18.0) {
-                                                    memcpy(var0, (const double[]){0.009545199326221224, 0.9904548006737788}, 2 * sizeof(double));
-                                                } else {
-                                                    if (input[15] <= -14.0) {
-                                                        memcpy(var0, (const double[]){0.8235294117647058, 0.17647058823529413}, 2 * sizeof(double));
-                                                    } else {
-                                                        memcpy(var0, (const double[]){0.0694006309148265, 0.9305993690851735}, 2 * sizeof(double));
-                                                    }
-                                                }
-                                            }
-                                        } else {
-                                            if (input[18] <= 18.5) {
-                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                            } else {
-                                                if (input[15] <= -50.0) {
-                                                    memcpy(var0, (const double[]){0.4265763859500635, 0.5734236140499365}, 2 * sizeof(double));
-                                                } else {
-                                                    memcpy(var0, (const double[]){0.8193863319386332, 0.1806136680613668}, 2 * sizeof(double));
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            } else {
-                                if (input[8] <= -2.0) {
-                                    if (input[8] <= -12.0) {
-                                        memcpy(var0, (const double[]){0.9829198861325742, 0.01708011386742578}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var0, (const double[]){0.026694045174537988, 0.973305954825462}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[9] <= 2.0) {
-                                        if (input[16] <= 2.0) {
-                                            if (input[9] <= -2.0) {
-                                                memcpy(var0, (const double[]){0.831081081081081, 0.16891891891891891}, 2 * sizeof(double));
-                                            } else {
-                                                memcpy(var0, (const double[]){0.9999991131150768, 0.0000008868849231336837}, 2 * sizeof(double));
-                                            }
-                                        } else {
-                                            memcpy(var0, (const double[]){0.6229749631811488, 0.37702503681885124}, 2 * sizeof(double));
-                                        }
-                                    } else {
-                                        memcpy(var0, (const double[]){0.7969776609724047, 0.20302233902759526}, 2 * sizeof(double));
-                                    }
-                                }
-                            }
-                        } else {
-                            if (input[18] <= 15.5) {
-                                if (input[9] <= 14.0) {
-                                    if (input[18] <= 14.5) {
-                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var0, (const double[]){0.0249570692615913, 0.9750429307384088}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[18] <= 14.5) {
-                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var0, (const double[]){0.7800369685767098, 0.2199630314232902}, 2 * sizeof(double));
-                                    }
-                                }
-                            } else {
-                                if (input[18] <= 16.5) {
-                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                } else {
-                                    if (input[18] <= 17.5) {
-                                        if (input[15] <= 60.0) {
-                                            memcpy(var0, (const double[]){0.277140045916694, 0.722859954083306}, 2 * sizeof(double));
-                                        } else {
-                                            if (input[15] <= 68.0) {
-                                                memcpy(var0, (const double[]){0.9592123769338959, 0.040787623066104076}, 2 * sizeof(double));
-                                            } else {
-                                                memcpy(var0, (const double[]){0.08905380333951762, 0.9109461966604824}, 2 * sizeof(double));
-                                            }
-                                        }
-                                    } else {
-                                        if (input[18] <= 18.5) {
-                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                        } else {
-                                            memcpy(var0, (const double[]){0.5945803735858984, 0.40541962641410156}, 2 * sizeof(double));
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                    if (input[8] <= 2.0) {
+                        memcpy(var0, (const double[]){0.05650793650793651, 0.9434920634920635}, 2 * sizeof(double));
                     } else {
-                        if (input[14] <= 14.0) {
-                            memcpy(var0, (const double[]){0.01980092047522209, 0.9801990795247779}, 2 * sizeof(double));
-                        } else {
-                            if (input[18] <= 14.5) {
-                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                            } else {
-                                if (input[18] <= 15.5) {
-                                    if (input[8] <= 14.0) {
-                                        memcpy(var0, (const double[]){0.04939905171463226, 0.9506009482853678}, 2 * sizeof(double));
-                                    } else {
-                                        if (input[15] <= -18.0) {
-                                            if (input[17] <= -30.0) {
-                                                if (input[24] <= 3864.0) {
-                                                    memcpy(var0, (const double[]){0.6910860655737705, 0.3089139344262295}, 2 * sizeof(double));
-                                                } else {
-                                                    memcpy(var0, (const double[]){0.32362330407023143, 0.6763766959297686}, 2 * sizeof(double));
-                                                }
-                                            } else {
-                                                if (input[9] <= -30.0) {
-                                                    memcpy(var0, (const double[]){0.8121387283236994, 0.18786127167630057}, 2 * sizeof(double));
-                                                } else {
-                                                    memcpy(var0, (const double[]){0.018656716417910446, 0.9813432835820896}, 2 * sizeof(double));
-                                                }
-                                            }
-                                        } else {
-                                            if (input[9] <= -18.0) {
-                                                memcpy(var0, (const double[]){0.07100591715976332, 0.9289940828402367}, 2 * sizeof(double));
-                                            } else {
-                                                memcpy(var0, (const double[]){0.5715152183502427, 0.4284847816497574}, 2 * sizeof(double));
-                                            }
-                                        }
-                                    }
-                                } else {
-                                    if (input[18] <= 16.5) {
-                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        if (input[18] <= 17.5) {
-                                            if (input[15] <= 2.0) {
-                                                if (input[15] <= -2.0) {
-                                                    memcpy(var0, (const double[]){0.19558253245658405, 0.8044174675434159}, 2 * sizeof(double));
-                                                } else {
-                                                    memcpy(var0, (const double[]){0.4881956155143339, 0.5118043844856661}, 2 * sizeof(double));
-                                                }
-                                            } else {
-                                                if (input[8] <= 60.0) {
-                                                    memcpy(var0, (const double[]){0.02221516978736909, 0.977784830212631}, 2 * sizeof(double));
-                                                } else {
-                                                    memcpy(var0, (const double[]){0.23284639220894202, 0.767153607791058}, 2 * sizeof(double));
-                                                }
-                                            }
-                                        } else {
-                                            if (input[18] <= 18.5) {
-                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                            } else {
-                                                if (input[21] <= 57068928.0) {
-                                                    if (input[21] <= -0.5) {
-                                                        memcpy(var0, (const double[]){0.6115879828326181, 0.388412017167382}, 2 * sizeof(double));
-                                                    } else {
-                                                        if (input[21] <= 0.5) {
-                                                            memcpy(var0, (const double[]){0.21494913754975675, 0.7850508624502432}, 2 * sizeof(double));
-                                                        } else {
-                                                            if (input[18] <= 19.5) {
-                                                                memcpy(var0, (const double[]){0.22089985486211902, 0.779100145137881}, 2 * sizeof(double));
-                                                            } else {
-                                                                if (input[18] <= 20.5) {
-                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                } else {
-                                                                    memcpy(var0, (const double[]){0.37701252236135957, 0.6229874776386404}, 2 * sizeof(double));
-                                                                }
-                                                            }
-                                                        }
-                                                    }
-                                                } else {
-                                                    if (input[18] <= 19.5) {
-                                                        memcpy(var0, (const double[]){0.3687106918238994, 0.6312893081761006}, 2 * sizeof(double));
-                                                    } else {
-                                                        if (input[18] <= 20.5) {
-                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                        } else {
-                                                            memcpy(var0, (const double[]){0.6548757170172084, 0.3451242829827916}, 2 * sizeof(double));
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
+                        memcpy(var0, (const double[]){0.4607379375591296, 0.5392620624408704}, 2 * sizeof(double));
                     }
                 }
             } else {
-                if (input[18] <= 15.5) {
-                    if (input[20] <= 33.0) {
-                        if (input[21] <= 11286.0) {
-                            memcpy(var0, (const double[]){0.0053845851511221164, 0.9946154148488778}, 2 * sizeof(double));
-                        } else {
-                            if (input[19] <= 0.5) {
-                                memcpy(var0, (const double[]){0.03574321587687323, 0.9642567841231268}, 2 * sizeof(double));
-                            } else {
-                                memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
-                            }
-                        }
+                if (input[1] <= 3.5) {
+                    if (input[2] <= 2.5) {
+                        memcpy(var0, (const double[]){0.0033303434752714215, 0.9966696565247286}, 2 * sizeof(double));
                     } else {
-                        memcpy(var0, (const double[]){0.002281048242726632, 0.9977189517572733}, 2 * sizeof(double));
+                        memcpy(var0, (const double[]){0.05973767638465842, 0.9402623236153416}, 2 * sizeof(double));
                     }
                 } else {
-                    if (input[18] <= 16.5) {
-                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                    if (input[21] <= 23003.5) {
+                        memcpy(var0, (const double[]){0.016274077919162726, 0.9837259220808373}, 2 * sizeof(double));
                     } else {
-                        if (input[16] <= -2.0) {
-                            if (input[19] <= 0.5) {
-                                if (input[18] <= 17.5) {
-                                    memcpy(var0, (const double[]){0.20065609622744668, 0.7993439037725533}, 2 * sizeof(double));
+                        if (input[14] <= 2.0) {
+                            if (input[22] <= -1.5) {
+                                if (input[8] <= -2.0) {
+                                    memcpy(var0, (const double[]){0.00411522633744856, 0.9958847736625515}, 2 * sizeof(double));
                                 } else {
-                                    memcpy(var0, (const double[]){0.5297749452300339, 0.4702250547699661}, 2 * sizeof(double));
+                                    if (input[26] <= 1408.0) {
+                                        memcpy(var0, (const double[]){0.04098939929328622, 0.9590106007067137}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[20] <= 40.5) {
+                                            if (input[10] <= -8.0) {
+                                                memcpy(var0, (const double[]){0.03333333333333333, 0.9666666666666667}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var0, (const double[]){0.8081504702194358, 0.19184952978056427}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var0, (const double[]){0.15301085883514315, 0.8469891411648569}, 2 * sizeof(double));
+                                        }
+                                    }
                                 }
                             } else {
-                                memcpy(var0, (const double[]){0.5712002840909091, 0.4287997159090909}, 2 * sizeof(double));
+                                if (input[20] <= 24.5) {
+                                    if (input[22] <= 0.5) {
+                                        memcpy(var0, (const double[]){0.1346153846153846, 0.8653846153846154}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var0, (const double[]){0.8065693430656934, 0.19343065693430658}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[20] <= 37.0) {
+                                        if (input[19] <= 0.5) {
+                                            if (input[14] <= -2.0) {
+                                                memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[22] <= 13.5) {
+                                                    memcpy(var0, (const double[]){0.1543696981653186, 0.8456303018346814}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.6560364464692483, 0.3439635535307517}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        } else {
+                                            memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        memcpy(var0, (const double[]){0.013874991661663665, 0.9861250083383364}, 2 * sizeof(double));
+                                    }
+                                }
                             }
                         } else {
-                            if (input[16] <= 2.0) {
-                                if (input[15] <= -2.0) {
-                                    if (input[18] <= 17.5) {
-                                        memcpy(var0, (const double[]){0.13113604488078542, 0.8688639551192145}, 2 * sizeof(double));
-                                    } else {
-                                        if (input[18] <= 18.5) {
-                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                        } else {
-                                            if (input[18] <= 19.5) {
-                                                memcpy(var0, (const double[]){0.24857839155158407, 0.7514216084484159}, 2 * sizeof(double));
-                                            } else {
-                                                if (input[18] <= 20.5) {
-                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                } else {
-                                                    memcpy(var0, (const double[]){0.5606748864373783, 0.43932511356262166}, 2 * sizeof(double));
-                                                }
-                                            }
-                                        }
-                                    }
-                                } else {
-                                    if (input[13] <= 8.0) {
-                                        if (input[14] <= 2.0) {
-                                            if (input[15] <= 2.0) {
-                                                if (input[14] <= -2.0) {
-                                                    if (input[18] <= 17.5) {
-                                                        memcpy(var0, (const double[]){0.11050394656952034, 0.8894960534304797}, 2 * sizeof(double));
-                                                    } else {
-                                                        memcpy(var0, (const double[]){0.8448049101271372, 0.1551950898728628}, 2 * sizeof(double));
-                                                    }
-                                                } else {
-                                                    if (input[17] <= 2.0) {
-                                                        if (input[18] <= 18.5) {
-                                                            if (input[17] <= -2.0) {
-                                                                memcpy(var0, (const double[]){0.1570796460176991, 0.8429203539823009}, 2 * sizeof(double));
-                                                            } else {
-                                                                if (input[18] <= 17.5) {
-                                                                    if (input[5] <= 228.0) {
-                                                                        if (input[19] <= 0.5) {
-                                                                            if (input[27] <= 120.0) {
-                                                                                memcpy(var0, (const double[]){0.967201684348682, 0.032798315651317946}, 2 * sizeof(double));
-                                                                            } else {
-                                                                                memcpy(var0, (const double[]){0.9986324786324786, 0.0013675213675213675}, 2 * sizeof(double));
-                                                                            }
-                                                                        } else {
-                                                                            memcpy(var0, (const double[]){0.9919975103365491, 0.008002489663450851}, 2 * sizeof(double));
-                                                                        }
-                                                                    } else {
-                                                                        memcpy(var0, (const double[]){0.9470609903699416, 0.05293900963005841}, 2 * sizeof(double));
-                                                                    }
-                                                                } else {
-                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                }
-                                                            }
-                                                        } else {
-                                                            if (input[19] <= 0.5) {
-                                                                memcpy(var0, (const double[]){0.5417943107221006, 0.45820568927789934}, 2 * sizeof(double));
-                                                            } else {
-                                                                memcpy(var0, (const double[]){0.869102416570771, 0.130897583429229}, 2 * sizeof(double));
-                                                            }
-                                                        }
-                                                    } else {
-                                                        if (input[18] <= 17.5) {
-                                                            memcpy(var0, (const double[]){0.1711864406779661, 0.8288135593220339}, 2 * sizeof(double));
-                                                        } else {
-                                                            memcpy(var0, (const double[]){0.7384453781512605, 0.2615546218487395}, 2 * sizeof(double));
-                                                        }
-                                                    }
-                                                }
-                                            } else {
-                                                memcpy(var0, (const double[]){0.5415134507451133, 0.4584865492548868}, 2 * sizeof(double));
-                                            }
-                                        } else {
-                                            if (input[18] <= 17.5) {
-                                                if (input[8] <= 14.0) {
-                                                    memcpy(var0, (const double[]){0.14859437751004015, 0.8514056224899599}, 2 * sizeof(double));
-                                                } else {
-                                                    memcpy(var0, (const double[]){0.7403598971722365, 0.2596401028277635}, 2 * sizeof(double));
-                                                }
-                                            } else {
-                                                memcpy(var0, (const double[]){0.7516156223658331, 0.2483843776341669}, 2 * sizeof(double));
-                                            }
-                                        }
-                                    } else {
-                                        memcpy(var0, (const double[]){0.5540295119182747, 0.4459704880817253}, 2 * sizeof(double));
-                                    }
-                                }
-                            } else {
-                                memcpy(var0, (const double[]){0.4611319598682699, 0.5388680401317301}, 2 * sizeof(double));
-                            }
+                            memcpy(var0, (const double[]){0.00013819153346538303, 0.9998618084665346}, 2 * sizeof(double));
                         }
                     }
                 }
             }
         }
     } else {
-        if (input[16] <= -198.0) {
-            if (input[24] <= 25797.5) {
-                if (input[18] <= 15.5) {
-                    if (input[18] <= 13.5) {
-                        memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+        if (input[12] <= 7.5) {
+            if (input[13] <= 8.5) {
+                if (input[18] <= 18.5) {
+                    if (input[13] <= 0.5) {
+                        if (input[18] <= 17.5) {
+                            if (input[18] <= 16.5) {
+                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[14] <= 2.0) {
+                                    if (input[14] <= -2.0) {
+                                        if (input[8] <= -30.0) {
+                                            if (input[20] <= 35.5) {
+                                                if (input[16] <= -66.0) {
+                                                    if (input[15] <= -2.0) {
+                                                        memcpy(var0, (const double[]){0.31134469010511057, 0.6886553098948894}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[15] <= 2.0) {
+                                                            memcpy(var0, (const double[]){0.5532537167925908, 0.4467462832074092}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.3650855365474339, 0.6349144634525661}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.624688899950224, 0.375311100049776}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                if (input[26] <= 3456.0) {
+                                                    if (input[15] <= -2.0) {
+                                                        if (input[17] <= -14.0) {
+                                                            memcpy(var0, (const double[]){0.5263157894736842, 0.47368421052631576}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.12359550561797752, 0.8764044943820225}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[15] <= 2.0) {
+                                                            if (input[14] <= -136.0) {
+                                                                memcpy(var0, (const double[]){0.5673323092677931, 0.43266769073220684}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[14] <= -62.0) {
+                                                                    memcpy(var0, (const double[]){0.8741517581739667, 0.12584824182603332}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.2631578947368421, 0.7368421052631579}, 2 * sizeof(double));
+                                                                }
+                                                            }
+                                                        } else {
+                                                            if (input[9] <= 14.0) {
+                                                                memcpy(var0, (const double[]){0.09302325581395349, 0.9069767441860465}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.5513767629281396, 0.4486232370718603}, 2 * sizeof(double));
+                                                            }
+                                                        }
+                                                    }
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.7601378213623111, 0.23986217863768886}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        } else {
+                                            if (input[27] <= 156.0) {
+                                                if (input[26] <= 1408.0) {
+                                                    memcpy(var0, (const double[]){0.1168091168091168, 0.8831908831908832}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[14] <= -14.0) {
+                                                        if (input[8] <= -14.0) {
+                                                            memcpy(var0, (const double[]){0.9194444444444444, 0.08055555555555556}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.5650938032973281, 0.434906196702672}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.306966618287373, 0.693033381712627}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[4] <= 1848.0) {
+                                                    memcpy(var0, (const double[]){0.09857743939090363, 0.9014225606090964}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.44936708860759494, 0.5506329113924051}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        }
+                                    } else {
+                                        if (input[15] <= 2.0) {
+                                            if (input[16] <= 2.0) {
+                                                if (input[15] <= -2.0) {
+                                                    if (input[9] <= -14.0) {
+                                                        memcpy(var0, (const double[]){0.6603375527426161, 0.339662447257384}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.10606833248342683, 0.8939316675165732}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    if (input[16] <= -2.0) {
+                                                        if (input[27] <= 120.0) {
+                                                            if (input[19] <= 0.5) {
+                                                                memcpy(var0, (const double[]){0.2101593625498008, 0.7898406374501992}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.7407407407407407, 0.25925925925925924}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.9445214979195562, 0.05547850208044383}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[17] <= 2.0) {
+                                                            memcpy(var0, (const double[]){0.9861970169377264, 0.013802983062273531}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.2751798561151079, 0.7248201438848921}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[27] <= 120.0) {
+                                                    memcpy(var0, (const double[]){0.2429831595829992, 0.7570168404170008}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.7398230088495575, 0.26017699115044246}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        } else {
+                                            if (input[9] <= 14.0) {
+                                                memcpy(var0, (const double[]){0.1412639405204461, 0.8587360594795539}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var0, (const double[]){0.6469750889679715, 0.3530249110320285}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    if (input[8] <= 10.0) {
+                                        memcpy(var0, (const double[]){0.2149423799041823, 0.7850576200958177}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[26] <= 3456.0) {
+                                            if (input[17] <= 2.0) {
+                                                if (input[15] <= -2.0) {
+                                                    if (input[9] <= -14.0) {
+                                                        memcpy(var0, (const double[]){0.4459016393442623, 0.5540983606557377}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.07492260061919505, 0.9250773993808049}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    if (input[15] <= 2.0) {
+                                                        if (input[14] <= 62.0) {
+                                                            memcpy(var0, (const double[]){0.42788806505620663, 0.5721119349437933}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[17] <= -2.0) {
+                                                                memcpy(var0, (const double[]){0.1901840490797546, 0.8098159509202454}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[14] <= 446.0) {
+                                                                    if (input[16] <= 146.0) {
+                                                                        if (input[27] <= 120.0) {
+                                                                            memcpy(var0, (const double[]){0.8526610644257703, 0.1473389355742297}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            if (input[14] <= 82.0) {
+                                                                                memcpy(var0, (const double[]){0.8273305084745762, 0.17266949152542374}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                if (input[8] <= 94.0) {
+                                                                                    memcpy(var0, (const double[]){0.05, 0.95}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    if (input[14] <= 146.0) {
+                                                                                        memcpy(var0, (const double[]){0.9128630705394191, 0.08713692946058091}, 2 * sizeof(double));
+                                                                                    } else {
+                                                                                        memcpy(var0, (const double[]){0.3333333333333333, 0.6666666666666666}, 2 * sizeof(double));
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.4632616487455197, 0.5367383512544803}, 2 * sizeof(double));
+                                                                    }
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.8086534875046625, 0.19134651249533757}, 2 * sizeof(double));
+                                                                }
+                                                            }
+                                                        }
+                                                    } else {
+                                                        if (input[16] <= 6.0) {
+                                                            memcpy(var0, (const double[]){0.6819787985865724, 0.31802120141342755}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.1264222503160556, 0.8735777496839444}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[17] <= 14.0) {
+                                                    memcpy(var0, (const double[]){0.07855973813420622, 0.9214402618657938}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.3886166603844704, 0.6113833396155296}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        } else {
+                                            memcpy(var0, (const double[]){0.6947152385838892, 0.30528476141611083}, 2 * sizeof(double));
+                                        }
+                                    }
+                                }
+                            }
+                        } else {
+                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                        }
                     } else {
-                        if (input[18] <= 14.5) {
+                        if (input[18] <= 16.5) {
                             memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                         } else {
-                            memcpy(var0, (const double[]){0.0373338795995186, 0.9626661204004814}, 2 * sizeof(double));
+                            if (input[17] <= 2.0) {
+                                if (input[17] <= -2.0) {
+                                    if (input[11] <= -14.0) {
+                                        if (input[19] <= 0.5) {
+                                            if (input[17] <= -62.0) {
+                                                if (input[16] <= 392.0) {
+                                                    memcpy(var0, (const double[]){0.9194341943419434, 0.08056580565805659}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.7339805825242719, 0.26601941747572816}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                if (input[18] <= 17.5) {
+                                                    if (input[26] <= 2176.0) {
+                                                        memcpy(var0, (const double[]){0.672463768115942, 0.32753623188405795}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.18341307814992025, 0.8165869218500797}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        } else {
+                                            memcpy(var0, (const double[]){0.9528879310344828, 0.04711206896551724}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        if (input[19] <= 0.5) {
+                                            if (input[9] <= -14.0) {
+                                                memcpy(var0, (const double[]){0.7920604914933838, 0.20793950850661624}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[17] <= -30.0) {
+                                                    if (input[26] <= 2176.0) {
+                                                        memcpy(var0, (const double[]){0.13793103448275862, 0.8620689655172413}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.5593103448275862, 0.4406896551724138}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    if (input[18] <= 17.5) {
+                                                        memcpy(var0, (const double[]){0.17328626066490144, 0.8267137393350985}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            }
+                                        } else {
+                                            memcpy(var0, (const double[]){0.8633560018978333, 0.13664399810216668}, 2 * sizeof(double));
+                                        }
+                                    }
+                                } else {
+                                    if (input[15] <= 2.0) {
+                                        if (input[16] <= 2.0) {
+                                            if (input[16] <= -2.0) {
+                                                if (input[16] <= -14.0) {
+                                                    if (input[8] <= 46.0) {
+                                                        if (input[19] <= 0.5) {
+                                                            if (input[16] <= -46.0) {
+                                                                if (input[26] <= 1408.0) {
+                                                                    memcpy(var0, (const double[]){0.36254295532646047, 0.6374570446735395}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[10] <= 24.0) {
+                                                                        if (input[10] <= -24.0) {
+                                                                            memcpy(var0, (const double[]){0.8291139240506329, 0.17088607594936708}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            memcpy(var0, (const double[]){0.4144144144144144, 0.5855855855855856}, 2 * sizeof(double));
+                                                                        }
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.9473161033797217, 0.05268389662027833}, 2 * sizeof(double));
+                                                                    }
+                                                                }
+                                                            } else {
+                                                                if (input[18] <= 17.5) {
+                                                                    memcpy(var0, (const double[]){0.06905210295040803, 0.9309478970495919}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                }
+                                                            }
+                                                        } else {
+                                                            if (input[8] <= 38.0) {
+                                                                memcpy(var0, (const double[]){0.957226320951853, 0.042773679048147044}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[14] <= 34.0) {
+                                                                    memcpy(var0, (const double[]){0.11960132890365449, 0.8803986710963455}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[14] <= 46.0) {
+                                                                        memcpy(var0, (const double[]){0.9198369565217391, 0.08016304347826086}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.22028985507246376, 0.7797101449275362}, 2 * sizeof(double));
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.96260589723842, 0.03739410276157993}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    if (input[19] <= 0.5) {
+                                                        if (input[8] <= -2.0) {
+                                                            memcpy(var0, (const double[]){0.6907216494845361, 0.30927835051546393}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.06489292667099286, 0.9351070733290071}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.8140394088669951, 0.18596059113300492}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[14] <= 2.0) {
+                                                    if (input[15] <= -2.0) {
+                                                        if (input[18] <= 17.5) {
+                                                            if (input[9] <= -14.0) {
+                                                                memcpy(var0, (const double[]){0.9364471669218989, 0.06355283307810107}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[19] <= 0.5) {
+                                                                    memcpy(var0, (const double[]){0.07430997876857749, 0.9256900212314225}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.8797653958944281, 0.12023460410557185}, 2 * sizeof(double));
+                                                                }
+                                                            }
+                                                        } else {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[14] <= -2.0) {
+                                                            if (input[18] <= 17.5) {
+                                                                if (input[8] <= -2.0) {
+                                                                    memcpy(var0, (const double[]){0.9428, 0.0572}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[19] <= 0.5) {
+                                                                        memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.5644444444444444, 0.43555555555555553}, 2 * sizeof(double));
+                                                                    }
+                                                                }
+                                                            } else {
+                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.9827199040686, 0.017280095931399998}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[18] <= 17.5) {
+                                                        if (input[8] <= 2.0) {
+                                                            if (input[19] <= 0.5) {
+                                                                memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.781021897810219, 0.21897810218978103}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            if (input[8] <= 14.0) {
+                                                                if (input[14] <= 6.0) {
+                                                                    memcpy(var0, (const double[]){0.8268292682926829, 0.17317073170731706}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.15165876777251186, 0.8483412322274881}, 2 * sizeof(double));
+                                                                }
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.9401169590643275, 0.05988304093567252}, 2 * sizeof(double));
+                                                            }
+                                                        }
+                                                    } else {
+                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            }
+                                        } else {
+                                            if (input[8] <= -2.0) {
+                                                if (input[10] <= 62.0) {
+                                                    if (input[10] <= 50.0) {
+                                                        memcpy(var0, (const double[]){0.9338852477865931, 0.06611475221340692}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[20] <= 43.5) {
+                                                            if (input[14] <= -50.0) {
+                                                                if (input[19] <= 0.5) {
+                                                                    memcpy(var0, (const double[]){0.41385135135135137, 0.5861486486486487}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[14] <= -62.0) {
+                                                                        memcpy(var0, (const double[]){0.13725490196078433, 0.8627450980392157}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.9261538461538461, 0.07384615384615385}, 2 * sizeof(double));
+                                                                    }
+                                                                }
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.1641025641025641, 0.8358974358974359}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[9] <= 56.0) {
+                                                        if (input[15] <= -2.0) {
+                                                            memcpy(var0, (const double[]){0.8, 0.2}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.9577900154554867, 0.0422099845445133}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.27411167512690354, 0.7258883248730964}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[18] <= 17.5) {
+                                                    if (input[26] <= 1408.0) {
+                                                        if (input[19] <= 0.5) {
+                                                            if (input[10] <= 2.0) {
+                                                                memcpy(var0, (const double[]){0.08855799373040753, 0.9114420062695925}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.7300613496932515, 0.26993865030674846}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.7417923691215617, 0.25820763087843834}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[10] <= -10.0) {
+                                                            memcpy(var0, (const double[]){0.8922770964534306, 0.10772290354656944}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[10] <= 2.0) {
+                                                                if (input[19] <= 0.5) {
+                                                                    memcpy(var0, (const double[]){0.24271012006861065, 0.7572898799313894}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.8337349397590361, 0.16626506024096385}, 2 * sizeof(double));
+                                                                }
+                                                            } else {
+                                                                if (input[10] <= 322.0) {
+                                                                    if (input[10] <= 14.0) {
+                                                                        if (input[19] <= 0.5) {
+                                                                            memcpy(var0, (const double[]){0.3350877192982456, 0.6649122807017543}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            memcpy(var0, (const double[]){0.7938671209540034, 0.2061328790459966}, 2 * sizeof(double));
+                                                                        }
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.9444168734491315, 0.055583126550868486}, 2 * sizeof(double));
+                                                                    }
+                                                                } else {
+                                                                    if (input[10] <= 652.0) {
+                                                                        memcpy(var0, (const double[]){0.27065217391304347, 0.7293478260869565}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.7839506172839507, 0.21604938271604937}, 2 * sizeof(double));
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                } else {
+                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        }
+                                    } else {
+                                        if (input[9] <= 2.0) {
+                                            if (input[18] <= 17.5) {
+                                                if (input[19] <= 0.5) {
+                                                    memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.8714524207011686, 0.1285475792988314}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var0, (const double[]){0.918796015591165, 0.08120398440883499}, 2 * sizeof(double));
+                                        }
+                                    }
+                                }
+                            } else {
+                                if (input[19] <= 0.5) {
+                                    if (input[17] <= 62.0) {
+                                        if (input[11] <= 2.0) {
+                                            if (input[18] <= 17.5) {
+                                                memcpy(var0, (const double[]){0.1455078125, 0.8544921875}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[18] <= 17.5) {
+                                                if (input[15] <= -2.0) {
+                                                    if (input[15] <= -60.0) {
+                                                        memcpy(var0, (const double[]){0.6190476190476191, 0.38095238095238093}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.09633357296908698, 0.903666427030913}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.5062785388127854, 0.4937214611872146}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        if (input[26] <= 1408.0) {
+                                            memcpy(var0, (const double[]){0.16730038022813687, 0.8326996197718631}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[18] <= 17.5) {
+                                                if (input[11] <= 56.0) {
+                                                    if (input[11] <= -60.0) {
+                                                        memcpy(var0, (const double[]){0.8447075208913649, 0.15529247910863508}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.4917684545937334, 0.5082315454062666}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.8687524990003999, 0.13124750099960017}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    if (input[17] <= 14.0) {
+                                        if (input[20] <= 44.0) {
+                                            memcpy(var0, (const double[]){0.8004587155963303, 0.19954128440366972}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        memcpy(var0, (const double[]){0.9533907381227777, 0.046609261877222294}, 2 * sizeof(double));
+                                    }
+                                }
+                            }
                         }
                     }
                 } else {
-                    if (input[18] <= 16.5) {
-                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                    } else {
-                        if (input[18] <= 17.5) {
-                            if (input[12] <= 8.5) {
-                                memcpy(var0, (const double[]){0.09241312683029919, 0.9075868731697008}, 2 * sizeof(double));
-                            } else {
-                                memcpy(var0, (const double[]){0.026116616545905906, 0.9738833834540941}, 2 * sizeof(double));
-                            }
-                        } else {
-                            if (input[18] <= 18.5) {
-                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                            } else {
-                                if (input[18] <= 19.5) {
-                                    if (input[12] <= 10.5) {
-                                        memcpy(var0, (const double[]){0.10860766672681807, 0.8913923332731819}, 2 * sizeof(double));
+                    if (input[19] <= 0.5) {
+                        if (input[18] <= 19.5) {
+                            if (input[13] <= 1.0) {
+                                if (input[15] <= 10.0) {
+                                    if (input[15] <= -2.0) {
+                                        if (input[9] <= -174.0) {
+                                            memcpy(var0, (const double[]){0.5017277125086386, 0.49827228749136143}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var0, (const double[]){0.24368600682593858, 0.7563139931740614}, 2 * sizeof(double));
+                                        }
                                     } else {
-                                        memcpy(var0, (const double[]){0.03190045248868778, 0.9680995475113122}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[18] <= 20.5) {
-                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        if (input[18] <= 21.5) {
-                                            if (input[12] <= 12.5) {
-                                                if (input[15] <= -1528.0) {
-                                                    memcpy(var0, (const double[]){0.6505102040816326, 0.3494897959183674}, 2 * sizeof(double));
-                                                } else {
-                                                    memcpy(var0, (const double[]){0.10622743682310469, 0.8937725631768954}, 2 * sizeof(double));
-                                                }
+                                        if (input[14] <= 10.0) {
+                                            if (input[14] <= -6.0) {
+                                                memcpy(var0, (const double[]){0.4323264025107885, 0.5676735974892114}, 2 * sizeof(double));
                                             } else {
-                                                memcpy(var0, (const double[]){0.032591948801011336, 0.9674080511989886}, 2 * sizeof(double));
+                                                memcpy(var0, (const double[]){0.7275534441805226, 0.2724465558194774}, 2 * sizeof(double));
                                             }
                                         } else {
-                                            if (input[18] <= 22.5) {
+                                            memcpy(var0, (const double[]){0.41689539493748096, 0.583104605062519}, 2 * sizeof(double));
+                                        }
+                                    }
+                                } else {
+                                    memcpy(var0, (const double[]){0.27633166695397343, 0.7236683330460265}, 2 * sizeof(double));
+                                }
+                            } else {
+                                if (input[11] <= -2.0) {
+                                    if (input[11] <= -62.0) {
+                                        memcpy(var0, (const double[]){0.677109440267335, 0.322890559732665}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var0, (const double[]){0.3649402390438247, 0.6350597609561753}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[15] <= -2.0) {
+                                        if (input[9] <= -2.0) {
+                                            memcpy(var0, (const double[]){0.5817245817245817, 0.41827541827541825}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        if (input[15] <= 2.0) {
+                                            if (input[26] <= 1408.0) {
+                                                if (input[14] <= -2.0) {
+                                                    memcpy(var0, (const double[]){0.21559633027522937, 0.7844036697247706}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[16] <= 2.0) {
+                                                        if (input[16] <= -2.0) {
+                                                            memcpy(var0, (const double[]){0.8410725964682799, 0.15892740353172008}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[17] <= 2.0) {
+                                                                if (input[17] <= -2.0) {
+                                                                    memcpy(var0, (const double[]){0.9195402298850575, 0.08045977011494253}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.1600771456123433, 0.8399228543876567}, 2 * sizeof(double));
+                                                                }
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.924953095684803, 0.075046904315197}, 2 * sizeof(double));
+                                                            }
+                                                        }
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.8944625407166124, 0.10553745928338762}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[20] <= 40.5) {
+                                                    memcpy(var0, (const double[]){0.8706709956709957, 0.12932900432900432}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.7632871817775793, 0.2367128182224207}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        } else {
+                                            if (input[9] <= 2.0) {
+                                                memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var0, (const double[]){0.7659016393442623, 0.2340983606557377}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        } else {
+                            if (input[18] <= 20.5) {
+                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                            } else {
+                                if (input[18] <= 21.5) {
+                                    if (input[13] <= 1.5) {
+                                        memcpy(var0, (const double[]){0.39111111111111113, 0.6088888888888889}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[26] <= 3456.0) {
+                                            if (input[15] <= -2.0) {
+                                                memcpy(var0, (const double[]){0.36968576709796674, 0.6303142329020333}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[15] <= 2.0) {
+                                                    memcpy(var0, (const double[]){0.7856586126266563, 0.21434138737334374}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.4427672955974843, 0.5572327044025157}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        } else {
+                                            memcpy(var0, (const double[]){0.40433925049309666, 0.5956607495069034}, 2 * sizeof(double));
+                                        }
+                                    }
+                                } else {
+                                    if (input[18] <= 22.5) {
+                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[18] <= 23.5) {
+                                            memcpy(var0, (const double[]){0.29292628443782576, 0.7070737155621742}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[18] <= 24.5) {
                                                 memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                             } else {
-                                                if (input[18] <= 23.5) {
-                                                    if (input[12] <= 14.5) {
-                                                        if (input[15] <= -1520.0) {
-                                                            memcpy(var0, (const double[]){0.6421568627450981, 0.35784313725490197}, 2 * sizeof(double));
+                                                if (input[18] <= 43.5) {
+                                                    if (input[26] <= 2176.0) {
+                                                        if (input[18] <= 25.5) {
+                                                            memcpy(var0, (const double[]){0.355484387510008, 0.644515612489992}, 2 * sizeof(double));
                                                         } else {
-                                                            memcpy(var0, (const double[]){0.0956794737628943, 0.9043205262371057}, 2 * sizeof(double));
-                                                        }
-                                                    } else {
-                                                        memcpy(var0, (const double[]){0.03040731661323779, 0.9695926833867622}, 2 * sizeof(double));
-                                                    }
-                                                } else {
-                                                    if (input[20] <= 33.0) {
-                                                        if (input[18] <= 24.5) {
-                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                        } else {
-                                                            if (input[18] <= 25.5) {
-                                                                if (input[15] <= -1526.0) {
-                                                                    if (input[12] <= 17.0) {
-                                                                        memcpy(var0, (const double[]){0.7986577181208053, 0.20134228187919462}, 2 * sizeof(double));
-                                                                    } else {
-                                                                        memcpy(var0, (const double[]){0.05273069679849341, 0.9472693032015066}, 2 * sizeof(double));
-                                                                    }
-                                                                } else {
-                                                                    memcpy(var0, (const double[]){0.07334497539291951, 0.9266550246070805}, 2 * sizeof(double));
-                                                                }
-                                                            } else {
-                                                                if (input[18] <= 26.5) {
-                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                } else {
-                                                                    if (input[18] <= 27.5) {
-                                                                        if (input[15] <= -1534.0) {
-                                                                            if (input[12] <= 19.0) {
-                                                                                memcpy(var0, (const double[]){0.7893700787401575, 0.2106299212598425}, 2 * sizeof(double));
-                                                                            } else {
-                                                                                memcpy(var0, (const double[]){0.020887728459530026, 0.97911227154047}, 2 * sizeof(double));
-                                                                            }
-                                                                        } else {
-                                                                            memcpy(var0, (const double[]){0.07497425334706488, 0.9250257466529351}, 2 * sizeof(double));
-                                                                        }
-                                                                    } else {
-                                                                        if (input[18] <= 28.5) {
-                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                        } else {
-                                                                            if (input[18] <= 29.5) {
-                                                                                memcpy(var0, (const double[]){0.08734558124802028, 0.9126544187519797}, 2 * sizeof(double));
-                                                                            } else {
-                                                                                if (input[18] <= 30.5) {
-                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                } else {
-                                                                                    if (input[18] <= 31.5) {
-                                                                                        memcpy(var0, (const double[]){0.10361809045226131, 0.8963819095477387}, 2 * sizeof(double));
-                                                                                    } else {
-                                                                                        if (input[18] <= 32.5) {
-                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                        } else {
-                                                                                            if (input[18] <= 33.5) {
-                                                                                                memcpy(var0, (const double[]){0.08165297485685835, 0.9183470251431416}, 2 * sizeof(double));
-                                                                                            } else {
-                                                                                                if (input[18] <= 34.5) {
-                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                } else {
-                                                                                                    if (input[18] <= 35.5) {
-                                                                                                        memcpy(var0, (const double[]){0.09909326424870467, 0.9009067357512953}, 2 * sizeof(double));
-                                                                                                    } else {
-                                                                                                        if (input[18] <= 36.5) {
-                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                        } else {
-                                                                                                            if (input[4] <= 716.0) {
-                                                                                                                memcpy(var0, (const double[]){0.46631908237747655, 0.5336809176225235}, 2 * sizeof(double));
-                                                                                                            } else {
-                                                                                                                if (input[18] <= 37.5) {
-                                                                                                                    memcpy(var0, (const double[]){0.07894736842105263, 0.9210526315789473}, 2 * sizeof(double));
-                                                                                                                } else {
-                                                                                                                    if (input[18] <= 38.5) {
-                                                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                    } else {
-                                                                                                                        if (input[18] <= 39.5) {
-                                                                                                                            memcpy(var0, (const double[]){0.09036472509526401, 0.909635274904736}, 2 * sizeof(double));
-                                                                                                                        } else {
-                                                                                                                            if (input[21] <= 0.5) {
-                                                                                                                                if (input[18] <= 40.5) {
-                                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                } else {
-                                                                                                                                    memcpy(var0, (const double[]){0.1947685128331082, 0.8052314871668919}, 2 * sizeof(double));
-                                                                                                                                }
-                                                                                                                            } else {
-                                                                                                                                if (input[18] <= 40.5) {
-                                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                } else {
-                                                                                                                                    if (input[18] <= 41.5) {
-                                                                                                                                        memcpy(var0, (const double[]){0.11277258566978193, 0.8872274143302181}, 2 * sizeof(double));
-                                                                                                                                    } else {
-                                                                                                                                        if (input[18] <= 42.5) {
-                                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                        } else {
-                                                                                                                                            memcpy(var0, (const double[]){0.4125615763546798, 0.5874384236453202}, 2 * sizeof(double));
-                                                                                                                                        }
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                            }
-                                                                                                                        }
-                                                                                                                    }
-                                                                                                                }
-                                                                                                            }
-                                                                                                        }
-                                                                                                    }
-                                                                                                }
-                                                                                            }
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                }
-                                                            }
-                                                        }
-                                                    } else {
-                                                        if (input[15] <= -1794.0) {
-                                                            if (input[4] <= 1892.0) {
-                                                                memcpy(var0, (const double[]){0.32429614181439, 0.67570385818561}, 2 * sizeof(double));
-                                                            } else {
-                                                                memcpy(var0, (const double[]){0.03463424601552922, 0.9653657539844708}, 2 * sizeof(double));
-                                                            }
-                                                        } else {
-                                                            if (input[18] <= 24.5) {
+                                                            if (input[18] <= 26.5) {
                                                                 memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                                             } else {
-                                                                if (input[18] <= 25.5) {
-                                                                    memcpy(var0, (const double[]){0.05904977375565611, 0.9409502262443439}, 2 * sizeof(double));
+                                                                if (input[18] <= 27.5) {
+                                                                    memcpy(var0, (const double[]){0.37830319888734354, 0.6216968011126565}, 2 * sizeof(double));
                                                                 } else {
-                                                                    if (input[18] <= 26.5) {
+                                                                    memcpy(var0, (const double[]){0.7328785095775388, 0.2671214904224613}, 2 * sizeof(double));
+                                                                }
+                                                            }
+                                                        }
+                                                    } else {
+                                                        if (input[18] <= 25.5) {
+                                                            memcpy(var0, (const double[]){0.256561328334226, 0.7434386716657739}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[18] <= 26.5) {
+                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[18] <= 27.5) {
+                                                                    memcpy(var0, (const double[]){0.2510729613733906, 0.7489270386266095}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.564875730994152, 0.43512426900584794}, 2 * sizeof(double));
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.934468085106383, 0.06553191489361702}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    } else {
+                        if (input[13] <= 3.0) {
+                            memcpy(var0, (const double[]){0.7769360269360269, 0.22306397306397308}, 2 * sizeof(double));
+                        } else {
+                            memcpy(var0, (const double[]){0.9170979324006439, 0.0829020675993562}, 2 * sizeof(double));
+                        }
+                    }
+                }
+            } else {
+                if (input[18] <= 16.5) {
+                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                } else {
+                    if (input[19] <= 0.5) {
+                        if (input[18] <= 17.5) {
+                            if (input[17] <= -2.0) {
+                                if (input[17] <= -62.0) {
+                                    if (input[13] <= 10.0) {
+                                        if (input[11] <= -4.0) {
+                                            if (input[11] <= -126.0) {
+                                                if (input[17] <= -68.0) {
+                                                    memcpy(var0, (const double[]){0.2259355613368021, 0.774064438663198}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.8324958123953099, 0.16750418760469013}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var0, (const double[]){0.14113724763845156, 0.8588627523615484}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            memcpy(var0, (const double[]){0.5277777777777778, 0.4722222222222222}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        memcpy(var0, (const double[]){0.4917642389362969, 0.5082357610637032}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[15] <= -14.0) {
+                                        memcpy(var0, (const double[]){0.4143646408839779, 0.585635359116022}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var0, (const double[]){0.034754304913901725, 0.9652456950860983}, 2 * sizeof(double));
+                                    }
+                                }
+                            } else {
+                                if (input[11] <= -62.0) {
+                                    if (input[13] <= 18.0) {
+                                        memcpy(var0, (const double[]){0.6932911740445422, 0.3067088259554578}, 2 * sizeof(double));
+                                    } else {
+                                        memcpy(var0, (const double[]){0.5115807759119861, 0.4884192240880139}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[13] <= 9.5) {
+                                        if (input[17] <= 2.0) {
+                                            if (input[11] <= 56.0) {
+                                                if (input[16] <= 2.0) {
+                                                    if (input[22] <= 1.5) {
+                                                        if (input[16] <= -2.0) {
+                                                            if (input[16] <= -62.0) {
+                                                                if (input[10] <= -52.0) {
+                                                                    if (input[10] <= -106.0) {
+                                                                        memcpy(var0, (const double[]){0.3685304117869286, 0.6314695882130714}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.12351868732907931, 0.8764813126709207}, 2 * sizeof(double));
+                                                                    }
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.9047619047619048, 0.09523809523809523}, 2 * sizeof(double));
+                                                                }
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.04676094890510949, 0.9532390510948905}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            if (input[10] <= -50.0) {
+                                                                memcpy(var0, (const double[]){0.9701280227596017, 0.029871977240398292}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[22] <= -0.5) {
+                                                                    if (input[14] <= 2.0) {
+                                                                        memcpy(var0, (const double[]){0.8151436031331593, 0.18485639686684074}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.2698412698412698, 0.7301587301587301}, 2 * sizeof(double));
+                                                                    }
+                                                                } else {
+                                                                    if (input[10] <= 48.0) {
+                                                                        if (input[20] <= 39.0) {
+                                                                            memcpy(var0, (const double[]){0.3631953428201811, 0.6368046571798189}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            memcpy(var0, (const double[]){0.1371527777777778, 0.8628472222222222}, 2 * sizeof(double));
+                                                                        }
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.9967845659163987, 0.003215434083601286}, 2 * sizeof(double));
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    } else {
+                                                        if (input[10] <= -2.0) {
+                                                            memcpy(var0, (const double[]){0.23986486486486486, 0.7601351351351351}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.8001693480101609, 0.19983065198983913}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[10] <= 2.0) {
+                                                        if (input[16] <= 44.0) {
+                                                            memcpy(var0, (const double[]){0.1531791907514451, 0.846820809248555}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.7243401759530792, 0.2756598240469208}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[10] <= 190.0) {
+                                                            memcpy(var0, (const double[]){0.08542465076029175, 0.9145753492397083}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.31774115365971883, 0.6822588463402811}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            } else {
+                                                memcpy(var0, (const double[]){0.8538461538461538, 0.14615384615384616}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[15] <= -62.0) {
+                                                if (input[17] <= 66.0) {
+                                                    if (input[11] <= 120.0) {
+                                                        memcpy(var0, (const double[]){0.3702677746999077, 0.6297322253000923}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.8149466192170819, 0.18505338078291814}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.16091954022988506, 0.8390804597701149}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                if (input[9] <= 14.0) {
+                                                    memcpy(var0, (const double[]){0.053173948887056885, 0.9468260511129432}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.2925764192139738, 0.7074235807860262}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        }
+                                    } else {
+                                        if (input[17] <= 2.0) {
+                                            if (input[11] <= -2.0) {
+                                                memcpy(var0, (const double[]){0.23973176865046103, 0.760268231349539}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[16] <= -2.0) {
+                                                    if (input[16] <= -54.0) {
+                                                        memcpy(var0, (const double[]){0.5647969052224371, 0.43520309477756286}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.14878892733564014, 0.8512110726643599}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    if (input[16] <= 2.0) {
+                                                        memcpy(var0, (const double[]){0.8748594979393031, 0.12514050206069688}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[16] <= 366.0) {
+                                                            memcpy(var0, (const double[]){0.39065934065934066, 0.6093406593406593}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.750281214848144, 0.24971878515185603}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        } else {
+                                            if (input[17] <= 62.0) {
+                                                if (input[15] <= 14.0) {
+                                                    memcpy(var0, (const double[]){0.04470198675496689, 0.9552980132450332}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.3829344432882414, 0.6170655567117586}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                if (input[9] <= -62.0) {
+                                                    memcpy(var0, (const double[]){0.6059683313032886, 0.3940316686967113}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[15] <= 24.0) {
+                                                        memcpy(var0, (const double[]){0.19111969111969113, 0.8088803088803089}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.4811320754716981, 0.5188679245283019}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        } else {
+                            if (input[13] <= 10.5) {
+                                if (input[17] <= -2.0) {
+                                    if (input[18] <= 18.5) {
+                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[18] <= 19.5) {
+                                            memcpy(var0, (const double[]){0.4619508820477343, 0.5380491179522656}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[18] <= 20.5) {
+                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[15] <= 2.0) {
+                                                    memcpy(var0, (const double[]){0.6108786610878661, 0.3891213389121339}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.33270852858481725, 0.6672914714151827}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    if (input[18] <= 18.5) {
+                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[11] <= 2.0) {
+                                            if (input[18] <= 19.5) {
+                                                if (input[14] <= 2.0) {
+                                                    if (input[14] <= -2.0) {
+                                                        if (input[8] <= -2.0) {
+                                                            memcpy(var0, (const double[]){0.6025582457743262, 0.39744175422567385}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.7402877697841727, 0.25971223021582734}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    if (input[8] <= 2.0) {
+                                                        memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.529335071707953, 0.4706649282920469}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[18] <= 20.5) {
+                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.5689058171745153, 0.4310941828254848}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        } else {
+                                            memcpy(var0, (const double[]){0.5259778166958552, 0.47402218330414475}, 2 * sizeof(double));
+                                        }
+                                    }
+                                }
+                            } else {
+                                if (input[20] <= 44.0) {
+                                    if (input[18] <= 18.5) {
+                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[18] <= 19.5) {
+                                            if (input[13] <= 12.0) {
+                                                memcpy(var0, (const double[]){0.16299559471365638, 0.8370044052863436}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var0, (const double[]){0.4256686947537596, 0.5743313052462404}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[13] <= 12.5) {
+                                                if (input[18] <= 20.5) {
+                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.5574375955170657, 0.44256240448293427}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                if (input[26] <= 2176.0) {
+                                                    if (input[14] <= 2.0) {
+                                                        if (input[25] <= 1.0) {
+                                                            if (input[18] <= 21.5) {
+                                                                if (input[18] <= 20.5) {
+                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.2546933667083855, 0.7453066332916145}, 2 * sizeof(double));
+                                                                }
+                                                            } else {
+                                                                if (input[13] <= 14.5) {
+                                                                    memcpy(var0, (const double[]){0.771964461994077, 0.228035538005923}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.48927573608424674, 0.5107242639157533}, 2 * sizeof(double));
+                                                                }
+                                                            }
+                                                        } else {
+                                                            if (input[2] <= 0.5) {
+                                                                memcpy(var0, (const double[]){0.48306409588327254, 0.5169359041167274}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[13] <= 40.0) {
+                                                                    memcpy(var0, (const double[]){0.3992047713717694, 0.6007952286282306}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.1382857142857143, 0.8617142857142858}, 2 * sizeof(double));
+                                                                }
+                                                            }
+                                                        }
+                                                    } else {
+                                                        if (input[18] <= 20.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.2923076923076923, 0.7076923076923077}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[18] <= 20.5) {
+                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[18] <= 21.5) {
+                                                            if (input[13] <= 16.0) {
+                                                                memcpy(var0, (const double[]){0.13596315578694435, 0.8640368442130557}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.36594724220623503, 0.634052757793765}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            if (input[13] <= 14.5) {
+                                                                if (input[18] <= 22.5) {
+                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.4581029349213101, 0.54189706507869}, 2 * sizeof(double));
+                                                                }
+                                                            } else {
+                                                                if (input[18] <= 23.5) {
+                                                                    if (input[18] <= 22.5) {
                                                                         memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                                                     } else {
-                                                                        if (input[18] <= 27.5) {
-                                                                            memcpy(var0, (const double[]){0.06558475396411821, 0.9344152460358818}, 2 * sizeof(double));
+                                                                        memcpy(var0, (const double[]){0.15606030937928334, 0.8439396906207166}, 2 * sizeof(double));
+                                                                    }
+                                                                } else {
+                                                                    if (input[18] <= 24.5) {
+                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        if (input[7] <= 48.0) {
+                                                                            memcpy(var0, (const double[]){0.2832686601232595, 0.7167313398767404}, 2 * sizeof(double));
                                                                         } else {
-                                                                            if (input[18] <= 28.5) {
-                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                            } else {
-                                                                                if (input[18] <= 29.5) {
-                                                                                    memcpy(var0, (const double[]){0.06968333774367116, 0.9303166622563288}, 2 * sizeof(double));
-                                                                                } else {
-                                                                                    if (input[18] <= 30.5) {
-                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                    } else {
-                                                                                        if (input[18] <= 31.5) {
-                                                                                            memcpy(var0, (const double[]){0.05517987557479037, 0.9448201244252097}, 2 * sizeof(double));
-                                                                                        } else {
-                                                                                            if (input[18] <= 32.5) {
-                                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                            } else {
-                                                                                                if (input[16] <= -542.0) {
-                                                                                                    if (input[18] <= 33.5) {
-                                                                                                        memcpy(var0, (const double[]){0.10095593378409885, 0.8990440662159012}, 2 * sizeof(double));
-                                                                                                    } else {
-                                                                                                        if (input[18] <= 34.5) {
-                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                        } else {
-                                                                                                            memcpy(var0, (const double[]){0.26521060842433697, 0.734789391575663}, 2 * sizeof(double));
-                                                                                                        }
-                                                                                                    }
-                                                                                                } else {
-                                                                                                    if (input[16] <= -414.0) {
-                                                                                                        if (input[4] <= 2488.0) {
-                                                                                                            memcpy(var0, (const double[]){0.12938171569490928, 0.8706182843050907}, 2 * sizeof(double));
-                                                                                                        } else {
-                                                                                                            memcpy(var0, (const double[]){0.031696218421465555, 0.9683037815785345}, 2 * sizeof(double));
-                                                                                                        }
-                                                                                                    } else {
-                                                                                                        memcpy(var0, (const double[]){0.20650824614293314, 0.7934917538570668}, 2 * sizeof(double));
-                                                                                                    }
-                                                                                                }
-                                                                                            }
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }
+                                                                            memcpy(var0, (const double[]){0.42610419026047563, 0.5738958097395244}, 2 * sizeof(double));
                                                                         }
                                                                     }
                                                                 }
@@ -872,88 +1110,142 @@ void DtModel2::score(double * input, double * output) {
                                             }
                                         }
                                     }
-                                }
-                            }
-                        }
-                    }
-                }
-            } else {
-                if (input[1] <= 1.5) {
-                    if (input[18] <= 15.5) {
-                        if (input[18] <= 14.5) {
-                            if (input[18] <= 13.5) {
-                                memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
-                            } else {
-                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                            }
-                        } else {
-                            memcpy(var0, (const double[]){0.09145931405514458, 0.9085406859448554}, 2 * sizeof(double));
-                        }
-                    } else {
-                        if (input[18] <= 16.5) {
-                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                        } else {
-                            if (input[18] <= 17.5) {
-                                memcpy(var0, (const double[]){0.26465116279069767, 0.7353488372093023}, 2 * sizeof(double));
-                            } else {
-                                if (input[18] <= 18.5) {
-                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                } else {
-                                    if (input[2] <= 0.5) {
-                                        memcpy(var0, (const double[]){0.6597087682019874, 0.34029123179801263}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var0, (const double[]){0.46746203904555317, 0.5325379609544468}, 2 * sizeof(double));
-                                    }
-                                }
-                            }
-                        }
-                    }
-                } else {
-                    if (input[18] <= 15.5) {
-                        if (input[18] <= 14.5) {
-                            if (input[18] <= 13.5) {
-                                memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
-                            } else {
-                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                            }
-                        } else {
-                            memcpy(var0, (const double[]){0.03977777777777778, 0.9602222222222222}, 2 * sizeof(double));
-                        }
-                    } else {
-                        if (input[18] <= 16.5) {
-                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                        } else {
-                            if (input[4] <= 1208.0) {
-                                if (input[18] <= 17.5) {
-                                    memcpy(var0, (const double[]){0.12251828631138977, 0.8774817136886103}, 2 * sizeof(double));
                                 } else {
                                     if (input[18] <= 18.5) {
                                         memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                     } else {
-                                        if (input[18] <= 19.5) {
-                                            memcpy(var0, (const double[]){0.13218142548596112, 0.8678185745140389}, 2 * sizeof(double));
+                                        if (input[15] <= -2.0) {
+                                            if (input[15] <= -62.0) {
+                                                memcpy(var0, (const double[]){0.27183762232693004, 0.7281623776730699}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var0, (const double[]){0.0692436974789916, 0.9307563025210084}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[15] <= 2.0) {
+                                                if (input[18] <= 19.5) {
+                                                    memcpy(var0, (const double[]){0.1935945095796397, 0.8064054904203604}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[13] <= 12.0) {
+                                                        if (input[18] <= 20.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.48161764705882354, 0.5183823529411765}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[14] <= 2.0) {
+                                                            memcpy(var0, (const double[]){0.4014197696222877, 0.5985802303777122}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.25231788079470197, 0.747682119205298}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            } else {
+                                                memcpy(var0, (const double[]){0.19695882943623583, 0.8030411705637641}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    } else {
+                        if (input[14] <= -446.0) {
+                            if (input[20] <= 33.0) {
+                                memcpy(var0, (const double[]){0.7739855896852484, 0.2260144103147516}, 2 * sizeof(double));
+                            } else {
+                                memcpy(var0, (const double[]){0.9028743384870811, 0.09712566151291896}, 2 * sizeof(double));
+                            }
+                        } else {
+                            if (input[18] <= 19.5) {
+                                if (input[18] <= 18.5) {
+                                    if (input[18] <= 17.5) {
+                                        if (input[13] <= 10.0) {
+                                            if (input[1] <= 3.5) {
+                                                if (input[24] <= 7330.5) {
+                                                    memcpy(var0, (const double[]){0.7719082719082719, 0.2280917280917281}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[15] <= -2.0) {
+                                                        memcpy(var0, (const double[]){0.48761742100768574, 0.5123825789923142}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.6403609831029186, 0.3596390168970814}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[24] <= 3254.5) {
+                                                    memcpy(var0, (const double[]){0.7562076749435666, 0.24379232505643342}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.4711895910780669, 0.5288104089219331}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        } else {
+                                            memcpy(var0, (const double[]){0.7730349605797563, 0.22696503942024368}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    }
+                                } else {
+                                    if (input[26] <= 2176.0) {
+                                        memcpy(var0, (const double[]){0.3990913679959616, 0.6009086320040383}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[13] <= 10.0) {
+                                            memcpy(var0, (const double[]){0.6218392957482675, 0.37816070425173254}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var0, (const double[]){0.4162985865724382, 0.5837014134275619}, 2 * sizeof(double));
+                                        }
+                                    }
+                                }
+                            } else {
+                                if (input[13] <= 12.0) {
+                                    if (input[18] <= 20.5) {
+                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                    } else {
+                                        if (input[18] <= 21.5) {
+                                            memcpy(var0, (const double[]){0.6229567744278969, 0.3770432255721032}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[18] <= 22.5) {
+                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var0, (const double[]){0.7313406121353141, 0.26865938786468585}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    if (input[18] <= 37.5) {
+                                        if (input[22] <= -69.5) {
+                                            memcpy(var0, (const double[]){0.7484035759897829, 0.2515964240102171}, 2 * sizeof(double));
                                         } else {
                                             if (input[18] <= 20.5) {
                                                 memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                             } else {
                                                 if (input[18] <= 21.5) {
-                                                    memcpy(var0, (const double[]){0.18716713162566573, 0.8128328683743342}, 2 * sizeof(double));
+                                                    if (input[13] <= 14.0) {
+                                                        memcpy(var0, (const double[]){0.281505728314239, 0.7184942716857611}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.576530612244898, 0.42346938775510207}, 2 * sizeof(double));
+                                                    }
                                                 } else {
                                                     if (input[18] <= 22.5) {
                                                         memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                                     } else {
-                                                        memcpy(var0, (const double[]){0.466655330726067, 0.533344669273933}, 2 * sizeof(double));
+                                                        if (input[18] <= 23.5) {
+                                                            memcpy(var0, (const double[]){0.43543223052294555, 0.5645677694770544}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[18] <= 24.5) {
+                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[18] <= 25.5) {
+                                                                    memcpy(var0, (const double[]){0.501123595505618, 0.49887640449438203}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.6739784407119579, 0.3260215592880421}, 2 * sizeof(double));
+                                                                }
+                                                            }
+                                                        }
                                                     }
                                                 }
                                             }
                                         }
+                                    } else {
+                                        memcpy(var0, (const double[]){0.8634461772537086, 0.13655382274629135}, 2 * sizeof(double));
                                     }
-                                }
-                            } else {
-                                if (input[15] <= -874.0) {
-                                    memcpy(var0, (const double[]){0.12094793713163064, 0.8790520628683693}, 2 * sizeof(double));
-                                } else {
-                                    memcpy(var0, (const double[]){0.34446402924663794, 0.655535970753362}, 2 * sizeof(double));
                                 }
                             }
                         }
@@ -961,333 +1253,155 @@ void DtModel2::score(double * input, double * output) {
                 }
             }
         } else {
-            if (input[3] <= 1.5) {
-                if (input[21] <= 1182.5) {
-                    if (input[18] <= 14.5) {
-                        if (input[18] <= 13.5) {
-                            if (input[18] <= 12.5) {
-                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+            if (input[18] <= 16.5) {
+                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+            } else {
+                if (input[18] <= 17.5) {
+                    if (input[27] <= 156.0) {
+                        if (input[10] <= 2.0) {
+                            if (input[14] <= 2.0) {
+                                if (input[8] <= -2.0) {
+                                    memcpy(var0, (const double[]){0.025890881702207786, 0.9741091182977922}, 2 * sizeof(double));
+                                } else {
+                                    if (input[9] <= 2.0) {
+                                        if (input[9] <= -2.0) {
+                                            memcpy(var0, (const double[]){0.01838733986435569, 0.9816126601356443}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[8] <= 2.0) {
+                                                if (input[26] <= 3456.0) {
+                                                    if (input[10] <= -2.0) {
+                                                        memcpy(var0, (const double[]){0.00904977375565611, 0.9909502262443439}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[19] <= 0.5) {
+                                                            if (input[16] <= 2.0) {
+                                                                if (input[17] <= 2.0) {
+                                                                    if (input[4] <= 4.0) {
+                                                                        memcpy(var0, (const double[]){0.21374045801526717, 0.7862595419847328}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.8567382582015577, 0.14326174179844228}, 2 * sizeof(double));
+                                                                    }
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.043010752688172046, 0.956989247311828}, 2 * sizeof(double));
+                                                                }
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.14146341463414633, 0.8585365853658536}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.11797752808988764, 0.8820224719101124}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var0, (const double[]){0.04279475982532751, 0.9572052401746725}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        memcpy(var0, (const double[]){0.013857312980404893, 0.9861426870195951}, 2 * sizeof(double));
+                                    }
+                                }
                             } else {
-                                memcpy(var0, (const double[]){0.009400055294442908, 0.9905999447055571}, 2 * sizeof(double));
+                                memcpy(var0, (const double[]){0.0071146526270854825, 0.9928853473729146}, 2 * sizeof(double));
                             }
                         } else {
-                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                            memcpy(var0, (const double[]){0.00229034862109749, 0.9977096513789026}, 2 * sizeof(double));
                         }
                     } else {
-                        if (input[18] <= 15.5) {
-                            if (input[4] <= 1892.0) {
-                                memcpy(var0, (const double[]){0.04, 0.96}, 2 * sizeof(double));
+                        if (input[15] <= 10.0) {
+                            if (input[14] <= -6.0) {
+                                memcpy(var0, (const double[]){0.06372146493677122, 0.9362785350632288}, 2 * sizeof(double));
                             } else {
-                                if (input[12] <= 9.0) {
-                                    memcpy(var0, (const double[]){0.132973944294699, 0.867026055705301}, 2 * sizeof(double));
+                                if (input[14] <= 2.0) {
+                                    if (input[9] <= -2.0) {
+                                        if (input[15] <= -2.0) {
+                                            memcpy(var0, (const double[]){0.08496732026143791, 0.9150326797385621}, 2 * sizeof(double));
+                                        } else {
+                                            memcpy(var0, (const double[]){0.6891891891891891, 0.3108108108108108}, 2 * sizeof(double));
+                                        }
+                                    } else {
+                                        if (input[14] <= -2.0) {
+                                            memcpy(var0, (const double[]){0.18990384615384615, 0.8100961538461539}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[15] <= 2.0) {
+                                                if (input[15] <= -2.0) {
+                                                    memcpy(var0, (const double[]){0.08139534883720931, 0.9186046511627907}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.8269720101781171, 0.17302798982188294}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var0, (const double[]){0.2553846153846154, 0.7446153846153846}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    }
                                 } else {
-                                    memcpy(var0, (const double[]){0.8008213552361396, 0.19917864476386038}, 2 * sizeof(double));
+                                    memcpy(var0, (const double[]){0.09160186625194401, 0.908398133748056}, 2 * sizeof(double));
                                 }
                             }
                         } else {
-                            if (input[18] <= 16.5) {
-                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                            } else {
-                                if (input[18] <= 17.5) {
-                                    if (input[12] <= 9.5) {
-                                        memcpy(var0, (const double[]){0.2109063271898157, 0.7890936728101843}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var0, (const double[]){0.05235707121364092, 0.947642928786359}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[18] <= 18.5) {
-                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        if (input[18] <= 19.5) {
-                                            memcpy(var0, (const double[]){0.17481144746358096, 0.8251885525364191}, 2 * sizeof(double));
-                                        } else {
-                                            if (input[18] <= 20.5) {
-                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                            } else {
-                                                if (input[18] <= 21.5) {
-                                                    if (input[12] <= 13.0) {
-                                                        memcpy(var0, (const double[]){0.275797373358349, 0.724202626641651}, 2 * sizeof(double));
-                                                    } else {
-                                                        memcpy(var0, (const double[]){0.0773277222514466, 0.9226722777485534}, 2 * sizeof(double));
-                                                    }
-                                                } else {
-                                                    if (input[18] <= 22.5) {
-                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                    } else {
-                                                        if (input[18] <= 23.5) {
-                                                            if (input[12] <= 15.0) {
-                                                                memcpy(var0, (const double[]){0.2992467473179639, 0.700753252682036}, 2 * sizeof(double));
+                            memcpy(var0, (const double[]){0.04424881269547087, 0.9557511873045291}, 2 * sizeof(double));
+                        }
+                    }
+                } else {
+                    if (input[18] <= 18.5) {
+                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                    } else {
+                        if (input[20] <= 44.0) {
+                            if (input[19] <= 0.5) {
+                                if (input[13] <= 8.5) {
+                                    if (input[24] <= 18281.5) {
+                                        if (input[12] <= 10.5) {
+                                            if (input[13] <= 3.0) {
+                                                if (input[0] <= 29.5) {
+                                                    if (input[18] <= 19.5) {
+                                                        if (input[15] <= 14.0) {
+                                                            if (input[15] <= -6.0) {
+                                                                memcpy(var0, (const double[]){0.1487845766974015, 0.8512154233025985}, 2 * sizeof(double));
                                                             } else {
-                                                                memcpy(var0, (const double[]){0.07344345616264294, 0.9265565438373571}, 2 * sizeof(double));
+                                                                memcpy(var0, (const double[]){0.34863305743666917, 0.6513669425633308}, 2 * sizeof(double));
                                                             }
                                                         } else {
-                                                            if (input[18] <= 24.5) {
-                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                            } else {
-                                                                if (input[18] <= 25.5) {
-                                                                    if (input[12] <= 17.0) {
-                                                                        memcpy(var0, (const double[]){0.3363419166445447, 0.6636580833554553}, 2 * sizeof(double));
-                                                                    } else {
-                                                                        memcpy(var0, (const double[]){0.0814225549836219, 0.9185774450163781}, 2 * sizeof(double));
-                                                                    }
+                                                            memcpy(var0, (const double[]){0.10510732790525537, 0.8948926720947447}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[18] <= 20.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[24] <= 5375.5) {
+                                                                if (input[18] <= 21.5) {
+                                                                    memcpy(var0, (const double[]){0.17578125, 0.82421875}, 2 * sizeof(double));
                                                                 } else {
-                                                                    if (input[18] <= 26.5) {
+                                                                    if (input[18] <= 22.5) {
                                                                         memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                                                     } else {
-                                                                        if (input[18] <= 27.5) {
-                                                                            if (input[12] <= 19.0) {
-                                                                                memcpy(var0, (const double[]){0.3517163759144626, 0.6482836240855374}, 2 * sizeof(double));
-                                                                            } else {
-                                                                                memcpy(var0, (const double[]){0.09052396878483834, 0.9094760312151616}, 2 * sizeof(double));
-                                                                            }
+                                                                        if (input[18] <= 23.5) {
+                                                                            memcpy(var0, (const double[]){0.18292682926829268, 0.8170731707317073}, 2 * sizeof(double));
                                                                         } else {
-                                                                            if (input[18] <= 28.5) {
+                                                                            if (input[18] <= 24.5) {
                                                                                 memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                                                             } else {
-                                                                                if (input[24] <= 50720.5) {
-                                                                                    if (input[18] <= 29.5) {
-                                                                                        memcpy(var0, (const double[]){0.1576789009637072, 0.8423210990362928}, 2 * sizeof(double));
-                                                                                    } else {
-                                                                                        if (input[18] <= 30.5) {
-                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                        } else {
-                                                                                            if (input[18] <= 31.5) {
-                                                                                                memcpy(var0, (const double[]){0.16183174471612102, 0.838168255283879}, 2 * sizeof(double));
-                                                                                            } else {
-                                                                                                if (input[18] <= 32.5) {
-                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                } else {
-                                                                                                    if (input[18] <= 33.5) {
-                                                                                                        memcpy(var0, (const double[]){0.17472434266327397, 0.825275657336726}, 2 * sizeof(double));
-                                                                                                    } else {
-                                                                                                        if (input[18] <= 34.5) {
-                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                        } else {
-                                                                                                            if (input[18] <= 35.5) {
-                                                                                                                memcpy(var0, (const double[]){0.1695827725437416, 0.8304172274562585}, 2 * sizeof(double));
-                                                                                                            } else {
-                                                                                                                if (input[18] <= 36.5) {
-                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                } else {
-                                                                                                                    if (input[18] <= 37.5) {
-                                                                                                                        memcpy(var0, (const double[]){0.16495338273966054, 0.8350466172603395}, 2 * sizeof(double));
-                                                                                                                    } else {
-                                                                                                                        if (input[18] <= 38.5) {
-                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                        } else {
-                                                                                                                            if (input[16] <= 3504.0) {
-                                                                                                                                if (input[18] <= 39.5) {
-                                                                                                                                    if (input[12] <= 31.0) {
-                                                                                                                                        memcpy(var0, (const double[]){0.34718100890207715, 0.6528189910979229}, 2 * sizeof(double));
-                                                                                                                                    } else {
-                                                                                                                                        memcpy(var0, (const double[]){0.053208773354995936, 0.946791226645004}, 2 * sizeof(double));
-                                                                                                                                    }
-                                                                                                                                } else {
-                                                                                                                                    if (input[15] <= -3078.0) {
-                                                                                                                                        memcpy(var0, (const double[]){0.31602845466929014, 0.6839715453307098}, 2 * sizeof(double));
-                                                                                                                                    } else {
-                                                                                                                                        if (input[18] <= 40.5) {
-                                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                        } else {
-                                                                                                                                            if (input[18] <= 41.5) {
-                                                                                                                                                if (input[12] <= 33.0) {
-                                                                                                                                                    memcpy(var0, (const double[]){0.3930131004366812, 0.6069868995633187}, 2 * sizeof(double));
-                                                                                                                                                } else {
-                                                                                                                                                    memcpy(var0, (const double[]){0.031486146095717885, 0.9685138539042821}, 2 * sizeof(double));
-                                                                                                                                                }
-                                                                                                                                            } else {
-                                                                                                                                                if (input[18] <= 42.5) {
-                                                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                } else {
-                                                                                                                                                    if (input[18] <= 43.5) {
-                                                                                                                                                        if (input[12] <= 35.0) {
-                                                                                                                                                            memcpy(var0, (const double[]){0.3961499493414387, 0.6038500506585613}, 2 * sizeof(double));
-                                                                                                                                                        } else {
-                                                                                                                                                            memcpy(var0, (const double[]){0.029111338100102146, 0.9708886618998979}, 2 * sizeof(double));
-                                                                                                                                                        }
-                                                                                                                                                    } else {
-                                                                                                                                                        if (input[18] <= 44.5) {
-                                                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                        } else {
-                                                                                                                                                            if (input[18] <= 45.5) {
-                                                                                                                                                                if (input[12] <= 37.0) {
-                                                                                                                                                                    memcpy(var0, (const double[]){0.41517241379310343, 0.5848275862068966}, 2 * sizeof(double));
-                                                                                                                                                                } else {
-                                                                                                                                                                    memcpy(var0, (const double[]){0.01939799331103679, 0.9806020066889632}, 2 * sizeof(double));
-                                                                                                                                                                }
-                                                                                                                                                            } else {
-                                                                                                                                                                if (input[18] <= 46.5) {
-                                                                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                } else {
-                                                                                                                                                                    if (input[18] <= 47.5) {
-                                                                                                                                                                        if (input[12] <= 39.0) {
-                                                                                                                                                                            memcpy(var0, (const double[]){0.46770601336302897, 0.532293986636971}, 2 * sizeof(double));
-                                                                                                                                                                        } else {
-                                                                                                                                                                            memcpy(var0, (const double[]){0.0069498069498069494, 0.993050193050193}, 2 * sizeof(double));
-                                                                                                                                                                        }
-                                                                                                                                                                    } else {
-                                                                                                                                                                        if (input[18] <= 48.5) {
-                                                                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                        } else {
-                                                                                                                                                                            memcpy(var0, (const double[]){0.5150757259969432, 0.4849242740030568}, 2 * sizeof(double));
-                                                                                                                                                                        }
-                                                                                                                                                                    }
-                                                                                                                                                                }
-                                                                                                                                                            }
-                                                                                                                                                        }
-                                                                                                                                                    }
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                        }
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                            } else {
-                                                                                                                                memcpy(var0, (const double[]){0.6895400030362836, 0.3104599969637164}, 2 * sizeof(double));
-                                                                                                                            }
-                                                                                                                        }
-                                                                                                                    }
-                                                                                                                }
-                                                                                                            }
-                                                                                                        }
-                                                                                                    }
-                                                                                                }
-                                                                                            }
-                                                                                        }
-                                                                                    }
+                                                                                memcpy(var0, (const double[]){0.45180722891566266, 0.5481927710843374}, 2 * sizeof(double));
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            } else {
+                                                                if (input[18] <= 21.5) {
+                                                                    memcpy(var0, (const double[]){0.3268101761252446, 0.6731898238747553}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[18] <= 22.5) {
+                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        if (input[18] <= 23.5) {
+                                                                            memcpy(var0, (const double[]){0.3578826237054085, 0.6421173762945915}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            if (input[18] <= 24.5) {
+                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                if (input[18] <= 25.5) {
+                                                                                    memcpy(var0, (const double[]){0.35152838427947597, 0.648471615720524}, 2 * sizeof(double));
                                                                                 } else {
-                                                                                    if (input[18] <= 29.5) {
-                                                                                        if (input[12] <= 21.0) {
-                                                                                            memcpy(var0, (const double[]){0.4781591263650546, 0.5218408736349454}, 2 * sizeof(double));
-                                                                                        } else {
-                                                                                            memcpy(var0, (const double[]){0.07386990077177508, 0.9261300992282249}, 2 * sizeof(double));
-                                                                                        }
-                                                                                    } else {
-                                                                                        if (input[18] <= 30.5) {
-                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                        } else {
-                                                                                            if (input[18] <= 31.5) {
-                                                                                                if (input[12] <= 23.0) {
-                                                                                                    memcpy(var0, (const double[]){0.5805432722678459, 0.41945672773215414}, 2 * sizeof(double));
-                                                                                                } else {
-                                                                                                    memcpy(var0, (const double[]){0.06895252449133384, 0.9310474755086662}, 2 * sizeof(double));
-                                                                                                }
-                                                                                            } else {
-                                                                                                if (input[18] <= 32.5) {
-                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                } else {
-                                                                                                    if (input[18] <= 33.5) {
-                                                                                                        if (input[12] <= 25.0) {
-                                                                                                            memcpy(var0, (const double[]){0.6190476190476191, 0.38095238095238093}, 2 * sizeof(double));
-                                                                                                        } else {
-                                                                                                            memcpy(var0, (const double[]){0.054667519181585675, 0.9453324808184144}, 2 * sizeof(double));
-                                                                                                        }
-                                                                                                    } else {
-                                                                                                        if (input[18] <= 34.5) {
-                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                        } else {
-                                                                                                            if (input[15] <= 9598.0) {
-                                                                                                                if (input[26] <= 2176.0) {
-                                                                                                                    if (input[18] <= 35.5) {
-                                                                                                                        if (input[12] <= 27.0) {
-                                                                                                                            memcpy(var0, (const double[]){0.7331730769230769, 0.2668269230769231}, 2 * sizeof(double));
-                                                                                                                        } else {
-                                                                                                                            memcpy(var0, (const double[]){0.05978567399887197, 0.9402143260011281}, 2 * sizeof(double));
-                                                                                                                        }
-                                                                                                                    } else {
-                                                                                                                        if (input[18] <= 36.5) {
-                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                        } else {
-                                                                                                                            if (input[18] <= 37.5) {
-                                                                                                                                if (input[12] <= 29.0) {
-                                                                                                                                    memcpy(var0, (const double[]){0.7147613762486127, 0.28523862375138737}, 2 * sizeof(double));
-                                                                                                                                } else {
-                                                                                                                                    memcpy(var0, (const double[]){0.04941321803582458, 0.9505867819641755}, 2 * sizeof(double));
-                                                                                                                                }
-                                                                                                                            } else {
-                                                                                                                                if (input[18] <= 38.5) {
-                                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                } else {
-                                                                                                                                    if (input[18] <= 39.5) {
-                                                                                                                                        if (input[12] <= 31.0) {
-                                                                                                                                            memcpy(var0, (const double[]){0.7473118279569892, 0.25268817204301075}, 2 * sizeof(double));
-                                                                                                                                        } else {
-                                                                                                                                            memcpy(var0, (const double[]){0.045508982035928146, 0.9544910179640719}, 2 * sizeof(double));
-                                                                                                                                        }
-                                                                                                                                    } else {
-                                                                                                                                        if (input[18] <= 40.5) {
-                                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                        } else {
-                                                                                                                                            if (input[18] <= 41.5) {
-                                                                                                                                                if (input[12] <= 33.0) {
-                                                                                                                                                    memcpy(var0, (const double[]){0.812015503875969, 0.187984496124031}, 2 * sizeof(double));
-                                                                                                                                                } else {
-                                                                                                                                                    memcpy(var0, (const double[]){0.03993250843644545, 0.9600674915635545}, 2 * sizeof(double));
-                                                                                                                                                }
-                                                                                                                                            } else {
-                                                                                                                                                if (input[18] <= 42.5) {
-                                                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                } else {
-                                                                                                                                                    if (input[18] <= 43.5) {
-                                                                                                                                                        if (input[12] <= 35.0) {
-                                                                                                                                                            memcpy(var0, (const double[]){0.8033126293995859, 0.19668737060041408}, 2 * sizeof(double));
-                                                                                                                                                        } else {
-                                                                                                                                                            memcpy(var0, (const double[]){0.036390827517447655, 0.9636091724825523}, 2 * sizeof(double));
-                                                                                                                                                        }
-                                                                                                                                                    } else {
-                                                                                                                                                        if (input[15] <= -4078.0) {
-                                                                                                                                                            if (input[1] <= 2.5) {
-                                                                                                                                                                memcpy(var0, (const double[]){0.6545213158282932, 0.34547868417170674}, 2 * sizeof(double));
-                                                                                                                                                            } else {
-                                                                                                                                                                memcpy(var0, (const double[]){0.38036186216710716, 0.6196381378328929}, 2 * sizeof(double));
-                                                                                                                                                            }
-                                                                                                                                                        } else {
-                                                                                                                                                            if (input[18] <= 44.5) {
-                                                                                                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                            } else {
-                                                                                                                                                                if (input[18] <= 45.5) {
-                                                                                                                                                                    if (input[12] <= 37.0) {
-                                                                                                                                                                        memcpy(var0, (const double[]){0.8106235565819861, 0.18937644341801385}, 2 * sizeof(double));
-                                                                                                                                                                    } else {
-                                                                                                                                                                        memcpy(var0, (const double[]){0.01907356948228883, 0.9809264305177112}, 2 * sizeof(double));
-                                                                                                                                                                    }
-                                                                                                                                                                } else {
-                                                                                                                                                                    if (input[18] <= 46.5) {
-                                                                                                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                    } else {
-                                                                                                                                                                        memcpy(var0, (const double[]){0.7070979965615242, 0.29290200343847583}, 2 * sizeof(double));
-                                                                                                                                                                    }
-                                                                                                                                                                }
-                                                                                                                                                            }
-                                                                                                                                                        }
-                                                                                                                                                    }
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                        }
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                            }
-                                                                                                                        }
-                                                                                                                    }
-                                                                                                                } else {
-                                                                                                                    if (input[2] <= 0.5) {
-                                                                                                                        memcpy(var0, (const double[]){0.6908152734778121, 0.3091847265221878}, 2 * sizeof(double));
-                                                                                                                    } else {
-                                                                                                                        memcpy(var0, (const double[]){0.4657567242071457, 0.5342432757928542}, 2 * sizeof(double));
-                                                                                                                    }
-                                                                                                                }
-                                                                                                            } else {
-                                                                                                                if (input[18] <= 53.5) {
-                                                                                                                    memcpy(var0, (const double[]){0.30948807737201933, 0.6905119226279807}, 2 * sizeof(double));
-                                                                                                                } else {
-                                                                                                                    memcpy(var0, (const double[]){0.6015180265654649, 0.3984819734345351}, 2 * sizeof(double));
-                                                                                                                }
-                                                                                                            }
-                                                                                                        }
-                                                                                                    }
-                                                                                                }
-                                                                                            }
-                                                                                        }
-                                                                                    }
+                                                                                    memcpy(var0, (const double[]){0.7739595265368461, 0.22604047346315387}, 2 * sizeof(double));
                                                                                 }
                                                                             }
                                                                         }
@@ -1296,393 +1410,99 @@ void DtModel2::score(double * input, double * output) {
                                                             }
                                                         }
                                                     }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                } else {
-                    if (input[21] <= 23912.5) {
-                        if (input[18] <= 15.5) {
-                            memcpy(var0, (const double[]){0.05417651694247439, 0.9458234830575256}, 2 * sizeof(double));
-                        } else {
-                            if (input[18] <= 16.5) {
-                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                            } else {
-                                if (input[18] <= 17.5) {
-                                    memcpy(var0, (const double[]){0.08544562551103843, 0.9145543744889616}, 2 * sizeof(double));
-                                } else {
-                                    if (input[18] <= 18.5) {
-                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        if (input[15] <= -2400.0) {
-                                            memcpy(var0, (const double[]){0.1301865775549986, 0.8698134224450014}, 2 * sizeof(double));
-                                        } else {
-                                            if (input[18] <= 19.5) {
-                                                memcpy(var0, (const double[]){0.14076502732240437, 0.8592349726775956}, 2 * sizeof(double));
-                                            } else {
-                                                if (input[18] <= 20.5) {
-                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                                 } else {
-                                                    if (input[18] <= 21.5) {
-                                                        memcpy(var0, (const double[]){0.14646464646464646, 0.8535353535353535}, 2 * sizeof(double));
+                                                    if (input[18] <= 19.5) {
+                                                        memcpy(var0, (const double[]){0.12891780011827322, 0.8710821998817267}, 2 * sizeof(double));
                                                     } else {
-                                                        if (input[18] <= 22.5) {
+                                                        if (input[18] <= 20.5) {
                                                             memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                                         } else {
-                                                            if (input[18] <= 23.5) {
-                                                                memcpy(var0, (const double[]){0.12891246684350133, 0.8710875331564987}, 2 * sizeof(double));
+                                                            if (input[18] <= 21.5) {
+                                                                memcpy(var0, (const double[]){0.1376476630713919, 0.8623523369286081}, 2 * sizeof(double));
                                                             } else {
-                                                                if (input[18] <= 24.5) {
+                                                                if (input[18] <= 22.5) {
                                                                     memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                                                 } else {
-                                                                    if (input[24] <= 35903.0) {
+                                                                    memcpy(var0, (const double[]){0.3398209420007785, 0.6601790579992215}, 2 * sizeof(double));
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[17] <= -2.0) {
+                                                    if (input[11] <= -62.0) {
+                                                        memcpy(var0, (const double[]){0.6597195907540735, 0.3402804092459265}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[18] <= 19.5) {
+                                                            memcpy(var0, (const double[]){0.26, 0.74}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.5789923142613151, 0.4210076857386849}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[17] <= 2.0) {
+                                                        memcpy(var0, (const double[]){0.7438672438672439, 0.25613275613275616}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[11] <= 60.0) {
+                                                            if (input[18] <= 19.5) {
+                                                                memcpy(var0, (const double[]){0.3108108108108108, 0.6891891891891891}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.5802469135802469, 0.41975308641975306}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.711489898989899, 0.288510101010101}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        } else {
+                                            if (input[20] <= 28.5) {
+                                                if (input[18] <= 19.5) {
+                                                    memcpy(var0, (const double[]){0.06957490845406783, 0.9304250915459322}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[18] <= 20.5) {
+                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[18] <= 21.5) {
+                                                            if (input[12] <= 12.5) {
+                                                                if (input[13] <= 3.0) {
+                                                                    memcpy(var0, (const double[]){0.23736892278360344, 0.7626310772163966}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.6015424164524421, 0.39845758354755784}, 2 * sizeof(double));
+                                                                }
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.06482982171799027, 0.9351701782820098}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            if (input[18] <= 22.5) {
+                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[18] <= 23.5) {
+                                                                    if (input[12] <= 14.5) {
+                                                                        memcpy(var0, (const double[]){0.3134959349593496, 0.6865040650406504}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.06401688357368976, 0.9359831164263103}, 2 * sizeof(double));
+                                                                    }
+                                                                } else {
+                                                                    if (input[18] <= 24.5) {
+                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                    } else {
                                                                         if (input[18] <= 25.5) {
-                                                                            memcpy(var0, (const double[]){0.15526802218114602, 0.844731977818854}, 2 * sizeof(double));
+                                                                            if (input[12] <= 16.5) {
+                                                                                memcpy(var0, (const double[]){0.31290555155010813, 0.6870944484498919}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                memcpy(var0, (const double[]){0.0765993265993266, 0.9234006734006734}, 2 * sizeof(double));
+                                                                            }
                                                                         } else {
                                                                             if (input[18] <= 26.5) {
                                                                                 memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                                                             } else {
                                                                                 if (input[18] <= 27.5) {
-                                                                                    memcpy(var0, (const double[]){0.15509651202167288, 0.8449034879783272}, 2 * sizeof(double));
-                                                                                } else {
-                                                                                    if (input[18] <= 28.5) {
-                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                    } else {
-                                                                                        if (input[18] <= 29.5) {
-                                                                                            memcpy(var0, (const double[]){0.14798850574712644, 0.8520114942528736}, 2 * sizeof(double));
-                                                                                        } else {
-                                                                                            if (input[18] <= 30.5) {
-                                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                            } else {
-                                                                                                memcpy(var0, (const double[]){0.3558674967696464, 0.6441325032303535}, 2 * sizeof(double));
-                                                                                            }
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            }
-                                                                        }
-                                                                    } else {
-                                                                        memcpy(var0, (const double[]){0.14922861150070127, 0.8507713884992988}, 2 * sizeof(double));
-                                                                    }
-                                                                }
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    } else {
-                        if (input[0] <= 24.5) {
-                            if (input[18] <= 15.5) {
-                                memcpy(var0, (const double[]){0.2218909710391823, 0.7781090289608177}, 2 * sizeof(double));
-                            } else {
-                                if (input[18] <= 16.5) {
-                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                } else {
-                                    if (input[21] <= 386439808.0) {
-                                        memcpy(var0, (const double[]){0.5985387901677914, 0.4014612098322085}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var0, (const double[]){0.3541513592946363, 0.6458486407053637}, 2 * sizeof(double));
-                                    }
-                                }
-                            }
-                        } else {
-                            if (input[5] <= 548.0) {
-                                if (input[15] <= -2972.0) {
-                                    memcpy(var0, (const double[]){0.21820668099238133, 0.7817933190076187}, 2 * sizeof(double));
-                                } else {
-                                    if (input[20] <= 40.5) {
-                                        if (input[18] <= 15.5) {
-                                            memcpy(var0, (const double[]){0.23769633507853402, 0.762303664921466}, 2 * sizeof(double));
-                                        } else {
-                                            if (input[18] <= 16.5) {
-                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                            } else {
-                                                if (input[18] <= 17.5) {
-                                                    memcpy(var0, (const double[]){0.15492508766337265, 0.8450749123366273}, 2 * sizeof(double));
-                                                } else {
-                                                    if (input[18] <= 18.5) {
-                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                    } else {
-                                                        if (input[18] <= 19.5) {
-                                                            memcpy(var0, (const double[]){0.2348021871984561, 0.7651978128015439}, 2 * sizeof(double));
-                                                        } else {
-                                                            if (input[18] <= 20.5) {
-                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                            } else {
-                                                                memcpy(var0, (const double[]){0.48333977414229895, 0.5166602258577011}, 2 * sizeof(double));
-                                                            }
-                                                        }
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    } else {
-                                        memcpy(var0, (const double[]){0.2271667314418966, 0.7728332685581034}, 2 * sizeof(double));
-                                    }
-                                }
-                            } else {
-                                memcpy(var0, (const double[]){0.0800405268490375, 0.9199594731509625}, 2 * sizeof(double));
-                            }
-                        }
-                    }
-                }
-            } else {
-                if (input[18] <= 13.5) {
-                    if (input[18] <= 12.5) {
-                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                    } else {
-                        if (input[21] <= 64963712.0) {
-                            memcpy(var0, (const double[]){0.0044994375703037125, 0.9955005624296963}, 2 * sizeof(double));
-                        } else {
-                            if (input[8] <= 8.0) {
-                                if (input[22] <= 0.5) {
-                                    if (input[22] <= -25.5) {
-                                        memcpy(var0, (const double[]){0.9292929292929293, 0.0707070707070707}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var0, (const double[]){0.09627831715210355, 0.9037216828478964}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    memcpy(var0, (const double[]){0.896049896049896, 0.10395010395010396}, 2 * sizeof(double));
-                                }
-                            } else {
-                                memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
-                            }
-                        }
-                    }
-                } else {
-                    if (input[18] <= 14.5) {
-                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                    } else {
-                        if (input[18] <= 15.5) {
-                            if (input[21] <= 13377481.0) {
-                                if (input[21] <= -0.5) {
-                                    if (input[8] <= 4.0) {
-                                        if (input[8] <= -4.0) {
-                                            memcpy(var0, (const double[]){0.08034188034188035, 0.9196581196581196}, 2 * sizeof(double));
-                                        } else {
-                                            memcpy(var0, (const double[]){0.42753271934076587, 0.5724672806592341}, 2 * sizeof(double));
-                                        }
-                                    } else {
-                                        memcpy(var0, (const double[]){0.04371238517579981, 0.9562876148242002}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    if (input[4] <= 1912.0) {
-                                        memcpy(var0, (const double[]){0.031548544767829374, 0.9684514552321706}, 2 * sizeof(double));
-                                    } else {
-                                        memcpy(var0, (const double[]){0.13161110141385932, 0.8683888985861407}, 2 * sizeof(double));
-                                    }
-                                }
-                            } else {
-                                if (input[8] <= 8.0) {
-                                    if (input[22] <= 0.5) {
-                                        if (input[22] <= -19.5) {
-                                            memcpy(var0, (const double[]){0.9703791469194313, 0.02962085308056872}, 2 * sizeof(double));
-                                        } else {
-                                            memcpy(var0, (const double[]){0.31567328918322296, 0.6843267108167771}, 2 * sizeof(double));
-                                        }
-                                    } else {
-                                        memcpy(var0, (const double[]){0.9469442578912022, 0.05305574210879785}, 2 * sizeof(double));
-                                    }
-                                } else {
-                                    memcpy(var0, (const double[]){0.04343182627269491, 0.9565681737273051}, 2 * sizeof(double));
-                                }
-                            }
-                        } else {
-                            if (input[18] <= 16.5) {
-                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                            } else {
-                                if (input[18] <= 17.5) {
-                                    if (input[21] <= 8335200.0) {
-                                        if (input[12] <= 8.5) {
-                                            if (input[24] <= 18446.5) {
-                                                memcpy(var0, (const double[]){0.10697727015718647, 0.8930227298428135}, 2 * sizeof(double));
-                                            } else {
-                                                if (input[20] <= 26.0) {
-                                                    memcpy(var0, (const double[]){0.68984375, 0.31015625}, 2 * sizeof(double));
-                                                } else {
-                                                    memcpy(var0, (const double[]){0.17424456368257554, 0.8257554363174244}, 2 * sizeof(double));
-                                                }
-                                            }
-                                        } else {
-                                            if (input[14] <= 2.0) {
-                                                if (input[14] <= -2.0) {
-                                                    memcpy(var0, (const double[]){0.03031009559337841, 0.9696899044066216}, 2 * sizeof(double));
-                                                } else {
-                                                    if (input[21] <= -68591072.0) {
-                                                        memcpy(var0, (const double[]){0.4972375690607735, 0.5027624309392266}, 2 * sizeof(double));
-                                                    } else {
-                                                        memcpy(var0, (const double[]){0.08275328692962104, 0.917246713070379}, 2 * sizeof(double));
-                                                    }
-                                                }
-                                            } else {
-                                                memcpy(var0, (const double[]){0.022335358843816717, 0.9776646411561832}, 2 * sizeof(double));
-                                            }
-                                        }
-                                    } else {
-                                        if (input[8] <= 8.0) {
-                                            if (input[22] <= 1.5) {
-                                                if (input[22] <= -21.5) {
-                                                    memcpy(var0, (const double[]){0.9294605809128631, 0.07053941908713693}, 2 * sizeof(double));
-                                                } else {
-                                                    memcpy(var0, (const double[]){0.2824369105276574, 0.7175630894723426}, 2 * sizeof(double));
-                                                }
-                                            } else {
-                                                memcpy(var0, (const double[]){0.9988009592326139, 0.001199040767386091}, 2 * sizeof(double));
-                                            }
-                                        } else {
-                                            memcpy(var0, (const double[]){0.07272134355127996, 0.92727865644872}, 2 * sizeof(double));
-                                        }
-                                    }
-                                } else {
-                                    if (input[18] <= 18.5) {
-                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                    } else {
-                                        if (input[18] <= 19.5) {
-                                            if (input[12] <= 10.5) {
-                                                if (input[21] <= 4589.0) {
-                                                    if (input[24] <= 18612.5) {
-                                                        memcpy(var0, (const double[]){0.10008974291294938, 0.8999102570870506}, 2 * sizeof(double));
-                                                    } else {
-                                                        memcpy(var0, (const double[]){0.2673329169269207, 0.7326670830730794}, 2 * sizeof(double));
-                                                    }
-                                                } else {
-                                                    if (input[20] <= 24.5) {
-                                                        memcpy(var0, (const double[]){0.4304870834154999, 0.5695129165845001}, 2 * sizeof(double));
-                                                    } else {
-                                                        memcpy(var0, (const double[]){0.23043433722597828, 0.7695656627740217}, 2 * sizeof(double));
-                                                    }
-                                                }
-                                            } else {
-                                                memcpy(var0, (const double[]){0.058466797144196045, 0.941533202855804}, 2 * sizeof(double));
-                                            }
-                                        } else {
-                                            if (input[18] <= 20.5) {
-                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                            } else {
-                                                if (input[18] <= 21.5) {
-                                                    if (input[12] <= 12.5) {
-                                                        if (input[24] <= 16089.5) {
-                                                            if (input[21] <= 3905.5) {
-                                                                memcpy(var0, (const double[]){0.11046429078517678, 0.8895357092148233}, 2 * sizeof(double));
-                                                            } else {
-                                                                memcpy(var0, (const double[]){0.2596425860760367, 0.7403574139239633}, 2 * sizeof(double));
-                                                            }
-                                                        } else {
-                                                            if (input[20] <= 27.0) {
-                                                                memcpy(var0, (const double[]){0.564567285908473, 0.43543271409152695}, 2 * sizeof(double));
-                                                            } else {
-                                                                memcpy(var0, (const double[]){0.25165562913907286, 0.7483443708609272}, 2 * sizeof(double));
-                                                            }
-                                                        }
-                                                    } else {
-                                                        memcpy(var0, (const double[]){0.05851688914333926, 0.9414831108566607}, 2 * sizeof(double));
-                                                    }
-                                                } else {
-                                                    if (input[18] <= 22.5) {
-                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                    } else {
-                                                        if (input[18] <= 23.5) {
-                                                            if (input[12] <= 14.5) {
-                                                                if (input[21] <= 9937.5) {
-                                                                    memcpy(var0, (const double[]){0.1693148466754377, 0.8306851533245623}, 2 * sizeof(double));
-                                                                } else {
-                                                                    memcpy(var0, (const double[]){0.2969451281308817, 0.7030548718691183}, 2 * sizeof(double));
-                                                                }
-                                                            } else {
-                                                                memcpy(var0, (const double[]){0.05842112858998413, 0.9415788714100158}, 2 * sizeof(double));
-                                                            }
-                                                        } else {
-                                                            if (input[18] <= 24.5) {
-                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                            } else {
-                                                                if (input[18] <= 25.5) {
-                                                                    if (input[12] <= 16.5) {
-                                                                        memcpy(var0, (const double[]){0.24100606018145515, 0.7589939398185449}, 2 * sizeof(double));
-                                                                    } else {
-                                                                        if (input[12] <= 27.5) {
-                                                                            memcpy(var0, (const double[]){0.05917193140794224, 0.9408280685920578}, 2 * sizeof(double));
-                                                                        } else {
-                                                                            if (input[15] <= -1516.0) {
-                                                                                memcpy(var0, (const double[]){0.7121212121212122, 0.2878787878787879}, 2 * sizeof(double));
-                                                                            } else {
-                                                                                memcpy(var0, (const double[]){0.10336976320582877, 0.8966302367941712}, 2 * sizeof(double));
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                } else {
-                                                                    if (input[18] <= 26.5) {
-                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                    } else {
-                                                                        if (input[9] <= 9626.0) {
-                                                                            if (input[9] <= -2818.0) {
-                                                                                if (input[20] <= 32.0) {
-                                                                                    if (input[24] <= 53056.5) {
-                                                                                        if (input[5] <= 236.0) {
-                                                                                            if (input[14] <= -1042.0) {
-                                                                                                if (input[0] <= 24.5) {
-                                                                                                    memcpy(var0, (const double[]){0.26881082364111086, 0.7311891763588891}, 2 * sizeof(double));
-                                                                                                } else {
-                                                                                                    memcpy(var0, (const double[]){0.08469464689620508, 0.9153053531037949}, 2 * sizeof(double));
-                                                                                                }
-                                                                                            } else {
-                                                                                                memcpy(var0, (const double[]){0.4609850581073603, 0.5390149418926398}, 2 * sizeof(double));
-                                                                                            }
-                                                                                        } else {
-                                                                                            memcpy(var0, (const double[]){0.14825891903439437, 0.8517410809656056}, 2 * sizeof(double));
-                                                                                        }
-                                                                                    } else {
-                                                                                        if (input[1] <= 3.5) {
-                                                                                            memcpy(var0, (const double[]){0.5943852855759922, 0.40561471442400776}, 2 * sizeof(double));
-                                                                                        } else {
-                                                                                            if (input[4] <= 652.0) {
-                                                                                                memcpy(var0, (const double[]){0.4886410574142916, 0.5113589425857084}, 2 * sizeof(double));
-                                                                                            } else {
-                                                                                                memcpy(var0, (const double[]){0.2535351523600876, 0.7464648476399124}, 2 * sizeof(double));
-                                                                                            }
-                                                                                        }
-                                                                                    }
-                                                                                } else {
-                                                                                    if (input[14] <= -1564.0) {
-                                                                                        if (input[24] <= 107497.0) {
-                                                                                            memcpy(var0, (const double[]){0.02650093808630394, 0.9734990619136961}, 2 * sizeof(double));
-                                                                                        } else {
-                                                                                            memcpy(var0, (const double[]){0.23278921220723917, 0.7672107877927609}, 2 * sizeof(double));
-                                                                                        }
-                                                                                    } else {
-                                                                                        if (input[4] <= 676.0) {
-                                                                                            if (input[1] <= 3.5) {
-                                                                                                memcpy(var0, (const double[]){0.2877621449429254, 0.7122378550570746}, 2 * sizeof(double));
-                                                                                            } else {
-                                                                                                memcpy(var0, (const double[]){0.07627906976744186, 0.9237209302325582}, 2 * sizeof(double));
-                                                                                            }
-                                                                                        } else {
-                                                                                            memcpy(var0, (const double[]){0.3887547430148327, 0.6112452569851673}, 2 * sizeof(double));
-                                                                                        }
-                                                                                    }
-                                                                                }
-                                                                            } else {
-                                                                                if (input[18] <= 27.5) {
                                                                                     if (input[12] <= 18.5) {
-                                                                                        if (input[9] <= 2208.0) {
-                                                                                            if (input[12] <= 16.5) {
-                                                                                                memcpy(var0, (const double[]){0.18617614269788182, 0.8138238573021181}, 2 * sizeof(double));
-                                                                                            } else {
-                                                                                                memcpy(var0, (const double[]){0.3422660098522167, 0.6577339901477832}, 2 * sizeof(double));
-                                                                                            }
-                                                                                        } else {
-                                                                                            memcpy(var0, (const double[]){0.8801711840228246, 0.11982881597717546}, 2 * sizeof(double));
-                                                                                        }
+                                                                                        memcpy(var0, (const double[]){0.29598214285714286, 0.7040178571428571}, 2 * sizeof(double));
                                                                                     } else {
-                                                                                        memcpy(var0, (const double[]){0.07726956763520089, 0.9227304323647991}, 2 * sizeof(double));
+                                                                                        memcpy(var0, (const double[]){0.07567567567567568, 0.9243243243243243}, 2 * sizeof(double));
                                                                                     }
                                                                                 } else {
                                                                                     if (input[18] <= 28.5) {
@@ -1690,317 +1510,49 @@ void DtModel2::score(double * input, double * output) {
                                                                                     } else {
                                                                                         if (input[18] <= 29.5) {
                                                                                             if (input[12] <= 20.5) {
-                                                                                                if (input[12] <= 18.5) {
-                                                                                                    memcpy(var0, (const double[]){0.18673863885039024, 0.8132613611496098}, 2 * sizeof(double));
-                                                                                                } else {
-                                                                                                    memcpy(var0, (const double[]){0.4017243049501114, 0.5982756950498886}, 2 * sizeof(double));
-                                                                                                }
+                                                                                                memcpy(var0, (const double[]){0.31626794258373203, 0.683732057416268}, 2 * sizeof(double));
                                                                                             } else {
-                                                                                                if (input[12] <= 22.5) {
-                                                                                                    memcpy(var0, (const double[]){0.04822718185156473, 0.9517728181484353}, 2 * sizeof(double));
-                                                                                                } else {
-                                                                                                    memcpy(var0, (const double[]){0.12657379125381807, 0.8734262087461819}, 2 * sizeof(double));
-                                                                                                }
+                                                                                                memcpy(var0, (const double[]){0.0927441352973268, 0.9072558647026732}, 2 * sizeof(double));
                                                                                             }
                                                                                         } else {
-                                                                                            if (input[18] <= 30.5) {
-                                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                            } else {
-                                                                                                if (input[18] <= 31.5) {
-                                                                                                    if (input[12] <= 22.5) {
-                                                                                                        if (input[12] <= 20.5) {
-                                                                                                            memcpy(var0, (const double[]){0.19667147959571396, 0.803328520404286}, 2 * sizeof(double));
-                                                                                                        } else {
-                                                                                                            if (input[26] <= 2176.0) {
-                                                                                                                if (input[16] <= 2.0) {
-                                                                                                                    memcpy(var0, (const double[]){0.8226691042047533, 0.1773308957952468}, 2 * sizeof(double));
-                                                                                                                } else {
-                                                                                                                    memcpy(var0, (const double[]){0.43973941368078173, 0.5602605863192183}, 2 * sizeof(double));
-                                                                                                                }
-                                                                                                            } else {
-                                                                                                                memcpy(var0, (const double[]){0.3470967741935484, 0.6529032258064517}, 2 * sizeof(double));
-                                                                                                            }
-                                                                                                        }
+                                                                                            if (input[12] <= 22.5) {
+                                                                                                if (input[27] <= 108.0) {
+                                                                                                    if (input[18] <= 49.5) {
+                                                                                                        memcpy(var0, (const double[]){0.3563218390804598, 0.6436781609195402}, 2 * sizeof(double));
                                                                                                     } else {
-                                                                                                        if (input[12] <= 24.5) {
-                                                                                                            memcpy(var0, (const double[]){0.046180319340509826, 0.9538196806594902}, 2 * sizeof(double));
-                                                                                                        } else {
-                                                                                                            memcpy(var0, (const double[]){0.12112739912346986, 0.8788726008765302}, 2 * sizeof(double));
-                                                                                                        }
+                                                                                                        memcpy(var0, (const double[]){0.7586206896551724, 0.2413793103448276}, 2 * sizeof(double));
                                                                                                     }
                                                                                                 } else {
-                                                                                                    if (input[18] <= 32.5) {
+                                                                                                    if (input[18] <= 30.5) {
                                                                                                         memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                                                                                     } else {
-                                                                                                        if (input[18] <= 33.5) {
-                                                                                                            if (input[12] <= 24.5) {
-                                                                                                                if (input[12] <= 23.5) {
-                                                                                                                    memcpy(var0, (const double[]){0.18529898369179862, 0.8147010163082014}, 2 * sizeof(double));
-                                                                                                                } else {
-                                                                                                                    if (input[26] <= 2176.0) {
-                                                                                                                        memcpy(var0, (const double[]){0.6226468910439247, 0.3773531089560753}, 2 * sizeof(double));
-                                                                                                                    } else {
-                                                                                                                        memcpy(var0, (const double[]){0.33737433471318745, 0.6626256652868125}, 2 * sizeof(double));
-                                                                                                                    }
-                                                                                                                }
-                                                                                                            } else {
-                                                                                                                memcpy(var0, (const double[]){0.0677401894451962, 0.9322598105548038}, 2 * sizeof(double));
-                                                                                                            }
+                                                                                                        if (input[18] <= 31.5) {
+                                                                                                            memcpy(var0, (const double[]){0.3527724665391969, 0.6472275334608031}, 2 * sizeof(double));
                                                                                                         } else {
-                                                                                                            if (input[18] <= 34.5) {
+                                                                                                            if (input[18] <= 32.5) {
                                                                                                                 memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                                                                                             } else {
-                                                                                                                if (input[18] <= 35.5) {
-                                                                                                                    if (input[12] <= 26.5) {
-                                                                                                                        if (input[12] <= 25.5) {
-                                                                                                                            memcpy(var0, (const double[]){0.19803854094975912, 0.8019614590502409}, 2 * sizeof(double));
-                                                                                                                        } else {
-                                                                                                                            memcpy(var0, (const double[]){0.4536082474226804, 0.5463917525773195}, 2 * sizeof(double));
-                                                                                                                        }
-                                                                                                                    } else {
-                                                                                                                        memcpy(var0, (const double[]){0.0659686497609393, 0.9340313502390607}, 2 * sizeof(double));
-                                                                                                                    }
+                                                                                                                if (input[18] <= 33.5) {
+                                                                                                                    memcpy(var0, (const double[]){0.2826510721247563, 0.7173489278752436}, 2 * sizeof(double));
                                                                                                                 } else {
-                                                                                                                    if (input[18] <= 36.5) {
-                                                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                    } else {
-                                                                                                                        if (input[18] <= 37.5) {
-                                                                                                                            if (input[26] <= 2176.0) {
-                                                                                                                                memcpy(var0, (const double[]){0.21738173817381737, 0.7826182618261827}, 2 * sizeof(double));
-                                                                                                                            } else {
-                                                                                                                                if (input[12] <= 29.0) {
-                                                                                                                                    if (input[12] <= 25.0) {
-                                                                                                                                        memcpy(var0, (const double[]){0.1310344827586207, 0.8689655172413793}, 2 * sizeof(double));
-                                                                                                                                    } else {
-                                                                                                                                        memcpy(var0, (const double[]){0.3090749120160885, 0.6909250879839115}, 2 * sizeof(double));
-                                                                                                                                    }
-                                                                                                                                } else {
-                                                                                                                                    memcpy(var0, (const double[]){0.04857421663233221, 0.9514257833676678}, 2 * sizeof(double));
-                                                                                                                                }
-                                                                                                                            }
-                                                                                                                        } else {
-                                                                                                                            if (input[18] <= 38.5) {
-                                                                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                            } else {
-                                                                                                                                if (input[18] <= 39.5) {
-                                                                                                                                    if (input[12] <= 31.5) {
-                                                                                                                                        if (input[12] <= 29.5) {
-                                                                                                                                            memcpy(var0, (const double[]){0.20045558086560364, 0.7995444191343963}, 2 * sizeof(double));
-                                                                                                                                        } else {
-                                                                                                                                            if (input[26] <= 2176.0) {
-                                                                                                                                                memcpy(var0, (const double[]){0.6888028588445503, 0.31119714115544966}, 2 * sizeof(double));
-                                                                                                                                            } else {
-                                                                                                                                                memcpy(var0, (const double[]){0.3519827247742442, 0.6480172752257558}, 2 * sizeof(double));
-                                                                                                                                            }
-                                                                                                                                        }
-                                                                                                                                    } else {
-                                                                                                                                        memcpy(var0, (const double[]){0.049972951041384904, 0.9500270489586151}, 2 * sizeof(double));
-                                                                                                                                    }
-                                                                                                                                } else {
-                                                                                                                                    if (input[18] <= 40.5) {
-                                                                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                    } else {
-                                                                                                                                        if (input[18] <= 41.5) {
-                                                                                                                                            if (input[12] <= 33.5) {
-                                                                                                                                                if (input[26] <= 2176.0) {
-                                                                                                                                                    if (input[12] <= 31.5) {
-                                                                                                                                                        memcpy(var0, (const double[]){0.29817275747508304, 0.7018272425249169}, 2 * sizeof(double));
-                                                                                                                                                    } else {
-                                                                                                                                                        memcpy(var0, (const double[]){0.731931279620853, 0.2680687203791469}, 2 * sizeof(double));
-                                                                                                                                                    }
-                                                                                                                                                } else {
-                                                                                                                                                    if (input[12] <= 31.0) {
-                                                                                                                                                        memcpy(var0, (const double[]){0.133421182671718, 0.866578817328282}, 2 * sizeof(double));
-                                                                                                                                                    } else {
-                                                                                                                                                        memcpy(var0, (const double[]){0.3277972027972028, 0.6722027972027972}, 2 * sizeof(double));
-                                                                                                                                                    }
-                                                                                                                                                }
-                                                                                                                                            } else {
-                                                                                                                                                memcpy(var0, (const double[]){0.037888991280924364, 0.9621110087190756}, 2 * sizeof(double));
-                                                                                                                                            }
-                                                                                                                                        } else {
-                                                                                                                                            if (input[18] <= 42.5) {
-                                                                                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                            } else {
-                                                                                                                                                if (input[18] <= 43.5) {
-                                                                                                                                                    if (input[26] <= 2176.0) {
-                                                                                                                                                        if (input[12] <= 34.5) {
-                                                                                                                                                            if (input[12] <= 32.5) {
-                                                                                                                                                                memcpy(var0, (const double[]){0.27216035634743874, 0.7278396436525613}, 2 * sizeof(double));
-                                                                                                                                                            } else {
-                                                                                                                                                                memcpy(var0, (const double[]){0.7348033373063171, 0.26519666269368297}, 2 * sizeof(double));
-                                                                                                                                                            }
-                                                                                                                                                        } else {
-                                                                                                                                                            memcpy(var0, (const double[]){0.05923463734765192, 0.9407653626523481}, 2 * sizeof(double));
-                                                                                                                                                        }
-                                                                                                                                                    } else {
-                                                                                                                                                        if (input[12] <= 35.5) {
-                                                                                                                                                            if (input[12] <= 33.0) {
-                                                                                                                                                                memcpy(var0, (const double[]){0.1430672268907563, 0.8569327731092437}, 2 * sizeof(double));
-                                                                                                                                                            } else {
-                                                                                                                                                                memcpy(var0, (const double[]){0.3801526717557252, 0.6198473282442748}, 2 * sizeof(double));
-                                                                                                                                                            }
-                                                                                                                                                        } else {
-                                                                                                                                                            memcpy(var0, (const double[]){0.024847913632079513, 0.9751520863679205}, 2 * sizeof(double));
-                                                                                                                                                        }
-                                                                                                                                                    }
-                                                                                                                                                } else {
-                                                                                                                                                    if (input[18] <= 44.5) {
-                                                                                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                    } else {
-                                                                                                                                                        if (input[26] <= 2176.0) {
-                                                                                                                                                            if (input[18] <= 45.5) {
-                                                                                                                                                                if (input[12] <= 37.5) {
-                                                                                                                                                                    memcpy(var0, (const double[]){0.5934086989844798, 0.4065913010155202}, 2 * sizeof(double));
-                                                                                                                                                                } else {
-                                                                                                                                                                    memcpy(var0, (const double[]){0.041233177436289015, 0.958766822563711}, 2 * sizeof(double));
-                                                                                                                                                                }
-                                                                                                                                                            } else {
-                                                                                                                                                                if (input[18] <= 46.5) {
-                                                                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                } else {
-                                                                                                                                                                    if (input[16] <= 3504.0) {
-                                                                                                                                                                        if (input[18] <= 47.5) {
-                                                                                                                                                                            if (input[12] <= 39.0) {
-                                                                                                                                                                                if (input[12] <= 37.0) {
-                                                                                                                                                                                    memcpy(var0, (const double[]){0.3207150368033649, 0.6792849631966351}, 2 * sizeof(double));
-                                                                                                                                                                                } else {
-                                                                                                                                                                                    memcpy(var0, (const double[]){0.7772901810202962, 0.2227098189797038}, 2 * sizeof(double));
-                                                                                                                                                                                }
-                                                                                                                                                                            } else {
-                                                                                                                                                                                memcpy(var0, (const double[]){0.02472933070866142, 0.9752706692913385}, 2 * sizeof(double));
-                                                                                                                                                                            }
-                                                                                                                                                                        } else {
-                                                                                                                                                                            if (input[18] <= 48.5) {
-                                                                                                                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                            } else {
-                                                                                                                                                                                if (input[12] <= 40.5) {
-                                                                                                                                                                                    memcpy(var0, (const double[]){0.7769349845201239, 0.22306501547987617}, 2 * sizeof(double));
-                                                                                                                                                                                } else {
-                                                                                                                                                                                    if (input[18] <= 49.5) {
-                                                                                                                                                                                        memcpy(var0, (const double[]){0.023329319686935582, 0.9766706803130644}, 2 * sizeof(double));
-                                                                                                                                                                                    } else {
-                                                                                                                                                                                        if (input[18] <= 50.5) {
-                                                                                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                                        } else {
-                                                                                                                                                                                            if (input[18] <= 51.5) {
-                                                                                                                                                                                                if (input[12] <= 43.0) {
-                                                                                                                                                                                                    memcpy(var0, (const double[]){0.8567880794701986, 0.14321192052980133}, 2 * sizeof(double));
-                                                                                                                                                                                                } else {
-                                                                                                                                                                                                    if (input[23] <= 605.0) {
-                                                                                                                                                                                                        memcpy(var0, (const double[]){0.004931972789115646, 0.9950680272108844}, 2 * sizeof(double));
-                                                                                                                                                                                                    } else {
-                                                                                                                                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                                                    }
-                                                                                                                                                                                                }
-                                                                                                                                                                                            } else {
-                                                                                                                                                                                                if (input[18] <= 52.5) {
-                                                                                                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                                                } else {
-                                                                                                                                                                                                    if (input[18] <= 53.5) {
-                                                                                                                                                                                                        if (input[12] <= 45.0) {
-                                                                                                                                                                                                            memcpy(var0, (const double[]){0.8306772908366534, 0.1693227091633466}, 2 * sizeof(double));
-                                                                                                                                                                                                        } else {
-                                                                                                                                                                                                            memcpy(var0, (const double[]){0.01391767841279242, 0.9860823215872075}, 2 * sizeof(double));
-                                                                                                                                                                                                        }
-                                                                                                                                                                                                    } else {
-                                                                                                                                                                                                        if (input[18] <= 54.5) {
-                                                                                                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                                                        } else {
-                                                                                                                                                                                                            if (input[18] <= 55.5) {
-                                                                                                                                                                                                                memcpy(var0, (const double[]){0.16760168302945302, 0.832398316970547}, 2 * sizeof(double));
-                                                                                                                                                                                                            } else {
-                                                                                                                                                                                                                if (input[18] <= 56.5) {
-                                                                                                                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                                                                } else {
-                                                                                                                                                                                                                    if (input[18] <= 57.5) {
-                                                                                                                                                                                                                        if (input[12] <= 49.0) {
-                                                                                                                                                                                                                            memcpy(var0, (const double[]){0.8438661710037175, 0.15613382899628253}, 2 * sizeof(double));
-                                                                                                                                                                                                                        } else {
-                                                                                                                                                                                                                            memcpy(var0, (const double[]){0.00496031746031746, 0.9950396825396826}, 2 * sizeof(double));
-                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                    } else {
-                                                                                                                                                                                                                        if (input[18] <= 58.5) {
-                                                                                                                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                                                                        } else {
-                                                                                                                                                                                                                            memcpy(var0, (const double[]){0.5191111111111111, 0.48088888888888887}, 2 * sizeof(double));
-                                                                                                                                                                                                                        }
-                                                                                                                                                                                                                    }
-                                                                                                                                                                                                                }
-                                                                                                                                                                                                            }
-                                                                                                                                                                                                        }
-                                                                                                                                                                                                    }
-                                                                                                                                                                                                }
-                                                                                                                                                                                            }
-                                                                                                                                                                                        }
-                                                                                                                                                                                    }
-                                                                                                                                                                                }
-                                                                                                                                                                            }
-                                                                                                                                                                        }
-                                                                                                                                                                    } else {
-                                                                                                                                                                        if (input[18] <= 47.5) {
-                                                                                                                                                                            if (input[12] <= 39.0) {
-                                                                                                                                                                                memcpy(var0, (const double[]){0.6722408026755853, 0.3277591973244147}, 2 * sizeof(double));
-                                                                                                                                                                            } else {
-                                                                                                                                                                                memcpy(var0, (const double[]){0.06393544382371198, 0.936064556176288}, 2 * sizeof(double));
-                                                                                                                                                                            }
-                                                                                                                                                                        } else {
-                                                                                                                                                                            if (input[18] <= 48.5) {
-                                                                                                                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                            } else {
-                                                                                                                                                                                memcpy(var0, (const double[]){0.6970788315326131, 0.302921168467387}, 2 * sizeof(double));
-                                                                                                                                                                            }
-                                                                                                                                                                        }
-                                                                                                                                                                    }
-                                                                                                                                                                }
-                                                                                                                                                            }
-                                                                                                                                                        } else {
-                                                                                                                                                            if (input[18] <= 45.5) {
-                                                                                                                                                                memcpy(var0, (const double[]){0.09679393049437102, 0.903206069505629}, 2 * sizeof(double));
-                                                                                                                                                            } else {
-                                                                                                                                                                if (input[18] <= 46.5) {
-                                                                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                } else {
-                                                                                                                                                                    if (input[18] <= 47.5) {
-                                                                                                                                                                        memcpy(var0, (const double[]){0.09620826259196379, 0.9037917374080362}, 2 * sizeof(double));
-                                                                                                                                                                    } else {
-                                                                                                                                                                        if (input[18] <= 48.5) {
-                                                                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                        } else {
-                                                                                                                                                                            if (input[21] <= 0.5) {
-                                                                                                                                                                                if (input[18] <= 49.5) {
-                                                                                                                                                                                    memcpy(var0, (const double[]){0.030137981118373274, 0.9698620188816267}, 2 * sizeof(double));
-                                                                                                                                                                                } else {
-                                                                                                                                                                                    if (input[18] <= 50.5) {
-                                                                                                                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                                    } else {
-                                                                                                                                                                                        if (input[13] <= 14.0) {
-                                                                                                                                                                                            memcpy(var0, (const double[]){0.10305059523809523, 0.8969494047619048}, 2 * sizeof(double));
-                                                                                                                                                                                        } else {
-                                                                                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
-                                                                                                                                                                                        }
-                                                                                                                                                                                    }
-                                                                                                                                                                                }
-                                                                                                                                                                            } else {
-                                                                                                                                                                                memcpy(var0, (const double[]){0.49644760213143874, 0.5035523978685613}, 2 * sizeof(double));
-                                                                                                                                                                            }
-                                                                                                                                                                        }
-                                                                                                                                                                    }
-                                                                                                                                                                }
-                                                                                                                                                            }
-                                                                                                                                                        }
-                                                                                                                                                    }
-                                                                                                                                                }
-                                                                                                                                            }
-                                                                                                                                        }
-                                                                                                                                    }
-                                                                                                                                }
-                                                                                                                            }
-                                                                                                                        }
-                                                                                                                    }
+                                                                                                                    memcpy(var0, (const double[]){0.746217968508799, 0.253782031491201}, 2 * sizeof(double));
                                                                                                                 }
                                                                                                             }
                                                                                                         }
+                                                                                                    }
+                                                                                                }
+                                                                                            } else {
+                                                                                                if (input[26] <= 2176.0) {
+                                                                                                    if (input[16] <= 310.0) {
+                                                                                                        memcpy(var0, (const double[]){0.45052316890881916, 0.5494768310911808}, 2 * sizeof(double));
+                                                                                                    } else {
+                                                                                                        memcpy(var0, (const double[]){0.6498740554156172, 0.3501259445843829}, 2 * sizeof(double));
+                                                                                                    }
+                                                                                                } else {
+                                                                                                    if (input[24] <= 6170.5) {
+                                                                                                        memcpy(var0, (const double[]){0.3399918798213561, 0.660008120178644}, 2 * sizeof(double));
+                                                                                                    } else {
+                                                                                                        memcpy(var0, (const double[]){0.45651414600069856, 0.5434858539993014}, 2 * sizeof(double));
                                                                                                     }
                                                                                                 }
                                                                                             }
@@ -2008,57 +1560,217 @@ void DtModel2::score(double * input, double * output) {
                                                                                     }
                                                                                 }
                                                                             }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[18] <= 19.5) {
+                                                    memcpy(var0, (const double[]){0.03449825823126194, 0.965501741768738}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[18] <= 20.5) {
+                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[12] <= 11.5) {
+                                                            if (input[13] <= 3.0) {
+                                                                if (input[18] <= 21.5) {
+                                                                    memcpy(var0, (const double[]){0.16834677419354838, 0.8316532258064516}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[18] <= 22.5) {
+                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        if (input[18] <= 23.5) {
+                                                                            memcpy(var0, (const double[]){0.13950398582816653, 0.8604960141718335}, 2 * sizeof(double));
                                                                         } else {
-                                                                            if (input[18] <= 53.5) {
-                                                                                if (input[20] <= 26.0) {
-                                                                                    if (input[22] <= -176.5) {
-                                                                                        if (input[18] <= 48.5) {
-                                                                                            if (input[18] <= 45.5) {
-                                                                                                memcpy(var0, (const double[]){0.01265279862749303, 0.987347201372507}, 2 * sizeof(double));
+                                                                            if (input[18] <= 24.5) {
+                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                if (input[18] <= 25.5) {
+                                                                                    memcpy(var0, (const double[]){0.16727272727272727, 0.8327272727272728}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    memcpy(var0, (const double[]){0.5511251480457955, 0.4488748519542045}, 2 * sizeof(double));
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.6322475570032573, 0.36775244299674265}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            if (input[18] <= 21.5) {
+                                                                memcpy(var0, (const double[]){0.04105060152447424, 0.9589493984755257}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[18] <= 22.5) {
+                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[18] <= 23.5) {
+                                                                        if (input[12] <= 14.5) {
+                                                                            if (input[13] <= 3.0) {
+                                                                                memcpy(var0, (const double[]){0.18813368381524595, 0.811866316184754}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                memcpy(var0, (const double[]){0.6562935438922434, 0.34370645610775663}, 2 * sizeof(double));
+                                                                            }
+                                                                        } else {
+                                                                            memcpy(var0, (const double[]){0.04138431752178122, 0.9586156824782188}, 2 * sizeof(double));
+                                                                        }
+                                                                    } else {
+                                                                        if (input[18] <= 24.5) {
+                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            if (input[18] <= 25.5) {
+                                                                                if (input[12] <= 16.5) {
+                                                                                    if (input[13] <= 3.0) {
+                                                                                        memcpy(var0, (const double[]){0.19819539514623521, 0.8018046048537648}, 2 * sizeof(double));
+                                                                                    } else {
+                                                                                        memcpy(var0, (const double[]){0.6233561283534982, 0.3766438716465018}, 2 * sizeof(double));
+                                                                                    }
+                                                                                } else {
+                                                                                    memcpy(var0, (const double[]){0.048725297933323274, 0.9512747020666767}, 2 * sizeof(double));
+                                                                                }
+                                                                            } else {
+                                                                                if (input[18] <= 26.5) {
+                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    if (input[18] <= 27.5) {
+                                                                                        if (input[12] <= 18.5) {
+                                                                                            if (input[13] <= 3.0) {
+                                                                                                memcpy(var0, (const double[]){0.17524213075060532, 0.8247578692493946}, 2 * sizeof(double));
                                                                                             } else {
-                                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                memcpy(var0, (const double[]){0.6085874299937772, 0.39141257000622276}, 2 * sizeof(double));
                                                                                             }
                                                                                         } else {
-                                                                                            memcpy(var0, (const double[]){0.009531878839228977, 0.990468121160771}, 2 * sizeof(double));
+                                                                                            memcpy(var0, (const double[]){0.04866723989681857, 0.9513327601031815}, 2 * sizeof(double));
                                                                                         }
                                                                                     } else {
-                                                                                        if (input[16] <= -96.0) {
-                                                                                            memcpy(var0, (const double[]){0.47422126745435017, 0.5257787325456499}, 2 * sizeof(double));
+                                                                                        if (input[18] <= 28.5) {
+                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
                                                                                         } else {
-                                                                                            if (input[24] <= 63642.5) {
-                                                                                                memcpy(var0, (const double[]){0.3761038961038961, 0.623896103896104}, 2 * sizeof(double));
-                                                                                            } else {
-                                                                                                if (input[7] <= 48.0) {
-                                                                                                    memcpy(var0, (const double[]){0.09471894378875775, 0.9052810562112422}, 2 * sizeof(double));
+                                                                                            if (input[26] <= 2176.0) {
+                                                                                                if (input[16] <= -2.0) {
+                                                                                                    memcpy(var0, (const double[]){0.31404593639575973, 0.6859540636042403}, 2 * sizeof(double));
                                                                                                 } else {
-                                                                                                    memcpy(var0, (const double[]){0.4438622754491018, 0.5561377245508982}, 2 * sizeof(double));
+                                                                                                    if (input[18] <= 29.5) {
+                                                                                                        memcpy(var0, (const double[]){0.2870275791624106, 0.7129724208375894}, 2 * sizeof(double));
+                                                                                                    } else {
+                                                                                                        if (input[18] <= 30.5) {
+                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                        } else {
+                                                                                                            memcpy(var0, (const double[]){0.4995697074010327, 0.5004302925989673}, 2 * sizeof(double));
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            } else {
+                                                                                                if (input[18] <= 29.5) {
+                                                                                                    if (input[12] <= 20.5) {
+                                                                                                        if (input[13] <= 3.0) {
+                                                                                                            memcpy(var0, (const double[]){0.18331922099915327, 0.8166807790008468}, 2 * sizeof(double));
+                                                                                                        } else {
+                                                                                                            memcpy(var0, (const double[]){0.6122262773722628, 0.38777372262773724}, 2 * sizeof(double));
+                                                                                                        }
+                                                                                                    } else {
+                                                                                                        memcpy(var0, (const double[]){0.049087638139295814, 0.9509123618607042}, 2 * sizeof(double));
+                                                                                                    }
+                                                                                                } else {
+                                                                                                    if (input[18] <= 30.5) {
+                                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                    } else {
+                                                                                                        if (input[12] <= 29.5) {
+                                                                                                            if (input[18] <= 31.5) {
+                                                                                                                if (input[12] <= 22.5) {
+                                                                                                                    if (input[13] <= 3.0) {
+                                                                                                                        memcpy(var0, (const double[]){0.16728797763280523, 0.8327120223671948}, 2 * sizeof(double));
+                                                                                                                    } else {
+                                                                                                                        memcpy(var0, (const double[]){0.6822633297062024, 0.3177366702937976}, 2 * sizeof(double));
+                                                                                                                    }
+                                                                                                                } else {
+                                                                                                                    memcpy(var0, (const double[]){0.047501759324419426, 0.9524982406755805}, 2 * sizeof(double));
+                                                                                                                }
+                                                                                                            } else {
+                                                                                                                if (input[18] <= 32.5) {
+                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                                } else {
+                                                                                                                    if (input[18] <= 33.5) {
+                                                                                                                        if (input[12] <= 24.5) {
+                                                                                                                            if (input[13] <= 3.0) {
+                                                                                                                                memcpy(var0, (const double[]){0.19769192172604114, 0.8023080782739589}, 2 * sizeof(double));
+                                                                                                                            } else {
+                                                                                                                                memcpy(var0, (const double[]){0.6420079260237781, 0.3579920739762219}, 2 * sizeof(double));
+                                                                                                                            }
+                                                                                                                        } else {
+                                                                                                                            memcpy(var0, (const double[]){0.02962962962962963, 0.9703703703703703}, 2 * sizeof(double));
+                                                                                                                        }
+                                                                                                                    } else {
+                                                                                                                        if (input[18] <= 34.5) {
+                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                                        } else {
+                                                                                                                            if (input[18] <= 35.5) {
+                                                                                                                                if (input[12] <= 26.5) {
+                                                                                                                                    if (input[13] <= 3.0) {
+                                                                                                                                        memcpy(var0, (const double[]){0.19194560669456068, 0.8080543933054394}, 2 * sizeof(double));
+                                                                                                                                    } else {
+                                                                                                                                        memcpy(var0, (const double[]){0.6219739292364991, 0.3780260707635009}, 2 * sizeof(double));
+                                                                                                                                    }
+                                                                                                                                } else {
+                                                                                                                                    memcpy(var0, (const double[]){0.03433984606275903, 0.9656601539372409}, 2 * sizeof(double));
+                                                                                                                                }
+                                                                                                                            } else {
+                                                                                                                                if (input[18] <= 36.5) {
+                                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                                                } else {
+                                                                                                                                    if (input[18] <= 37.5) {
+                                                                                                                                        if (input[12] <= 28.5) {
+                                                                                                                                            if (input[13] <= 3.0) {
+                                                                                                                                                memcpy(var0, (const double[]){0.20959902794653706, 0.7904009720534629}, 2 * sizeof(double));
+                                                                                                                                            } else {
+                                                                                                                                                memcpy(var0, (const double[]){0.7124463519313304, 0.2875536480686695}, 2 * sizeof(double));
+                                                                                                                                            }
+                                                                                                                                        } else {
+                                                                                                                                            memcpy(var0, (const double[]){0.027085590465872156, 0.9729144095341279}, 2 * sizeof(double));
+                                                                                                                                        }
+                                                                                                                                    } else {
+                                                                                                                                        if (input[18] <= 38.5) {
+                                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                                                        } else {
+                                                                                                                                            if (input[27] <= 102.0) {
+                                                                                                                                                if (input[13] <= 3.0) {
+                                                                                                                                                    memcpy(var0, (const double[]){0.25256042605489554, 0.7474395739451045}, 2 * sizeof(double));
+                                                                                                                                                } else {
+                                                                                                                                                    memcpy(var0, (const double[]){0.5625899280575539, 0.437410071942446}, 2 * sizeof(double));
+                                                                                                                                                }
+                                                                                                                                            } else {
+                                                                                                                                                if (input[18] <= 39.5) {
+                                                                                                                                                    memcpy(var0, (const double[]){0.2650918635170604, 0.7349081364829396}, 2 * sizeof(double));
+                                                                                                                                                } else {
+                                                                                                                                                    if (input[18] <= 40.5) {
+                                                                                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                                                                    } else {
+                                                                                                                                                        if (input[18] <= 41.5) {
+                                                                                                                                                            memcpy(var0, (const double[]){0.18322295805739514, 0.8167770419426048}, 2 * sizeof(double));
+                                                                                                                                                        } else {
+                                                                                                                                                            memcpy(var0, (const double[]){0.5714285714285714, 0.42857142857142855}, 2 * sizeof(double));
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        } else {
+                                                                                                            memcpy(var0, (const double[]){0.2256480056811457, 0.7743519943188543}, 2 * sizeof(double));
+                                                                                                        }
+                                                                                                    }
                                                                                                 }
                                                                                             }
                                                                                         }
-                                                                                    }
-                                                                                } else {
-                                                                                    if (input[9] <= 10632.0) {
-                                                                                        if (input[8] <= 3000.0) {
-                                                                                            if (input[24] <= 64720.0) {
-                                                                                                memcpy(var0, (const double[]){0.31287128712871287, 0.6871287128712872}, 2 * sizeof(double));
-                                                                                            } else {
-                                                                                                memcpy(var0, (const double[]){0.06479203280609255, 0.9352079671939074}, 2 * sizeof(double));
-                                                                                            }
-                                                                                        } else {
-                                                                                            memcpy(var0, (const double[]){0.012915446874461856, 0.9870845531255381}, 2 * sizeof(double));
-                                                                                        }
-                                                                                    } else {
-                                                                                        memcpy(var0, (const double[]){0.007336458121051559, 0.9926635418789485}, 2 * sizeof(double));
-                                                                                    }
-                                                                                }
-                                                                            } else {
-                                                                                if (input[12] <= 47.0) {
-                                                                                    memcpy(var0, (const double[]){0.9898097826086957, 0.010190217391304348}, 2 * sizeof(double));
-                                                                                } else {
-                                                                                    if (input[1] <= 3.5) {
-                                                                                        memcpy(var0, (const double[]){0.412058121882455, 0.587941878117545}, 2 * sizeof(double));
-                                                                                    } else {
-                                                                                        memcpy(var0, (const double[]){0.15412094922174024, 0.8458790507782598}, 2 * sizeof(double));
                                                                                     }
                                                                                 }
                                                                             }
@@ -2071,8 +1783,1016 @@ void DtModel2::score(double * input, double * output) {
                                                 }
                                             }
                                         }
+                                    } else {
+                                        if (input[18] <= 19.5) {
+                                            if (input[12] <= 10.5) {
+                                                if (input[13] <= 3.0) {
+                                                    memcpy(var0, (const double[]){0.2765748031496063, 0.7234251968503937}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[17] <= -2.0) {
+                                                        memcpy(var0, (const double[]){0.43385490753911804, 0.566145092460882}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.6925577416595381, 0.30744225834046196}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            } else {
+                                                memcpy(var0, (const double[]){0.06212931453573165, 0.9378706854642683}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[12] <= 12.5) {
+                                                if (input[0] <= 29.5) {
+                                                    if (input[18] <= 20.5) {
+                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[18] <= 21.5) {
+                                                            if (input[13] <= 3.0) {
+                                                                memcpy(var0, (const double[]){0.36883356385431076, 0.6311664361456892}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.7097082735533238, 0.2902917264466762}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            if (input[18] <= 37.5) {
+                                                                if (input[18] <= 22.5) {
+                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[18] <= 23.5) {
+                                                                        memcpy(var0, (const double[]){0.4887573964497041, 0.5112426035502958}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.8085148910653608, 0.19148510893463921}, 2 * sizeof(double));
+                                                                    }
+                                                                }
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.9590292275574113, 0.040970772442588725}, 2 * sizeof(double));
+                                                            }
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[18] <= 20.5) {
+                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[18] <= 21.5) {
+                                                            if (input[13] <= 3.0) {
+                                                                memcpy(var0, (const double[]){0.2606496272630458, 0.7393503727369543}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.6500222915737851, 0.3499777084262149}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            if (input[18] <= 22.5) {
+                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[18] <= 23.5) {
+                                                                    memcpy(var0, (const double[]){0.36708315381301165, 0.6329168461869884}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[18] <= 24.5) {
+                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        if (input[18] <= 25.5) {
+                                                                            memcpy(var0, (const double[]){0.34229390681003585, 0.6577060931899642}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            if (input[26] <= 2176.0) {
+                                                                                memcpy(var0, (const double[]){0.837098313713013, 0.16290168628698695}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                memcpy(var0, (const double[]){0.597870182555781, 0.40212981744421905}, 2 * sizeof(double));
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[18] <= 23.5) {
+                                                    if (input[18] <= 20.5) {
+                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[18] <= 21.5) {
+                                                            memcpy(var0, (const double[]){0.07465862741620855, 0.9253413725837915}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[18] <= 22.5) {
+                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[12] <= 14.5) {
+                                                                    if (input[13] <= 3.0) {
+                                                                        memcpy(var0, (const double[]){0.31526315789473686, 0.6847368421052632}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.6346782988004362, 0.3653217011995638}, 2 * sizeof(double));
+                                                                    }
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.08206410547851785, 0.9179358945214822}, 2 * sizeof(double));
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[18] <= 24.5) {
+                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[18] <= 25.5) {
+                                                            if (input[12] <= 16.5) {
+                                                                if (input[13] <= 3.0) {
+                                                                    memcpy(var0, (const double[]){0.32073986619441164, 0.6792601338055884}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.616969696969697, 0.38303030303030305}, 2 * sizeof(double));
+                                                                }
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.08871189233726998, 0.91128810766273}, 2 * sizeof(double));
+                                                            }
+                                                        } else {
+                                                            if (input[18] <= 26.5) {
+                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[18] <= 27.5) {
+                                                                    if (input[12] <= 18.5) {
+                                                                        memcpy(var0, (const double[]){0.4062107904642409, 0.5937892095357591}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.09079716835949522, 0.9092028316405047}, 2 * sizeof(double));
+                                                                    }
+                                                                } else {
+                                                                    if (input[12] <= 20.5) {
+                                                                        if (input[27] <= 114.0) {
+                                                                            if (input[18] <= 28.5) {
+                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                memcpy(var0, (const double[]){0.5230268789590824, 0.47697312104091766}, 2 * sizeof(double));
+                                                                            }
+                                                                        } else {
+                                                                            if (input[18] <= 28.5) {
+                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                if (input[18] <= 29.5) {
+                                                                                    memcpy(var0, (const double[]){0.4201973302379571, 0.579802669762043}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    memcpy(var0, (const double[]){0.8240139790314528, 0.17598602096854718}, 2 * sizeof(double));
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    } else {
+                                                                        if (input[20] <= 33.0) {
+                                                                            if (input[1] <= 3.5) {
+                                                                                memcpy(var0, (const double[]){0.5918235956864639, 0.40817640431353613}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                if (input[21] <= 23612.0) {
+                                                                                    if (input[8] <= -2996.0) {
+                                                                                        memcpy(var0, (const double[]){0.19731318219983207, 0.8026868178001679}, 2 * sizeof(double));
+                                                                                    } else {
+                                                                                        memcpy(var0, (const double[]){0.43483904465212875, 0.5651609553478713}, 2 * sizeof(double));
+                                                                                    }
+                                                                                } else {
+                                                                                    memcpy(var0, (const double[]){0.5690577171307395, 0.43094228286926056}, 2 * sizeof(double));
+                                                                                }
+                                                                            }
+                                                                        } else {
+                                                                            if (input[24] <= 59729.0) {
+                                                                                if (input[18] <= 28.5) {
+                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    if (input[18] <= 29.5) {
+                                                                                        memcpy(var0, (const double[]){0.0853731343283582, 0.9146268656716418}, 2 * sizeof(double));
+                                                                                    } else {
+                                                                                        if (input[18] <= 30.5) {
+                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                        } else {
+                                                                                            if (input[18] <= 31.5) {
+                                                                                                if (input[12] <= 22.5) {
+                                                                                                    memcpy(var0, (const double[]){0.4921190893169877, 0.5078809106830122}, 2 * sizeof(double));
+                                                                                                } else {
+                                                                                                    memcpy(var0, (const double[]){0.1003257328990228, 0.8996742671009772}, 2 * sizeof(double));
+                                                                                                }
+                                                                                            } else {
+                                                                                                if (input[18] <= 32.5) {
+                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                } else {
+                                                                                                    if (input[21] <= 36453.0) {
+                                                                                                        if (input[12] <= 32.5) {
+                                                                                                            if (input[18] <= 33.5) {
+                                                                                                                memcpy(var0, (const double[]){0.18841911764705882, 0.8115808823529411}, 2 * sizeof(double));
+                                                                                                            } else {
+                                                                                                                if (input[18] <= 34.5) {
+                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                                } else {
+                                                                                                                    if (input[18] <= 35.5) {
+                                                                                                                        memcpy(var0, (const double[]){0.20934579439252338, 0.7906542056074767}, 2 * sizeof(double));
+                                                                                                                    } else {
+                                                                                                                        if (input[18] <= 36.5) {
+                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                                        } else {
+                                                                                                                            if (input[18] <= 37.5) {
+                                                                                                                                memcpy(var0, (const double[]){0.21450777202072538, 0.7854922279792746}, 2 * sizeof(double));
+                                                                                                                            } else {
+                                                                                                                                if (input[18] <= 38.5) {
+                                                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                                                } else {
+                                                                                                                                    if (input[18] <= 39.5) {
+                                                                                                                                        memcpy(var0, (const double[]){0.21247113163972287, 0.7875288683602771}, 2 * sizeof(double));
+                                                                                                                                    } else {
+                                                                                                                                        if (input[18] <= 40.5) {
+                                                                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                                                        } else {
+                                                                                                                                            memcpy(var0, (const double[]){0.4564846416382253, 0.5435153583617748}, 2 * sizeof(double));
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        } else {
+                                                                                                            memcpy(var0, (const double[]){0.2731364782138999, 0.7268635217861001}, 2 * sizeof(double));
+                                                                                                        }
+                                                                                                    } else {
+                                                                                                        if (input[10] <= -6.0) {
+                                                                                                            memcpy(var0, (const double[]){0.25722543352601157, 0.7427745664739884}, 2 * sizeof(double));
+                                                                                                        } else {
+                                                                                                            memcpy(var0, (const double[]){0.5008332265094219, 0.49916677349057814}, 2 * sizeof(double));
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            } else {
+                                                                                if (input[21] <= 99219.0) {
+                                                                                    memcpy(var0, (const double[]){0.4835065521915951, 0.5164934478084049}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    memcpy(var0, (const double[]){0.6309425666391866, 0.3690574333608134}, 2 * sizeof(double));
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    if (input[21] <= 23771.5) {
+                                        if (input[20] <= 35.5) {
+                                            if (input[21] <= 10929.5) {
+                                                if (input[18] <= 23.5) {
+                                                    memcpy(var0, (const double[]){0.13094152224587008, 0.8690584777541299}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[21] <= 7755.5) {
+                                                        if (input[18] <= 24.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.17119742863368925, 0.8288025713663107}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[18] <= 24.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.2397264631043257, 0.7602735368956743}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[18] <= 19.5) {
+                                                    memcpy(var0, (const double[]){0.14053002674446877, 0.8594699732555312}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[26] <= 2176.0) {
+                                                        if (input[18] <= 20.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.4005315406863128, 0.5994684593136872}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[20] <= 27.0) {
+                                                            memcpy(var0, (const double[]){0.4106722793116256, 0.5893277206883744}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[18] <= 20.5) {
+                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[18] <= 25.5) {
+                                                                    memcpy(var0, (const double[]){0.1980276992241317, 0.8019723007758683}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[18] <= 26.5) {
+                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        if (input[18] <= 27.5) {
+                                                                            memcpy(var0, (const double[]){0.16266591358373342, 0.8373340864162666}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            if (input[18] <= 28.5) {
+                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                if (input[18] <= 29.5) {
+                                                                                    memcpy(var0, (const double[]){0.17148760330578514, 0.8285123966942148}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    if (input[18] <= 30.5) {
+                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                    } else {
+                                                                                        if (input[18] <= 31.5) {
+                                                                                            memcpy(var0, (const double[]){0.19281437125748502, 0.807185628742515}, 2 * sizeof(double));
+                                                                                        } else {
+                                                                                            if (input[18] <= 32.5) {
+                                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                            } else {
+                                                                                                if (input[18] <= 33.5) {
+                                                                                                    memcpy(var0, (const double[]){0.19046052631578947, 0.8095394736842105}, 2 * sizeof(double));
+                                                                                                } else {
+                                                                                                    if (input[18] <= 34.5) {
+                                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                    } else {
+                                                                                                        if (input[18] <= 35.5) {
+                                                                                                            memcpy(var0, (const double[]){0.1908220534829977, 0.8091779465170023}, 2 * sizeof(double));
+                                                                                                        } else {
+                                                                                                            if (input[18] <= 36.5) {
+                                                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                            } else {
+                                                                                                                memcpy(var0, (const double[]){0.3119143239625167, 0.6880856760374833}, 2 * sizeof(double));
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        } else {
+                                            if (input[21] <= 14664.5) {
+                                                memcpy(var0, (const double[]){0.11643406104621487, 0.8835659389537851}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[18] <= 21.5) {
+                                                    memcpy(var0, (const double[]){0.09152269987946966, 0.9084773001205303}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[18] <= 22.5) {
+                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[18] <= 23.5) {
+                                                            memcpy(var0, (const double[]){0.08693045563549161, 0.9130695443645084}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[18] <= 24.5) {
+                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[20] <= 39.0) {
+                                                                    memcpy(var0, (const double[]){0.2236294240111034, 0.7763705759888966}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.15347412542318234, 0.8465258745768177}, 2 * sizeof(double));
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    } else {
+                                        if (input[18] <= 21.5) {
+                                            if (input[20] <= 39.0) {
+                                                if (input[17] <= -10.0) {
+                                                    memcpy(var0, (const double[]){0.13944603629417382, 0.8605539637058262}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[17] <= 2.0) {
+                                                        if (input[16] <= 14.0) {
+                                                            if (input[16] <= -2.0) {
+                                                                memcpy(var0, (const double[]){0.22679200940070504, 0.7732079905992949}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[16] <= 2.0) {
+                                                                    if (input[17] <= -2.0) {
+                                                                        memcpy(var0, (const double[]){0.26720647773279355, 0.7327935222672065}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.7633991537376587, 0.23660084626234132}, 2 * sizeof(double));
+                                                                    }
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.33464052287581697, 0.665359477124183}, 2 * sizeof(double));
+                                                                }
+                                                            }
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.19206289779108948, 0.8079371022089106}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[18] <= 19.5) {
+                                                            memcpy(var0, (const double[]){0.08748528834837191, 0.9125147116516281}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[18] <= 20.5) {
+                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.15947199429183018, 0.8405280057081698}, 2 * sizeof(double));
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[24] <= 57023.0) {
+                                                    memcpy(var0, (const double[]){0.10355456453305352, 0.8964454354669464}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.23361963190184049, 0.7663803680981595}, 2 * sizeof(double));
+                                                }
+                                            }
+                                        } else {
+                                            if (input[18] <= 22.5) {
+                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[0] <= 29.5) {
+                                                    if (input[18] <= 23.5) {
+                                                        if (input[26] <= 2176.0) {
+                                                            memcpy(var0, (const double[]){0.39106554375686564, 0.6089344562431344}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.21153846153846154, 0.7884615384615384}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[18] <= 24.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[20] <= 33.0) {
+                                                                if (input[18] <= 25.5) {
+                                                                    memcpy(var0, (const double[]){0.30870620881026706, 0.6912937911897329}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[18] <= 26.5) {
+                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        if (input[18] <= 27.5) {
+                                                                            memcpy(var0, (const double[]){0.32290459636925456, 0.6770954036307455}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            if (input[18] <= 28.5) {
+                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                if (input[21] <= 43623.0) {
+                                                                                    memcpy(var0, (const double[]){0.46366689053055743, 0.5363331094694426}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    memcpy(var0, (const double[]){0.5456691364500689, 0.45433086354993113}, 2 * sizeof(double));
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            } else {
+                                                                if (input[18] <= 25.5) {
+                                                                    memcpy(var0, (const double[]){0.22029372496662217, 0.7797062750333779}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[18] <= 26.5) {
+                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        if (input[21] <= 48643.0) {
+                                                                            memcpy(var0, (const double[]){0.3585584645874622, 0.6414415354125378}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            memcpy(var0, (const double[]){0.4749357858977546, 0.5250642141022455}, 2 * sizeof(double));
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[21] <= 80865.0) {
+                                                        if (input[18] <= 23.5) {
+                                                            memcpy(var0, (const double[]){0.12922403003754693, 0.8707759699624531}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[18] <= 24.5) {
+                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[21] <= 38613.5) {
+                                                                    memcpy(var0, (const double[]){0.2395504803335146, 0.7604495196664854}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[18] <= 25.5) {
+                                                                        memcpy(var0, (const double[]){0.16311216429699843, 0.8368878357030016}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        if (input[18] <= 26.5) {
+                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            memcpy(var0, (const double[]){0.3206792795020815, 0.6793207204979185}, 2 * sizeof(double));
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    } else {
+                                                        if (input[24] <= 163287.5) {
+                                                            memcpy(var0, (const double[]){0.4096802074330164, 0.5903197925669835}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.557139904939037, 0.442860095060963}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
                                     }
                                 }
+                            } else {
+                                if (input[13] <= 8.0) {
+                                    if (input[12] <= 10.0) {
+                                        if (input[13] <= 3.0) {
+                                            if (input[18] <= 19.5) {
+                                                memcpy(var0, (const double[]){0.21685761047463176, 0.7831423895253683}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var0, (const double[]){0.6602717825739408, 0.33972821742605913}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[18] <= 19.5) {
+                                                if (input[26] <= 3456.0) {
+                                                    if (input[24] <= 16296.5) {
+                                                        memcpy(var0, (const double[]){0.7490830909320855, 0.25091690906791453}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.5762765620044402, 0.4237234379955598}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.8872180451127819, 0.11278195488721804}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var0, (const double[]){0.9048616305160808, 0.09513836948391922}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        if (input[18] <= 19.5) {
+                                            memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                        } else {
+                                            if (input[13] <= 3.0) {
+                                                if (input[18] <= 39.5) {
+                                                    if (input[17] <= -266.0) {
+                                                        memcpy(var0, (const double[]){0.12583148558758314, 0.8741685144124168}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[18] <= 20.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.3613162118780096, 0.6386837881219903}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[26] <= 2176.0) {
+                                                        memcpy(var0, (const double[]){0.6626643796455117, 0.3373356203544883}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.4366060606060606, 0.5633939393939394}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[12] <= 12.0) {
+                                                    memcpy(var0, (const double[]){0.8488122731771692, 0.15118772682283074}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[18] <= 21.5) {
+                                                        if (input[18] <= 20.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[18] <= 22.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[24] <= 6831.5) {
+                                                                memcpy(var0, (const double[]){0.7882801161103048, 0.2117198838896952}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[18] <= 23.5) {
+                                                                    memcpy(var0, (const double[]){0.5239179954441914, 0.4760820045558087}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[18] <= 24.5) {
+                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.6730006456968914, 0.32699935430310856}, 2 * sizeof(double));
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                } else {
+                                    if (input[26] <= 3456.0) {
+                                        if (input[18] <= 19.5) {
+                                            if (input[12] <= 10.0) {
+                                                if (input[8] <= 234.0) {
+                                                    memcpy(var0, (const double[]){0.10820559062218214, 0.8917944093778178}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.2697522206638616, 0.7302477793361384}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[18] <= 20.5) {
+                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[12] <= 10.0) {
+                                                    if (input[13] <= 10.0) {
+                                                        if (input[18] <= 21.5) {
+                                                            memcpy(var0, (const double[]){0.7129266927811976, 0.2870733072188025}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.8576101177496729, 0.1423898822503271}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[18] <= 21.5) {
+                                                            memcpy(var0, (const double[]){0.24694727768998706, 0.753052722310013}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[18] <= 22.5) {
+                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[18] <= 23.5) {
+                                                                    memcpy(var0, (const double[]){0.3134221799143265, 0.6865778200856735}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[18] <= 24.5) {
+                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        if (input[18] <= 45.5) {
+                                                                            if (input[18] <= 25.5) {
+                                                                                memcpy(var0, (const double[]){0.3720083246618106, 0.6279916753381893}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                if (input[18] <= 26.5) {
+                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    memcpy(var0, (const double[]){0.5372064276885044, 0.46279357231149565}, 2 * sizeof(double));
+                                                                                }
+                                                                            }
+                                                                        } else {
+                                                                            memcpy(var0, (const double[]){0.9010282776349614, 0.09897172236503857}, 2 * sizeof(double));
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[18] <= 23.5) {
+                                                        if (input[18] <= 22.5) {
+                                                            memcpy(var0, (const double[]){0.29258030584998784, 0.7074196941500122}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[13] <= 10.0) {
+                                                                if (input[12] <= 12.0) {
+                                                                    memcpy(var0, (const double[]){0.44756554307116103, 0.552434456928839}, 2 * sizeof(double));
+                                                                } else {
+                                                                    memcpy(var0, (const double[]){0.14673913043478262, 0.8532608695652174}, 2 * sizeof(double));
+                                                                }
+                                                            } else {
+                                                                memcpy(var0, (const double[]){0.09858170893593236, 0.9014182910640677}, 2 * sizeof(double));
+                                                            }
+                                                        }
+                                                    } else {
+                                                        if (input[18] <= 24.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[18] <= 31.5) {
+                                                                if (input[13] <= 12.0) {
+                                                                    if (input[12] <= 12.0) {
+                                                                        memcpy(var0, (const double[]){0.6846084608460846, 0.3153915391539154}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        if (input[18] <= 25.5) {
+                                                                            memcpy(var0, (const double[]){0.172607421875, 0.827392578125}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            if (input[12] <= 14.0) {
+                                                                                if (input[18] <= 26.5) {
+                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    if (input[18] <= 27.5) {
+                                                                                        memcpy(var0, (const double[]){0.3971389645776567, 0.6028610354223434}, 2 * sizeof(double));
+                                                                                    } else {
+                                                                                        memcpy(var0, (const double[]){0.7204522096608428, 0.2795477903391572}, 2 * sizeof(double));
+                                                                                    }
+                                                                                }
+                                                                            } else {
+                                                                                if (input[18] <= 26.5) {
+                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    if (input[18] <= 27.5) {
+                                                                                        memcpy(var0, (const double[]){0.184375, 0.815625}, 2 * sizeof(double));
+                                                                                    } else {
+                                                                                        if (input[18] <= 28.5) {
+                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                        } else {
+                                                                                            memcpy(var0, (const double[]){0.3936287074331747, 0.6063712925668253}, 2 * sizeof(double));
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                } else {
+                                                                    if (input[12] <= 12.0) {
+                                                                        if (input[18] <= 25.5) {
+                                                                            memcpy(var0, (const double[]){0.20397163120567377, 0.7960283687943263}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            if (input[18] <= 26.5) {
+                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                if (input[18] <= 27.5) {
+                                                                                    memcpy(var0, (const double[]){0.3117953165654814, 0.6882046834345187}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    memcpy(var0, (const double[]){0.5476377952755905, 0.45236220472440947}, 2 * sizeof(double));
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    } else {
+                                                                        if (input[18] <= 27.5) {
+                                                                            memcpy(var0, (const double[]){0.15351558928408157, 0.8464844107159184}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            if (input[12] <= 14.0) {
+                                                                                if (input[18] <= 28.5) {
+                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    if (input[13] <= 14.0) {
+                                                                                        memcpy(var0, (const double[]){0.6004842615012107, 0.39951573849878935}, 2 * sizeof(double));
+                                                                                    } else {
+                                                                                        memcpy(var0, (const double[]){0.2924119241192412, 0.7075880758807588}, 2 * sizeof(double));
+                                                                                    }
+                                                                                }
+                                                                            } else {
+                                                                                if (input[18] <= 28.5) {
+                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    if (input[18] <= 30.5) {
+                                                                                        if (input[18] <= 29.5) {
+                                                                                            memcpy(var0, (const double[]){0.11973456433929602, 0.880265435660704}, 2 * sizeof(double));
+                                                                                        } else {
+                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                        }
+                                                                                    } else {
+                                                                                        memcpy(var0, (const double[]){0.12901572112098428, 0.8709842788790157}, 2 * sizeof(double));
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            } else {
+                                                                if (input[18] <= 32.5) {
+                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[13] <= 14.0) {
+                                                                        if (input[18] <= 45.5) {
+                                                                            if (input[12] <= 16.0) {
+                                                                                memcpy(var0, (const double[]){0.7222898903775883, 0.2777101096224117}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                if (input[18] <= 33.5) {
+                                                                                    memcpy(var0, (const double[]){0.3162393162393162, 0.6837606837606838}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    if (input[18] <= 34.5) {
+                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                    } else {
+                                                                                        memcpy(var0, (const double[]){0.5200440528634361, 0.47995594713656387}, 2 * sizeof(double));
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        } else {
+                                                                            memcpy(var0, (const double[]){0.7526315789473684, 0.24736842105263157}, 2 * sizeof(double));
+                                                                        }
+                                                                    } else {
+                                                                        if (input[18] <= 35.5) {
+                                                                            if (input[12] <= 16.0) {
+                                                                                if (input[13] <= 16.0) {
+                                                                                    memcpy(var0, (const double[]){0.6305460750853242, 0.36945392491467577}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    memcpy(var0, (const double[]){0.369106846718787, 0.630893153281213}, 2 * sizeof(double));
+                                                                                }
+                                                                            } else {
+                                                                                memcpy(var0, (const double[]){0.20633904274051545, 0.7936609572594846}, 2 * sizeof(double));
+                                                                            }
+                                                                        } else {
+                                                                            if (input[12] <= 18.0) {
+                                                                                if (input[18] <= 36.5) {
+                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    if (input[18] <= 37.5) {
+                                                                                        memcpy(var0, (const double[]){0.3847472150814053, 0.6152527849185947}, 2 * sizeof(double));
+                                                                                    } else {
+                                                                                        if (input[18] <= 38.5) {
+                                                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                        } else {
+                                                                                            if (input[18] <= 39.5) {
+                                                                                                memcpy(var0, (const double[]){0.3915929203539823, 0.6084070796460177}, 2 * sizeof(double));
+                                                                                            } else {
+                                                                                                if (input[18] <= 40.5) {
+                                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                } else {
+                                                                                                    memcpy(var0, (const double[]){0.5765652951699464, 0.4234347048300537}, 2 * sizeof(double));
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            } else {
+                                                                                if (input[18] <= 36.5) {
+                                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    if (input[14] <= 538.0) {
+                                                                                        memcpy(var0, (const double[]){0.387295690936107, 0.6127043090638931}, 2 * sizeof(double));
+                                                                                    } else {
+                                                                                        memcpy(var0, (const double[]){0.48478260869565215, 0.5152173913043478}, 2 * sizeof(double));
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    } else {
+                                        if (input[21] <= 15994.5) {
+                                            if (input[18] <= 19.5) {
+                                                if (input[12] <= 10.0) {
+                                                    memcpy(var0, (const double[]){0.3440567066521265, 0.6559432933478735}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                if (input[18] <= 20.5) {
+                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[18] <= 21.5) {
+                                                        if (input[12] <= 12.0) {
+                                                            memcpy(var0, (const double[]){0.32517061421116017, 0.6748293857888398}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[18] <= 22.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[18] <= 23.5) {
+                                                                memcpy(var0, (const double[]){0.2673733804475854, 0.7326266195524146}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[18] <= 24.5) {
+                                                                    memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[20] <= 33.0) {
+                                                                        if (input[18] <= 25.5) {
+                                                                            memcpy(var0, (const double[]){0.2842497670083877, 0.7157502329916123}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            if (input[18] <= 26.5) {
+                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                if (input[18] <= 27.5) {
+                                                                                    memcpy(var0, (const double[]){0.2864054184808902, 0.7135945815191098}, 2 * sizeof(double));
+                                                                                } else {
+                                                                                    if (input[18] <= 28.5) {
+                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                    } else {
+                                                                                        if (input[18] <= 29.5) {
+                                                                                            memcpy(var0, (const double[]){0.29010416666666666, 0.7098958333333333}, 2 * sizeof(double));
+                                                                                        } else {
+                                                                                            if (input[18] <= 30.5) {
+                                                                                                memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                            } else {
+                                                                                                if (input[18] <= 31.5) {
+                                                                                                    memcpy(var0, (const double[]){0.32219827586206895, 0.677801724137931}, 2 * sizeof(double));
+                                                                                                } else {
+                                                                                                    if (input[18] <= 32.5) {
+                                                                                                        memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                                                                    } else {
+                                                                                                        memcpy(var0, (const double[]){0.4779607934114372, 0.5220392065885628}, 2 * sizeof(double));
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    } else {
+                                                                        memcpy(var0, (const double[]){0.38982423681776135, 0.6101757631822387}, 2 * sizeof(double));
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        } else {
+                                            if (input[20] <= 35.0) {
+                                                if (input[7] <= 48.0) {
+                                                    if (input[18] <= 19.5) {
+                                                        memcpy(var0, (const double[]){0.3602540834845735, 0.6397459165154264}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[18] <= 20.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.5970332850940666, 0.40296671490593344}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                } else {
+                                                    if (input[18] <= 19.5) {
+                                                        memcpy(var0, (const double[]){0.4207525655644242, 0.5792474344355758}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[18] <= 20.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.6825823137371929, 0.31741768626280714}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            } else {
+                                                if (input[21] <= 67837.5) {
+                                                    if (input[18] <= 27.5) {
+                                                        memcpy(var0, (const double[]){0.3738661436626624, 0.6261338563373375}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.4492402137254159, 0.5507597862745841}, 2 * sizeof(double));
+                                                    }
+                                                } else {
+                                                    if (input[21] <= 129719.0) {
+                                                        memcpy(var0, (const double[]){0.546446100708962, 0.453553899291038}, 2 * sizeof(double));
+                                                    } else {
+                                                        memcpy(var0, (const double[]){0.689533082540385, 0.31046691745961497}, 2 * sizeof(double));
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        } else {
+                            if (input[13] <= 8.0) {
+                                if (input[13] <= 0.0) {
+                                    memcpy(var0, (const double[]){0.029453766511960015, 0.97054623348804}, 2 * sizeof(double));
+                                } else {
+                                    if (input[19] <= 0.5) {
+                                        if (input[17] <= 2.0) {
+                                            if (input[12] <= 10.0) {
+                                                memcpy(var0, (const double[]){0.6247150022799818, 0.3752849977200182}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[18] <= 19.5) {
+                                                    memcpy(var0, (const double[]){0.004359197907585004, 0.995640802092415}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[12] <= 12.0) {
+                                                        memcpy(var0, (const double[]){0.6277641277641277, 0.37223587223587223}, 2 * sizeof(double));
+                                                    } else {
+                                                        if (input[18] <= 21.5) {
+                                                            memcpy(var0, (const double[]){0.013302752293577982, 0.986697247706422}, 2 * sizeof(double));
+                                                        } else {
+                                                            if (input[12] <= 14.0) {
+                                                                memcpy(var0, (const double[]){0.6185397867104184, 0.38146021328958163}, 2 * sizeof(double));
+                                                            } else {
+                                                                if (input[18] <= 23.5) {
+                                                                    memcpy(var0, (const double[]){0.01993127147766323, 0.9800687285223367}, 2 * sizeof(double));
+                                                                } else {
+                                                                    if (input[12] <= 16.0) {
+                                                                        memcpy(var0, (const double[]){0.6451612903225806, 0.3548387096774194}, 2 * sizeof(double));
+                                                                    } else {
+                                                                        if (input[18] <= 25.5) {
+                                                                            memcpy(var0, (const double[]){0.011363636363636364, 0.9886363636363636}, 2 * sizeof(double));
+                                                                        } else {
+                                                                            if (input[12] <= 18.0) {
+                                                                                memcpy(var0, (const double[]){0.6556521739130434, 0.3443478260869565}, 2 * sizeof(double));
+                                                                            } else {
+                                                                                memcpy(var0, (const double[]){0.28193209377526274, 0.7180679062247373}, 2 * sizeof(double));
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        } else {
+                                            if (input[12] <= 10.0) {
+                                                if (input[17] <= 60.0) {
+                                                    memcpy(var0, (const double[]){0.1951219512195122, 0.8048780487804879}, 2 * sizeof(double));
+                                                } else {
+                                                    memcpy(var0, (const double[]){0.6493362831858407, 0.3506637168141593}, 2 * sizeof(double));
+                                                }
+                                            } else {
+                                                memcpy(var0, (const double[]){0.1449188214070956, 0.8550811785929044}, 2 * sizeof(double));
+                                            }
+                                        }
+                                    } else {
+                                        if (input[12] <= 10.0) {
+                                            if (input[24] <= 35766.5) {
+                                                memcpy(var0, (const double[]){0.8913096695226438, 0.10869033047735618}, 2 * sizeof(double));
+                                            } else {
+                                                memcpy(var0, (const double[]){0.7245981195025781, 0.2754018804974219}, 2 * sizeof(double));
+                                            }
+                                        } else {
+                                            if (input[18] <= 19.5) {
+                                                memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                            } else {
+                                                if (input[12] <= 12.0) {
+                                                    memcpy(var0, (const double[]){0.8427903871829105, 0.15720961281708945}, 2 * sizeof(double));
+                                                } else {
+                                                    if (input[18] <= 21.5) {
+                                                        if (input[18] <= 20.5) {
+                                                            memcpy(var0, (const double[]){1.0, 0.0}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.0, 1.0}, 2 * sizeof(double));
+                                                        }
+                                                    } else {
+                                                        if (input[24] <= 28292.5) {
+                                                            memcpy(var0, (const double[]){0.7563410685375067, 0.24365893146249326}, 2 * sizeof(double));
+                                                        } else {
+                                                            memcpy(var0, (const double[]){0.5381325730577334, 0.46186742694226657}, 2 * sizeof(double));
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            } else {
+                                memcpy(var0, (const double[]){0.07247549839001988, 0.9275245016099801}, 2 * sizeof(double));
                             }
                         }
                     }
