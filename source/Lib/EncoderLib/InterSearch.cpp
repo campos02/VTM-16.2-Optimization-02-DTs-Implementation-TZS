@@ -6672,17 +6672,9 @@ n_MVPrediction++;
   clock_t iniClock_DTs_TZS, fimClock_DTs_TZS;
   iniClock_DTs_TZS = clock();
 
-  //RAMIRO: verifica se faz o TZS
-  int aplicaTZS = 1;
-  aplicaTZS = extracaoDados::aplicaDT(CU_W, CU_H, features_TZS);
-  //aplicaTZS = extracaoDados::aplicaDT(cu.Y().width, cu.Y().height, features_TZS);
-
   //RAMIRO: fim do timer das DTS TZS
   fimClock_DTs_TZS = clock();
   totalClock_DTs_TZS += (fimClock_DTs_TZS - iniClock_DTs_TZS);
-
-  //RAMIRO: etapa de executar ou pular a TZS (1 executa e 0 pula)
-  if(aplicaTZS){
 
   TZS1++;
 
@@ -6777,25 +6769,28 @@ n_MVPrediction++;
     int iWindowSize     = iRaster;
     SearchRange localsr = sr;
 
-    //RAMIRO: teste do VTM mesmo se o RasterSearch vai ser pulado ou não
-    if (!(bEnableRasterSearch && ( ((int)(cStruct.uiBestDistance) >= iRaster))))
-    {
-
-    //RAMIRO: contar as repetições do RasterSearch1
-    n_RasterSearch1++;
-
-      iWindowSize ++;
-      localsr.left   /= 2;
-      localsr.right  /= 2;
-      localsr.top    /= 2;
-      localsr.bottom /= 2;
-    }
-    cStruct.uiBestDistance = iWindowSize;
-    for ( iStartY = localsr.top; iStartY <= localsr.bottom; iStartY += iWindowSize )
-    {
-      for ( iStartX = localsr.left; iStartX <= localsr.right; iStartX += iWindowSize )
+    if (extracaoDados::aplicaDtRaster(CU_W, CU_H, features_TZS)) {
+      //RAMIRO: teste do VTM mesmo se o RasterSearch vai ser pulado ou não
+      if (!(bEnableRasterSearch && ( ((int)(cStruct.uiBestDistance) >= iRaster))))
       {
-        xTZSearchHelp( cStruct, iStartX, iStartY, 0, iWindowSize );
+
+        //RAMIRO: contar as repetições do RasterSearch1
+        n_RasterSearch1++;
+
+        iWindowSize ++;
+        localsr.left   /= 2;
+        localsr.right  /= 2;
+        localsr.top    /= 2;
+        localsr.bottom /= 2;
+      }
+
+      cStruct.uiBestDistance = iWindowSize;
+      for ( iStartY = localsr.top; iStartY <= localsr.bottom; iStartY += iWindowSize )
+      {
+        for ( iStartX = localsr.left; iStartX <= localsr.right; iStartX += iWindowSize )
+        {
+          xTZSearchHelp( cStruct, iStartX, iStartY, 0, iWindowSize );
+        }
       }
     }
 
@@ -6814,16 +6809,17 @@ n_MVPrediction++;
     //RAMIRO: teste do VTM mesmo se o RasterSearch vai ser pulado ou não
     if ( bEnableRasterSearch && ( ((int)(cStruct.uiBestDistance) >= iRaster) || bAlwaysRasterSearch ) )
     {
+      if (extracaoDados::aplicaDtRaster(CU_W, CU_H, features_TZS)) {
+        //RAMIRO: contar as repetições do RasterSearch2
+        n_RasterSearch2++;
 
-    //RAMIRO: contar as repetições do RasterSearch2
-    n_RasterSearch2++;
-
-      cStruct.uiBestDistance = iRaster;
-      for ( iStartY = sr.top; iStartY <= sr.bottom; iStartY += iRaster )
-      {
-        for ( iStartX = sr.left; iStartX <= sr.right; iStartX += iRaster )
+        cStruct.uiBestDistance = iRaster;
+        for ( iStartY = sr.top; iStartY <= sr.bottom; iStartY += iRaster )
         {
-          xTZSearchHelp( cStruct, iStartX, iStartY, 0, iRaster );
+          for ( iStartX = sr.left; iStartX <= sr.right; iStartX += iRaster )
+          {
+            xTZSearchHelp( cStruct, iStartX, iStartY, 0, iRaster );
+          }
         }
       }
     }
@@ -6844,38 +6840,39 @@ n_MVPrediction++;
   // raster refinement
   if ( bRasterRefinementEnable && cStruct.uiBestDistance > 0 )
   {
-
-    //RAMIRO: contar as repetições do RasterRefinement
-    n_RasterRefinement++;
-
     //RAMIRO: inicio do timer do RasterRefinement
     clock_t iniClockRasterRefinement, fimClockRasterRefinement;
     iniClockRasterRefinement = clock();
 
-    while ( cStruct.uiBestDistance > 0 )
-    {
-      iStartX = cStruct.iBestX;
-      iStartY = cStruct.iBestY;
-      if ( cStruct.uiBestDistance > 1 )
-      {
-        iDist = cStruct.uiBestDistance >>= 1;
-        if ( bRasterRefinementDiamond == 1 )
-        {
-          xTZ8PointDiamondSearch ( cStruct, iStartX, iStartY, iDist, bRasterRefinementCornersForDiamondDist1 );
-        }
-        else
-        {
-          xTZ8PointSquareSearch  ( cStruct, iStartX, iStartY, iDist );
-        }
-      }
+    if (extracaoDados::aplicaDtRefinement(CU_W, CU_H, features_TZS)) {
+      //RAMIRO: contar as repetições do RasterRefinement
+      n_RasterRefinement++;
 
-      // calculate only 2 missing points instead 8 points if cStruct.uiBestDistance == 1
-      if ( cStruct.uiBestDistance == 1 )
+      while ( cStruct.uiBestDistance > 0 )
       {
-        cStruct.uiBestDistance = 0;
-        if ( cStruct.ucPointNr != 0 )
+        iStartX = cStruct.iBestX;
+        iStartY = cStruct.iBestY;
+        if ( cStruct.uiBestDistance > 1 )
         {
-          xTZ2PointSearch( cStruct );
+          iDist = cStruct.uiBestDistance >>= 1;
+          if ( bRasterRefinementDiamond == 1 )
+          {
+            xTZ8PointDiamondSearch ( cStruct, iStartX, iStartY, iDist, bRasterRefinementCornersForDiamondDist1 );
+          }
+          else
+          {
+            xTZ8PointSquareSearch  ( cStruct, iStartX, iStartY, iDist );
+          }
+        }
+
+        // calculate only 2 missing points instead 8 points if cStruct.uiBestDistance == 1
+        if ( cStruct.uiBestDistance == 1 )
+        {
+          cStruct.uiBestDistance = 0;
+          if ( cStruct.ucPointNr != 0 )
+          {
+            xTZ2PointSearch( cStruct );
+          }
         }
       }
     }
@@ -6889,43 +6886,44 @@ n_MVPrediction++;
   // star refinement
   if ( bStarRefinementEnable && cStruct.uiBestDistance > 0 )
   {
-
-    //RAMIRO: contar as repetições do StarRefinement
-    n_StarRefinement++;
-
     //RAMIRO: inicio do timer do StarRefinement
     clock_t iniClockStarRefinement, fimClockStarRefinement;
     iniClockStarRefinement = clock();
 
-    while ( cStruct.uiBestDistance > 0 )
-    {
-      iStartX = cStruct.iBestX;
-      iStartY = cStruct.iBestY;
-      cStruct.uiBestDistance = 0;
-      cStruct.ucPointNr = 0;
-      for ( iDist = 1; iDist < iSearchRange + 1; iDist*=2 )
-      {
-        if ( bStarRefinementDiamond == 1 )
-        {
-          xTZ8PointDiamondSearch ( cStruct, iStartX, iStartY, iDist, bStarRefinementCornersForDiamondDist1 );
-        }
-        else
-        {
-          xTZ8PointSquareSearch  ( cStruct, iStartX, iStartY, iDist );
-        }
-        if ( bStarRefinementStop && (cStruct.uiBestRound >= uiStarRefinementRounds) ) // stop criterion
-        {
-          break;
-        }
-      }
+    if (extracaoDados::aplicaDtRefinement(CU_W, CU_H, features_TZS)) {
+      //RAMIRO: contar as repetições do StarRefinement
+      n_StarRefinement++;
 
-      // calculate only 2 missing points instead 8 points if cStrukt.uiBestDistance == 1
-      if ( cStruct.uiBestDistance == 1 )
+      while ( cStruct.uiBestDistance > 0 )
       {
+        iStartX = cStruct.iBestX;
+        iStartY = cStruct.iBestY;
         cStruct.uiBestDistance = 0;
-        if ( cStruct.ucPointNr != 0 )
+        cStruct.ucPointNr = 0;
+        for ( iDist = 1; iDist < iSearchRange + 1; iDist*=2 )
         {
-          xTZ2PointSearch( cStruct );
+          if ( bStarRefinementDiamond == 1 )
+          {
+            xTZ8PointDiamondSearch ( cStruct, iStartX, iStartY, iDist, bStarRefinementCornersForDiamondDist1 );
+          }
+          else
+          {
+            xTZ8PointSquareSearch  ( cStruct, iStartX, iStartY, iDist );
+          }
+          if ( bStarRefinementStop && (cStruct.uiBestRound >= uiStarRefinementRounds) ) // stop criterion
+          {
+            break;
+          }
+        }
+
+        // calculate only 2 missing points instead 8 points if cStrukt.uiBestDistance == 1
+        if ( cStruct.uiBestDistance == 1 )
+        {
+          cStruct.uiBestDistance = 0;
+          if ( cStruct.ucPointNr != 0 )
+          {
+            xTZ2PointSearch( cStruct );
+          }
         }
       }
     }
@@ -6935,19 +6933,18 @@ n_MVPrediction++;
     totalClockStarRefinement += (fimClockStarRefinement - iniClockStarRefinement);
   }
 
-  }//RAMIRO: fim do aplicaTZS
   else
   {
-      TZS0++;
+    TZS0++;
   }
 
   // write out best match
   rcMv.set( cStruct.iBestX, cStruct.iBestY );
   ruiSAD = cStruct.uiBestSad - m_pcRdCost->getCostOfVectorWithPredictor( cStruct.iBestX, cStruct.iBestY, cStruct.imvShift );
 
- //RAMIRO: fim do timer do TZSearch
-fimClockTZSearch = clock();
-totalClockTZSearch += (fimClockTZSearch - iniClockTZSearch);
+  //RAMIRO: fim do timer do TZSearch
+  fimClockTZSearch = clock();
+  totalClockTZSearch += (fimClockTZSearch - iniClockTZSearch);
 }
 
 //RAMIRO: Função xTZSearchSelective

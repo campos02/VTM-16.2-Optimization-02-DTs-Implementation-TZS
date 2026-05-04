@@ -3,7 +3,8 @@
 #include "extracaoDados.h"
 #include <stdio.h>
 #include <iostream>
-#include "DtModel2.h"
+#include "DtRaster.h"
+#include "DtRefinement.h"
 
 using namespace std;
 
@@ -20,24 +21,44 @@ int extracaoDados::heightVideo;
 #if EXTRA_FEATURES
        
     //Início funções DT
-    int extracaoDados::aplicaDT(int _cu_width, int _cu_height, double features_TZS[]){
+    int extracaoDados::aplicaDtRaster(int _cu_width, int _cu_height, double features_TZS[]) {
         // cout<<_cu_width<<"X"<<_cu_height<<endl;
         features_TZS[0]= numQp;
               
-        int realizaTZS = 0;
+        int realizaRS = 0;
         double pontoCorte = 0.5;
         double vetRetorno[2];
 
-        DtModel2 dt;
+        DtRaster dt;
         dt.score(features_TZS, vetRetorno);
         //cout<<"128x128 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;
 
         if(vetRetorno[1] >= pontoCorte){
-            realizaTZS = 1;
+            realizaRS = 1;
         }
-        //cout<<"realizaTZS --> "<<realizaTZS<<endl;  
+        //cout<<"realizaRS --> "<<realizaRS<<endl;  
         
-        return realizaTZS;
+        return realizaRS;
+    }
+
+    int extracaoDados::aplicaDtRefinement(int _cu_width, int _cu_height, double features_TZS[]) {
+        // cout<<_cu_width<<"X"<<_cu_height<<endl;
+        features_TZS[0]= numQp;
+              
+        int realizaRE = 0;
+        double pontoCorte = 0.5;
+        double vetRetorno[2];
+
+        DtRefinement dt;
+        dt.score(features_TZS, vetRetorno);
+        //cout<<"128x128 -- Classe 0: "<<vetRetorno[0]<<"   Classe 1: "<<vetRetorno[1]<<endl;
+
+        if(vetRetorno[1] >= pontoCorte){
+            realizaRE = 1;
+        }
+        //cout<<"realizaRE --> "<<realizaRE<<endl;  
+        
+        return realizaRE;
     }
    //fim funções DT   
     

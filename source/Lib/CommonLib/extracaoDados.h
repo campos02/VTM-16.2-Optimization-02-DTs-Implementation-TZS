@@ -30,7 +30,8 @@ public:
     //RAMIRO
     #if EXTRA_FEATURES   
         //inicio funções DT
-        static int aplicaDT(int cu_width, int cu_height, double features[38]);
+        static int aplicaDtRaster(int cu_width, int cu_height, double features[38]);
+        static int aplicaDtRefinement(int cu_width, int cu_height, double features[38]);
         //fim funções DT
     #endif
     
