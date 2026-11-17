@@ -32,6 +32,7 @@ public:
         //inicio funções DT
         static int aplicaDtRaster(int cu_width, int cu_height, double features[38]);
         static int aplicaDtRefinement(int cu_width, int cu_height, double features[38]);
+        static int aplicaDtTZS(int cu_width, int cu_height, double features[38]);
         //fim funções DT
     #endif
     
